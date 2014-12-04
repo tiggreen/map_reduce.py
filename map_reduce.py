@@ -1,11 +1,11 @@
 """
 Author: Tigran Hakobyan (txh7358@rit.edu)
 Version: 1.0
-Date: 11/30/2014
+Date: 12/04/2014
 
 Multi-processed MapReduce framework for a limited main memory.
 Designed to work in a single machine and uses file system to store all
-intermediate calcaluation values. Map and Reduce functions must be defined by a user.
+intermediate calculation values. Map and Reduce functions must be defined by user.
 Uses Python's multiprocessing Pool library for concurrency support. 
 
 Provides the following functionalities:
@@ -18,12 +18,11 @@ Provides the following functionalities:
 - Scalable and easy to use
 
 Usage:
-Please see usage section of README file.
+Please see README file for usage instructions.
 
 TODO:
 - Write about that Map and Reduce args format is fixed. User has to follow the conventions.
 - Handle all the exceptions. Gently.
-- Intermediate step? Shuffling and Sorting?
 - Write a cleanup function that cleans all temp files.
 """
 
@@ -39,7 +38,6 @@ import json
 import multiprocessing
 import multiprocessing.pool
 from multiprocessing import Pool
-
 from collections import defaultdict
 
 """
@@ -75,14 +73,12 @@ class MapReduce:
 		self.file = f
 		self.num_processes = np
 		self.file_ext = MapReduce.get_file_extension(self.file)
-		# partition the files based on it extension.
+		# partition the file based on its extension.
 		self.partition(self.file_ext)
-		# run the master. Mater takes care of the rest.
-
+		# run the master process.
 		self.run_master()
 
 		
-
 	"""
 	Open a #part-filename-chunkindex file and 
 	run the map() method on the chunk. Writes the 
@@ -102,6 +98,7 @@ class MapReduce:
 
 		# close the chunk file and remove it.
 		chunk_file.close()
+		logging.info('Finished the map phase for ' + filename + ' chunk #' + str(i) + '.') 
 		os.remove("#part-%s-%s" % (filename, i))
 
 		"""
@@ -110,57 +107,40 @@ class MapReduce:
 		"""
 
 		fl = open("#map-%s-%s" % (filename, i), "wb+")
-		logging.info('Writing the map results for ' + filename + ' chunk #' + str(i) + '.')
+		logging.info('Serializing and writing the map results for ' + filename + ' chunk #' + str(i) + '.')
 		pickle.dump(map_result, fl)
 		fl.close()
 
 
 	"""
-	Open a #map-filename-chunkindex file and 
+	Open a #inter-shuffled-chunkindex file and 
 	run the reduce() method on the file. Writes the 
-	result of the map into a temporary file named
+	result of the reduce into a temporary file named
 	#reduce-filename-chunkindex. The reduce result is a
 	serialized stream.
 	"""
 	def apply_reduce(self, i):
 
 		fl = open("#inter-shuffled-%s" % i, "rb")
-		logging.info('Started the intermediate phase for #inter-shuffled #' + str(i) + '.') 
-
 		# load the shuffled map results.
 		map_shuffled_result = pickle.load(fl)
 		fl.close()
 		os.remove("#inter-shuffled-%s" % i)
 
 		# call the reducer on the shuffled map result.
+		filename = "#inter-shuffled-%s" % i
+		logging.info('Chunk ' + filename + ' was assigned to a reducer.') 
 		reduce_result = self.reducer(map_shuffled_result)
 
 		fl = open("#reduce-%s" % i, "wb+")
-		logging.info('Writing the reduce results for #inter-shuffled #' + str(i) + '.') 
+		logging.info('Serializing and writing the reduce results for #inter-shuffled #' + str(i) + '.') 
 		pickle.dump(reduce_result, fl)
 		fl.close()
 
-		# filename = MapReduce.get_filename(self.file)
-		# fl = open("#map-%s-%s" % (filename, i), "rb")
-		# logging.info('Started the reduce phase for ' + filename + ' chunk #' + str(i) + '.') 
-
-		# # load the map result.
-		# map_result = pickle.load(fl)
-		# fl.close()
-		# os.remove("#map-%s-%s" % (filename, i))
-
-		# # call the reducer on the map result.
-		# reduce_result = self.reducer(map_result)
-
-		# fl = open("#reduce-%s-%s" % (filename, i), "wb+")
-		# logging.info('Writing the reduce results for ' + filename + ' chunk #' + str(i) + '.') 
-		# pickle.dump(reduce_result, fl)
-		# fl.close()
 
 	"""
-	Apply user specified intermediate step. if any.
-	The goal of this step is to do shuffling and sorting
-	the values by key before passing it to reducer.
+	The goal of this step is to group the (key, value) pairs by key.
+	We want to make sure that each all keys are grouped before a reducer takes over. 
 	"""
 	def apply_intermediate(self, i):
 
@@ -172,14 +152,14 @@ class MapReduce:
 		fl.close()
 		os.remove("#map-%s-%s" % (filename, i))
 
-		# start the sorting and grouping stage.
+		# start the grouping stage.
 		# {'n': [1], 'm': [1], 't': [1, 1, 1]})
+		logging.info('Started the grouping phase for ' + filename + ' chunk #' + str(i) + '.') 
 		dic = defaultdict(list)
 		for key, value in map_result:
 			dic[key].append(value)
 
 		fl = open("#inter-%s-%s" % (filename, i), "wb+")
-		logging.info('Writing the intermediate results for ' + filename + ' chunk #' + str(i) + '.') 
 		pickle.dump(dic, fl)
 		fl.close()
 
@@ -324,11 +304,10 @@ class MapReduce:
 
 	"""
 	Plays the role of the master node in our framework.
-	Creates a pool of worker processes and assigns mappers and 
-	reducers for each chunk of the data. The number of created chunks 
-	is equal to #number-of-processes. The total number of processes in the 
+	Creates a pool of worker processes and assigns mappers. Runs the 
+	intermediate grouping stage for each map result. The number of created chunks 
+	is based on  #number-of-processes. The total number of processes in the 
 	program will be #number-of-processes * #number-of-processes.
-	For each chunk there is one reducer.
 	"""
 	def run_master(self):
 
@@ -339,17 +318,8 @@ class MapReduce:
 		# apply map on the chunks in parallel.
 		regions = pool.map(self.apply_map, range(0, self.num_processes))
 
-		# do the intermediate step on each chunks in parallel.
+		# do the intermediate grouping step on each chunks in parallel.
 		inters = pool.map(self.apply_intermediate, range(0, self.num_processes))
-
-		# must be an intermediate step
-
-		# reduce the map results in parallel.
-		#reduced_parts = pool.map(self.apply_reduce, range(0, self.num_processes))
-
-		"""
-		Call user defined post processing to get the final file?
-		"""
 
 
 """
@@ -483,7 +453,8 @@ class MapReduceInterface(MapReduce):
 	generate log files, etc..
 	"""
 	def __finalize_program(self):
-		logging.info('Finalizing the program execution. Cleaning up.')
+		logging.info('Finalizing the program execution. \
+			Generating the output. Cleaning up.')
 
 
 	"""
@@ -519,20 +490,29 @@ class MapReduceInterface(MapReduce):
 		reduces = pool.map(self.apply_reduce, range(0, self.num_processes))
 
 		"""
-		At this point we have bunch of reduce files so we can 
+		At this point we have bunch of reduced files so we can 
 		merge all reduce files into one final file.	
 		"""
 		self.merge_reduce_results()
 
+		"""
+		Finilizing the framework execution.	
+		"""
 		self.__finalize_program()
 
 		logging.info('The program is successfully finished.')
 
 
 	"""
-	Explain
+	The shuffle method of the framework. Master process redistributes the data based 
+	on the output keys (produced by the "map()" function), such that all data 
+	belonging to one key is located on the reducer worker.
+
+	TODO:
+	1. Can we do more memory efficient shuffle?
 	"""
 	def shuffle(self):
+		logging.info('Master started the shuffle phase.') 
 		dic = defaultdict(list)
 		for filepath in self.files:
 			filename = MapReduce.get_filename(filepath)
@@ -557,23 +537,22 @@ class MapReduceInterface(MapReduce):
 			j+=1
 
 	"""
-	Explain
+	Creating one map reduce instance for each input file. This part is pretty cool.
 	"""
 	def call_map_reduce(self, input_file):
-		logging.info('Creating a map_reduce job for ' + MapReduce.get_filename(input_file) \
-		 + ' file. Mapper and reducer are given by user.')
 		MapReduce.__init__(self,  self.mapper, self.reducer, input_file, self.num_processes)
 
 
 
 	"""
 	Merge all reduce outputs into one final file.
+	TODO:
+	1. Can we do a better merge of reduce results? 
 	"""
 	def merge_reduce_results(self):
 
 		logging.info('Merging all reduce results into a final file.') 
 
-		# This function must be changed to work for all file types.
 		final_output = open("map_reduce_output.txt", "w+")
 		for i in range(0, self.num_processes):
 			fl = open("#reduce-%s" % i, "rb")
@@ -636,6 +615,3 @@ class MapReduceError(Exception):
         second parameter and access it later wit e.errors. 
         """
         self.errors = errors
-
-
-

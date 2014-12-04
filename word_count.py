@@ -16,7 +16,8 @@ class WordCount(MapReduceInterface):
 
 	"""
 	files: the files that the WordCount program should run on.
-	num_processes: the number of processes given by user.
+	mapper: the user defined map function.
+	reducer: the user defined reduce function.
 	"""
 	def __init__(self, files):
 		self.files = files
@@ -41,9 +42,9 @@ class WordCount(MapReduceInterface):
 	Gets a list of [('a', 1), ('b', [1, 1, 1, 1]), ...]
 	and returns [(a, total_freq), (b, total_freq), ...].
 	"""
-	def reducer(self, map_result_list):
+	def reducer(self, key_values_list):
 		result = []
-		for entry in map_result_list:
+		for entry in key_values_list:
 			key = entry[0]
 			sum_of_values = sum(entry[1])
 			result.append((key,sum_of_values))

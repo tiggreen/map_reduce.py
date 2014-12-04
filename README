@@ -25,11 +25,11 @@ Works on a valid .csv file. The column provided by user must be a column of nume
 Usage:
 
 To run the WordCount program.
->>> python runner.py <file.txt> <number_of_processes>
+>>> python runner.py <file.txt> 
 e.g. python runner.py file.txt 7
 
 To run the Twitter program.
->>> python runner.py <tweets_file.json> <attr> <attr_value> <number_of_processes>
+>>> python runner.py <tweets_file.json> <attr> <attr_value>
 e.g. python runner.py tweets.json ‘lang’ ’en’ 6
 
 To run the Numeric program.
