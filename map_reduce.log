@@ -1,0 +1,1330 @@
+12/01/2014 12:17:29 AM All user input validations are passed. We are set to go!
+12/01/2014 12:17:29 AM Running the framework...
+12/01/2014 12:17:29 AM The initial number of running processes is 2.
+12/01/2014 12:17:29 AM Creating a map_reduce job for hungergames21_1.txt file. Mapper and reducer are given by user.
+12/01/2014 12:17:29 AM Creating a map_reduce job for hungergames21.txt file. Mapper and reducer are given by user.
+12/01/2014 12:17:29 AM Partitioning hungergames21_1.txt into 3 chunks.
+12/01/2014 12:17:29 AM Partitioning hungergames21.txt into 3 chunks.
+12/01/2014 12:17:51 AM Creating a pool of 3 subprocess workers.
+12/01/2014 12:17:51 AM Started the map phase for hungergames21.txt chunk #1.
+12/01/2014 12:17:51 AM Started the map phase for hungergames21.txt chunk #0.
+12/01/2014 12:17:51 AM Started the map phase for hungergames21.txt chunk #2.
+12/01/2014 12:17:52 AM Creating a pool of 3 subprocess workers.
+12/01/2014 12:17:52 AM Started the map phase for hungergames21_1.txt chunk #0.
+12/01/2014 12:17:52 AM Started the map phase for hungergames21_1.txt chunk #1.
+12/01/2014 12:17:52 AM Started the map phase for hungergames21_1.txt chunk #2.
+12/01/2014 12:17:53 AM Writing the map results for hungergames21.txt chunk #2.
+12/01/2014 12:17:53 AM Writing the map results for hungergames21.txt chunk #1.
+12/01/2014 12:17:53 AM Writing the map results for hungergames21.txt chunk #0.
+12/01/2014 12:17:53 AM Writing the map results for hungergames21_1.txt chunk #0.
+12/01/2014 12:17:53 AM Writing the map results for hungergames21_1.txt chunk #1.
+12/01/2014 12:17:53 AM Writing the map results for hungergames21_1.txt chunk #2.
+12/01/2014 12:17:59 AM Writing the intermediate results for hungergames21.txt chunk #1.
+12/01/2014 12:17:59 AM Writing the intermediate results for hungergames21.txt chunk #0.
+12/01/2014 12:18:00 AM Writing the intermediate results for hungergames21.txt chunk #2.
+12/01/2014 12:18:00 AM Writing the intermediate results for hungergames21_1.txt chunk #0.
+12/01/2014 12:18:00 AM Writing the intermediate results for hungergames21_1.txt chunk #2.
+12/01/2014 12:18:00 AM Writing the intermediate results for hungergames21_1.txt chunk #1.
+12/01/2014 12:18:01 AM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 12:18:01 AM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 12:18:01 AM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 12:18:01 AM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 12:18:01 AM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 12:18:02 AM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 12:18:02 AM Merging all reduce results into a final file.
+12/01/2014 12:18:02 AM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 12:18:02 AM Finalizing the program execution. Cleaning up.
+12/01/2014 12:18:02 AM The program is successfully finished.
+12/01/2014 12:23:57 AM All user input validations are passed. We are set to go!
+12/01/2014 12:23:57 AM Running the framework...
+12/01/2014 12:23:57 AM The initial number of running processes is 1.
+12/01/2014 12:23:57 AM Creating a map_reduce job for hungergames21.txt file. Mapper and reducer are given by user.
+12/01/2014 12:23:57 AM Partitioning hungergames21.txt into 3 chunks.
+12/01/2014 12:24:18 AM Creating a pool of 3 subprocess workers.
+12/01/2014 12:24:18 AM Started the map phase for hungergames21.txt chunk #0.
+12/01/2014 12:24:18 AM Started the map phase for hungergames21.txt chunk #1.
+12/01/2014 12:24:18 AM Started the map phase for hungergames21.txt chunk #2.
+12/01/2014 12:24:19 AM Writing the map results for hungergames21.txt chunk #0.
+12/01/2014 12:24:19 AM Writing the map results for hungergames21.txt chunk #2.
+12/01/2014 12:24:19 AM Writing the map results for hungergames21.txt chunk #1.
+12/01/2014 12:24:22 AM Writing the intermediate results for hungergames21.txt chunk #1.
+12/01/2014 12:24:22 AM Writing the intermediate results for hungergames21.txt chunk #0.
+12/01/2014 12:24:22 AM Writing the intermediate results for hungergames21.txt chunk #2.
+12/01/2014 12:24:23 AM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 12:24:23 AM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 12:24:23 AM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 12:24:23 AM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 12:24:23 AM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 12:24:23 AM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 12:24:23 AM Merging all reduce results into a final file.
+12/01/2014 12:24:23 AM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 12:24:23 AM Finalizing the program execution. Cleaning up.
+12/01/2014 12:24:23 AM The program is successfully finished.
+12/01/2014 12:31:12 AM All user input validations are passed. We are set to go!
+12/01/2014 12:31:12 AM Running the framework...
+12/01/2014 12:31:12 AM The initial number of running processes is 3.
+12/01/2014 12:31:12 AM Creating a map_reduce job for hungergames21.txt file. Mapper and reducer are given by user.
+12/01/2014 12:31:12 AM Partitioning hungergames21.txt into 3 chunks.
+12/01/2014 12:31:12 AM Creating a map_reduce job for hungergames21_1.txt file. Mapper and reducer are given by user.
+12/01/2014 12:31:12 AM Creating a map_reduce job for hungergames21_2.txt file. Mapper and reducer are given by user.
+12/01/2014 12:31:12 AM Partitioning hungergames21_1.txt into 3 chunks.
+12/01/2014 12:31:12 AM Partitioning hungergames21_2.txt into 3 chunks.
+12/01/2014 12:31:46 AM Creating a pool of 3 subprocess workers.
+12/01/2014 12:31:46 AM Started the map phase for hungergames21_1.txt chunk #0.
+12/01/2014 12:31:46 AM Started the map phase for hungergames21_1.txt chunk #1.
+12/01/2014 12:31:46 AM Started the map phase for hungergames21_1.txt chunk #2.
+12/01/2014 12:31:46 AM Creating a pool of 3 subprocess workers.
+12/01/2014 12:31:46 AM Started the map phase for hungergames21.txt chunk #0.
+12/01/2014 12:31:46 AM Started the map phase for hungergames21.txt chunk #1.
+12/01/2014 12:31:46 AM Started the map phase for hungergames21.txt chunk #2.
+12/01/2014 12:31:46 AM Creating a pool of 3 subprocess workers.
+12/01/2014 12:31:46 AM Started the map phase for hungergames21_2.txt chunk #0.
+12/01/2014 12:31:46 AM Started the map phase for hungergames21_2.txt chunk #1.
+12/01/2014 12:31:46 AM Started the map phase for hungergames21_2.txt chunk #2.
+12/01/2014 12:31:48 AM Writing the map results for hungergames21_1.txt chunk #0.
+12/01/2014 12:31:48 AM Writing the map results for hungergames21_1.txt chunk #2.
+12/01/2014 12:31:48 AM Writing the map results for hungergames21_1.txt chunk #1.
+12/01/2014 12:31:48 AM Writing the map results for hungergames21.txt chunk #1.
+12/01/2014 12:31:48 AM Writing the map results for hungergames21.txt chunk #2.
+12/01/2014 12:31:48 AM Writing the map results for hungergames21.txt chunk #0.
+12/01/2014 12:31:49 AM Writing the map results for hungergames21_2.txt chunk #1.
+12/01/2014 12:31:49 AM Writing the map results for hungergames21_2.txt chunk #0.
+12/01/2014 12:31:49 AM Writing the map results for hungergames21_2.txt chunk #2.
+12/01/2014 12:31:58 AM Writing the intermediate results for hungergames21_1.txt chunk #1.
+12/01/2014 12:31:58 AM Writing the intermediate results for hungergames21_1.txt chunk #2.
+12/01/2014 12:31:58 AM Writing the intermediate results for hungergames21_1.txt chunk #0.
+12/01/2014 12:31:59 AM Writing the intermediate results for hungergames21.txt chunk #0.
+12/01/2014 12:31:59 AM Writing the intermediate results for hungergames21.txt chunk #1.
+12/01/2014 12:31:59 AM Writing the intermediate results for hungergames21_2.txt chunk #2.
+12/01/2014 12:31:59 AM Writing the intermediate results for hungergames21_2.txt chunk #0.
+12/01/2014 12:31:59 AM Writing the intermediate results for hungergames21.txt chunk #2.
+12/01/2014 12:31:59 AM Writing the intermediate results for hungergames21_2.txt chunk #1.
+12/01/2014 12:32:01 AM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 12:32:01 AM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 12:32:01 AM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 12:32:02 AM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 12:32:02 AM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 12:32:02 AM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 12:32:02 AM Merging all reduce results into a final file.
+12/01/2014 12:32:02 AM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 12:32:02 AM Finalizing the program execution. Cleaning up.
+12/01/2014 12:32:02 AM The program is successfully finished.
+12/01/2014 12:32:16 AM All user input validations are passed. We are set to go!
+12/01/2014 12:32:16 AM Running the framework...
+12/01/2014 12:32:16 AM The initial number of running processes is 3.
+12/01/2014 12:32:16 AM Creating a map_reduce job for hungergames21.txt file. Mapper and reducer are given by user.
+12/01/2014 12:32:16 AM Partitioning hungergames21.txt into 3 chunks.
+12/01/2014 12:32:16 AM Creating a map_reduce job for hungergames21_1.txt file. Mapper and reducer are given by user.
+12/01/2014 12:32:16 AM Partitioning hungergames21_1.txt into 3 chunks.
+12/01/2014 12:32:16 AM Creating a map_reduce job for hungergames21_2.txt file. Mapper and reducer are given by user.
+12/01/2014 12:32:16 AM Partitioning hungergames21_2.txt into 3 chunks.
+12/01/2014 12:32:48 AM Creating a pool of 3 subprocess workers.
+12/01/2014 12:32:48 AM Started the map phase for hungergames21.txt chunk #1.
+12/01/2014 12:32:48 AM Started the map phase for hungergames21.txt chunk #2.
+12/01/2014 12:32:48 AM Started the map phase for hungergames21.txt chunk #0.
+12/01/2014 12:32:49 AM Creating a pool of 3 subprocess workers.
+12/01/2014 12:32:49 AM Started the map phase for hungergames21_2.txt chunk #0.
+12/01/2014 12:32:49 AM Started the map phase for hungergames21_2.txt chunk #1.
+12/01/2014 12:32:49 AM Started the map phase for hungergames21_2.txt chunk #2.
+12/01/2014 12:32:49 AM Creating a pool of 3 subprocess workers.
+12/01/2014 12:32:49 AM Started the map phase for hungergames21_1.txt chunk #0.
+12/01/2014 12:32:49 AM Started the map phase for hungergames21_1.txt chunk #1.
+12/01/2014 12:32:49 AM Started the map phase for hungergames21_1.txt chunk #2.
+12/01/2014 12:32:50 AM Writing the map results for hungergames21.txt chunk #2.
+12/01/2014 12:32:50 AM Writing the map results for hungergames21.txt chunk #1.
+12/01/2014 12:32:50 AM Writing the map results for hungergames21.txt chunk #0.
+12/01/2014 12:32:51 AM Writing the map results for hungergames21_2.txt chunk #2.
+12/01/2014 12:32:51 AM Writing the map results for hungergames21_2.txt chunk #1.
+12/01/2014 12:32:51 AM Writing the map results for hungergames21_2.txt chunk #0.
+12/01/2014 12:32:51 AM Writing the map results for hungergames21_1.txt chunk #1.
+12/01/2014 12:32:51 AM Writing the map results for hungergames21_1.txt chunk #0.
+12/01/2014 12:32:51 AM Writing the map results for hungergames21_1.txt chunk #2.
+12/01/2014 12:32:59 AM Writing the intermediate results for hungergames21.txt chunk #0.
+12/01/2014 12:32:59 AM Writing the intermediate results for hungergames21.txt chunk #1.
+12/01/2014 12:32:59 AM Writing the intermediate results for hungergames21.txt chunk #2.
+12/01/2014 12:33:00 AM Writing the intermediate results for hungergames21_2.txt chunk #1.
+12/01/2014 12:33:00 AM Writing the intermediate results for hungergames21_2.txt chunk #0.
+12/01/2014 12:33:00 AM Writing the intermediate results for hungergames21_2.txt chunk #2.
+12/01/2014 12:33:00 AM Writing the intermediate results for hungergames21_1.txt chunk #0.
+12/01/2014 12:33:00 AM Writing the intermediate results for hungergames21_1.txt chunk #1.
+12/01/2014 12:33:00 AM Writing the intermediate results for hungergames21_1.txt chunk #2.
+12/01/2014 12:33:02 AM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 12:33:02 AM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 12:33:02 AM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 12:33:02 AM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 12:33:02 AM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 12:33:02 AM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 12:33:02 AM Merging all reduce results into a final file.
+12/01/2014 12:33:02 AM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 12:33:02 AM Finalizing the program execution. Cleaning up.
+12/01/2014 12:33:02 AM The program is successfully finished.
+12/01/2014 12:33:23 AM All user input validations are passed. We are set to go!
+12/01/2014 12:33:23 AM Running the framework...
+12/01/2014 12:33:23 AM The initial number of running processes is 3.
+12/01/2014 12:33:23 AM Creating a map_reduce job for hungergames21.txt file. Mapper and reducer are given by user.
+12/01/2014 12:33:23 AM Partitioning hungergames21.txt into 3 chunks.
+12/01/2014 12:33:23 AM Creating a map_reduce job for hungergames21_1.txt file. Mapper and reducer are given by user.
+12/01/2014 12:33:23 AM Creating a map_reduce job for hungergames21_2.txt file. Mapper and reducer are given by user.
+12/01/2014 12:33:23 AM Partitioning hungergames21_1.txt into 3 chunks.
+12/01/2014 12:33:23 AM Partitioning hungergames21_2.txt into 3 chunks.
+12/01/2014 12:33:54 AM Creating a pool of 3 subprocess workers.
+12/01/2014 12:33:54 AM Started the map phase for hungergames21.txt chunk #0.
+12/01/2014 12:33:54 AM Started the map phase for hungergames21.txt chunk #1.
+12/01/2014 12:33:54 AM Started the map phase for hungergames21.txt chunk #2.
+12/01/2014 12:33:55 AM Creating a pool of 3 subprocess workers.
+12/01/2014 12:33:55 AM Started the map phase for hungergames21_2.txt chunk #2.
+12/01/2014 12:33:55 AM Started the map phase for hungergames21_2.txt chunk #1.
+12/01/2014 12:33:55 AM Started the map phase for hungergames21_2.txt chunk #0.
+12/01/2014 12:33:55 AM Creating a pool of 3 subprocess workers.
+12/01/2014 12:33:55 AM Started the map phase for hungergames21_1.txt chunk #0.
+12/01/2014 12:33:55 AM Started the map phase for hungergames21_1.txt chunk #1.
+12/01/2014 12:33:55 AM Started the map phase for hungergames21_1.txt chunk #2.
+12/01/2014 12:33:55 AM Writing the map results for hungergames21.txt chunk #0.
+12/01/2014 12:33:55 AM Writing the map results for hungergames21.txt chunk #2.
+12/01/2014 12:33:55 AM Writing the map results for hungergames21.txt chunk #1.
+12/01/2014 12:33:57 AM Writing the map results for hungergames21_2.txt chunk #0.
+12/01/2014 12:33:57 AM Writing the map results for hungergames21_2.txt chunk #1.
+12/01/2014 12:33:57 AM Writing the map results for hungergames21_2.txt chunk #2.
+12/01/2014 12:33:57 AM Writing the map results for hungergames21_1.txt chunk #0.
+12/01/2014 12:33:57 AM Writing the map results for hungergames21_1.txt chunk #1.
+12/01/2014 12:33:57 AM Writing the map results for hungergames21_1.txt chunk #2.
+12/01/2014 12:34:04 AM Writing the intermediate results for hungergames21.txt chunk #1.
+12/01/2014 12:34:04 AM Writing the intermediate results for hungergames21.txt chunk #2.
+12/01/2014 12:34:04 AM Writing the intermediate results for hungergames21.txt chunk #0.
+12/01/2014 12:34:05 AM Writing the intermediate results for hungergames21_2.txt chunk #0.
+12/01/2014 12:34:05 AM Writing the intermediate results for hungergames21_2.txt chunk #1.
+12/01/2014 12:34:05 AM Writing the intermediate results for hungergames21_2.txt chunk #2.
+12/01/2014 12:34:05 AM Writing the intermediate results for hungergames21_1.txt chunk #1.
+12/01/2014 12:34:05 AM Writing the intermediate results for hungergames21_1.txt chunk #0.
+12/01/2014 12:34:05 AM Writing the intermediate results for hungergames21_1.txt chunk #2.
+12/01/2014 12:34:07 AM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 12:34:07 AM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 12:34:07 AM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 12:34:07 AM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 12:34:07 AM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 12:34:07 AM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 12:34:07 AM Merging all reduce results into a final file.
+12/01/2014 12:34:07 AM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 12:34:07 AM Finalizing the program execution. Cleaning up.
+12/01/2014 12:34:07 AM The program is successfully finished.
+12/01/2014 12:36:24 AM All user input validations are passed. We are set to go!
+12/01/2014 12:36:24 AM Running the framework...
+12/01/2014 12:36:24 AM The initial number of running processes is 3.
+12/01/2014 12:36:24 AM Creating a map_reduce job for hungergames21_1.txt file. Mapper and reducer are given by user.
+12/01/2014 12:36:24 AM Creating a map_reduce job for hungergames21.txt file. Mapper and reducer are given by user.
+12/01/2014 12:36:24 AM Partitioning hungergames21_1.txt into 3 chunks.
+12/01/2014 12:36:24 AM Creating a map_reduce job for hungergames21_2.txt file. Mapper and reducer are given by user.
+12/01/2014 12:36:24 AM Partitioning hungergames21.txt into 3 chunks.
+12/01/2014 12:36:24 AM Partitioning hungergames21_2.txt into 3 chunks.
+12/01/2014 12:36:54 AM Creating a pool of 3 subprocess workers.
+12/01/2014 12:36:54 AM Started the map phase for hungergames21_2.txt chunk #0.
+12/01/2014 12:36:54 AM Started the map phase for hungergames21_2.txt chunk #1.
+12/01/2014 12:36:54 AM Started the map phase for hungergames21_2.txt chunk #2.
+12/01/2014 12:36:55 AM Creating a pool of 3 subprocess workers.
+12/01/2014 12:36:55 AM Started the map phase for hungergames21.txt chunk #0.
+12/01/2014 12:36:55 AM Started the map phase for hungergames21.txt chunk #2.
+12/01/2014 12:36:55 AM Started the map phase for hungergames21.txt chunk #1.
+12/01/2014 12:36:55 AM Creating a pool of 3 subprocess workers.
+12/01/2014 12:36:55 AM Started the map phase for hungergames21_1.txt chunk #0.
+12/01/2014 12:36:55 AM Started the map phase for hungergames21_1.txt chunk #1.
+12/01/2014 12:36:55 AM Started the map phase for hungergames21_1.txt chunk #2.
+12/01/2014 12:36:56 AM Writing the map results for hungergames21_2.txt chunk #0.
+12/01/2014 12:36:56 AM Writing the map results for hungergames21_2.txt chunk #2.
+12/01/2014 12:36:56 AM Writing the map results for hungergames21_2.txt chunk #1.
+12/01/2014 12:36:57 AM Writing the map results for hungergames21_1.txt chunk #1.
+12/01/2014 12:36:57 AM Writing the map results for hungergames21_1.txt chunk #2.
+12/01/2014 12:36:57 AM Writing the map results for hungergames21.txt chunk #1.
+12/01/2014 12:36:57 AM Writing the map results for hungergames21.txt chunk #2.
+12/01/2014 12:36:57 AM Writing the map results for hungergames21_1.txt chunk #0.
+12/01/2014 12:36:57 AM Writing the map results for hungergames21.txt chunk #0.
+12/01/2014 12:37:07 AM Writing the intermediate results for hungergames21_2.txt chunk #0.
+12/01/2014 12:37:07 AM Writing the intermediate results for hungergames21_2.txt chunk #2.
+12/01/2014 12:37:07 AM Writing the intermediate results for hungergames21_2.txt chunk #1.
+12/01/2014 12:37:07 AM Writing the intermediate results for hungergames21_1.txt chunk #0.
+12/01/2014 12:37:07 AM Writing the intermediate results for hungergames21_1.txt chunk #1.
+12/01/2014 12:37:07 AM Writing the intermediate results for hungergames21.txt chunk #0.
+12/01/2014 12:37:07 AM Writing the intermediate results for hungergames21_1.txt chunk #2.
+12/01/2014 12:37:07 AM Writing the intermediate results for hungergames21.txt chunk #1.
+12/01/2014 12:37:07 AM Writing the intermediate results for hungergames21.txt chunk #2.
+12/01/2014 12:37:09 AM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 12:37:09 AM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 12:37:09 AM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 12:37:09 AM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 12:37:10 AM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 12:37:10 AM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 12:37:10 AM Merging all reduce results into a final file.
+12/01/2014 12:37:10 AM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 12:37:10 AM Finalizing the program execution. Cleaning up.
+12/01/2014 12:37:10 AM The program is successfully finished.
+12/01/2014 12:38:08 AM All user input validations are passed. We are set to go!
+12/01/2014 12:38:08 AM Running the framework...
+12/01/2014 12:38:09 AM The initial number of running processes is 1.
+12/01/2014 12:38:09 AM Creating a map_reduce job for hungergames21.txt file. Mapper and reducer are given by user.
+12/01/2014 12:38:09 AM Partitioning hungergames21.txt into 3 chunks.
+12/01/2014 12:38:29 AM Creating a pool of 3 subprocess workers.
+12/01/2014 12:38:29 AM Started the map phase for hungergames21.txt chunk #0.
+12/01/2014 12:38:29 AM Started the map phase for hungergames21.txt chunk #1.
+12/01/2014 12:38:29 AM Started the map phase for hungergames21.txt chunk #2.
+12/01/2014 12:38:30 AM Writing the map results for hungergames21.txt chunk #0.
+12/01/2014 12:38:30 AM Writing the map results for hungergames21.txt chunk #1.
+12/01/2014 12:38:30 AM Writing the map results for hungergames21.txt chunk #2.
+12/01/2014 12:38:33 AM Writing the intermediate results for hungergames21.txt chunk #1.
+12/01/2014 12:38:33 AM Writing the intermediate results for hungergames21.txt chunk #2.
+12/01/2014 12:38:33 AM Writing the intermediate results for hungergames21.txt chunk #0.
+12/01/2014 12:38:34 AM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 12:38:34 AM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 12:38:34 AM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 12:38:34 AM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 12:38:34 AM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 12:38:34 AM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 12:38:34 AM Merging all reduce results into a final file.
+12/01/2014 12:38:34 AM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 12:38:34 AM Finalizing the program execution. Cleaning up.
+12/01/2014 12:38:34 AM The program is successfully finished.
+12/01/2014 02:00:00 PM All user input validations are passed. We are set to go!
+12/01/2014 02:00:00 PM Running the framework...
+12/01/2014 02:00:00 PM The initial number of running processes is 2.
+12/01/2014 02:00:00 PM Creating a map_reduce job for hungergames21_2.txt file. Mapper and reducer are given by user.
+12/01/2014 02:00:00 PM Creating a map_reduce job for hungergames21.txt file. Mapper and reducer are given by user.
+12/01/2014 02:00:00 PM Partitioning hungergames21_2.txt into 3 chunks.
+12/01/2014 02:00:00 PM Partitioning hungergames21.txt into 3 chunks.
+12/01/2014 02:00:20 PM Creating a pool of 3 subprocess workers.
+12/01/2014 02:00:20 PM Started the map phase for hungergames21_2.txt chunk #1.
+12/01/2014 02:00:20 PM Started the map phase for hungergames21_2.txt chunk #0.
+12/01/2014 02:00:20 PM Started the map phase for hungergames21_2.txt chunk #2.
+12/01/2014 02:00:20 PM Creating a pool of 3 subprocess workers.
+12/01/2014 02:00:20 PM Started the map phase for hungergames21.txt chunk #0.
+12/01/2014 02:00:20 PM Started the map phase for hungergames21.txt chunk #2.
+12/01/2014 02:00:20 PM Started the map phase for hungergames21.txt chunk #1.
+12/01/2014 02:00:21 PM Writing the map results for hungergames21_2.txt chunk #2.
+12/01/2014 02:00:21 PM Writing the map results for hungergames21_2.txt chunk #1.
+12/01/2014 02:00:21 PM Writing the map results for hungergames21_2.txt chunk #0.
+12/01/2014 02:00:21 PM Writing the map results for hungergames21.txt chunk #1.
+12/01/2014 02:00:21 PM Writing the map results for hungergames21.txt chunk #2.
+12/01/2014 02:00:21 PM Writing the map results for hungergames21.txt chunk #0.
+12/01/2014 02:00:27 PM Writing the intermediate results for hungergames21_2.txt chunk #1.
+12/01/2014 02:00:27 PM Writing the intermediate results for hungergames21_2.txt chunk #0.
+12/01/2014 02:00:27 PM Writing the intermediate results for hungergames21_2.txt chunk #2.
+12/01/2014 02:00:28 PM Writing the intermediate results for hungergames21.txt chunk #1.
+12/01/2014 02:00:28 PM Writing the intermediate results for hungergames21.txt chunk #0.
+12/01/2014 02:00:28 PM Writing the intermediate results for hungergames21.txt chunk #2.
+12/01/2014 02:00:29 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 02:00:29 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 02:00:29 PM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 02:00:29 PM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 02:00:29 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 02:00:29 PM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 02:00:29 PM Merging all reduce results into a final file.
+12/01/2014 02:00:29 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 02:00:29 PM Finalizing the program execution. Cleaning up.
+12/01/2014 02:00:29 PM The program is successfully finished.
+12/01/2014 02:01:12 PM All user input validations are passed. We are set to go!
+12/01/2014 02:01:12 PM Running the framework...
+12/01/2014 02:01:12 PM The initial number of running processes is 1.
+12/01/2014 02:01:12 PM Creating a map_reduce job for hungergames21.txt file. Mapper and reducer are given by user.
+12/01/2014 02:01:12 PM Partitioning hungergames21.txt into 3 chunks.
+12/01/2014 02:01:31 PM Creating a pool of 3 subprocess workers.
+12/01/2014 02:01:31 PM Started the map phase for hungergames21.txt chunk #0.
+12/01/2014 02:01:31 PM Started the map phase for hungergames21.txt chunk #1.
+12/01/2014 02:01:31 PM Started the map phase for hungergames21.txt chunk #2.
+12/01/2014 02:01:32 PM Writing the map results for hungergames21.txt chunk #0.
+12/01/2014 02:01:32 PM Writing the map results for hungergames21.txt chunk #2.
+12/01/2014 02:01:32 PM Writing the map results for hungergames21.txt chunk #1.
+12/01/2014 02:01:34 PM Writing the intermediate results for hungergames21.txt chunk #0.
+12/01/2014 02:01:34 PM Writing the intermediate results for hungergames21.txt chunk #1.
+12/01/2014 02:01:34 PM Writing the intermediate results for hungergames21.txt chunk #2.
+12/01/2014 02:01:35 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 02:01:35 PM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 02:01:35 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 02:01:35 PM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 02:01:35 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 02:01:35 PM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 02:01:35 PM Merging all reduce results into a final file.
+12/01/2014 02:01:35 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 02:01:35 PM Finalizing the program execution. Cleaning up.
+12/01/2014 02:01:35 PM The program is successfully finished.
+12/01/2014 04:03:04 PM All user input validations are passed. We are set to go!
+12/01/2014 04:03:04 PM Running the framework...
+12/01/2014 04:03:04 PM The initial number of running processes is 3.
+12/01/2014 04:03:04 PM Creating a map_reduce job for hungergames21_2.txt file. Mapper and reducer are given by user.
+12/01/2014 04:03:04 PM Creating a map_reduce job for hungergames21.txt file. Mapper and reducer are given by user.
+12/01/2014 04:03:04 PM Creating a map_reduce job for hungergames21_3.txt file. Mapper and reducer are given by user.
+12/01/2014 04:03:04 PM Partitioning hungergames21_2.txt into 3 chunks.
+12/01/2014 04:03:04 PM Partitioning hungergames21_3.txt into 3 chunks.
+12/01/2014 04:03:04 PM Partitioning hungergames21.txt into 3 chunks.
+12/01/2014 04:03:36 PM Creating a pool of 3 subprocess workers.
+12/01/2014 04:03:36 PM Started the map phase for hungergames21_3.txt chunk #0.
+12/01/2014 04:03:36 PM Started the map phase for hungergames21_3.txt chunk #2.
+12/01/2014 04:03:36 PM Started the map phase for hungergames21_3.txt chunk #1.
+12/01/2014 04:03:37 PM Creating a pool of 3 subprocess workers.
+12/01/2014 04:03:37 PM Started the map phase for hungergames21_2.txt chunk #0.
+12/01/2014 04:03:37 PM Started the map phase for hungergames21_2.txt chunk #1.
+12/01/2014 04:03:37 PM Started the map phase for hungergames21_2.txt chunk #2.
+12/01/2014 04:03:37 PM Writing the map results for hungergames21_3.txt chunk #1.
+12/01/2014 04:03:37 PM Writing the map results for hungergames21_3.txt chunk #2.
+12/01/2014 04:03:37 PM Writing the map results for hungergames21_3.txt chunk #0.
+12/01/2014 04:03:37 PM Creating a pool of 3 subprocess workers.
+12/01/2014 04:03:38 PM Started the map phase for hungergames21.txt chunk #2.
+12/01/2014 04:03:38 PM Started the map phase for hungergames21.txt chunk #1.
+12/01/2014 04:03:38 PM Started the map phase for hungergames21.txt chunk #0.
+12/01/2014 04:03:39 PM Writing the map results for hungergames21_2.txt chunk #0.
+12/01/2014 04:03:39 PM Writing the map results for hungergames21_2.txt chunk #1.
+12/01/2014 04:03:39 PM Writing the map results for hungergames21_2.txt chunk #2.
+12/01/2014 04:03:40 PM Writing the map results for hungergames21.txt chunk #2.
+12/01/2014 04:03:40 PM Writing the map results for hungergames21.txt chunk #1.
+12/01/2014 04:03:40 PM Writing the map results for hungergames21.txt chunk #0.
+12/01/2014 04:03:46 PM Writing the intermediate results for hungergames21_3.txt chunk #0.
+12/01/2014 04:03:46 PM Writing the intermediate results for hungergames21_3.txt chunk #2.
+12/01/2014 04:03:46 PM Writing the intermediate results for hungergames21_3.txt chunk #1.
+12/01/2014 04:03:47 PM Writing the intermediate results for hungergames21_2.txt chunk #0.
+12/01/2014 04:03:47 PM Writing the intermediate results for hungergames21_2.txt chunk #1.
+12/01/2014 04:03:47 PM Writing the intermediate results for hungergames21_2.txt chunk #2.
+12/01/2014 04:03:48 PM Writing the intermediate results for hungergames21.txt chunk #0.
+12/01/2014 04:03:48 PM Writing the intermediate results for hungergames21.txt chunk #1.
+12/01/2014 04:03:48 PM Writing the intermediate results for hungergames21.txt chunk #2.
+12/01/2014 04:03:51 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 04:03:51 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 04:03:51 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 04:03:51 PM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 04:03:51 PM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 04:03:52 PM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 04:03:52 PM Merging all reduce results into a final file.
+12/01/2014 04:03:52 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 04:03:52 PM Finalizing the program execution. Cleaning up.
+12/01/2014 04:03:52 PM The program is successfully finished.
+12/01/2014 04:11:34 PM All user input validations are passed. We are set to go!
+12/01/2014 04:11:34 PM Running the framework...
+12/01/2014 04:11:34 PM The initial number of running processes is 3.
+12/01/2014 04:11:34 PM Creating a map_reduce job for hungergames21_2.txt file. Mapper and reducer are given by user.
+12/01/2014 04:11:34 PM Creating a map_reduce job for hungergames21.txt file. Mapper and reducer are given by user.
+12/01/2014 04:11:34 PM Partitioning hungergames21.txt into 3 chunks.
+12/01/2014 04:11:34 PM Partitioning hungergames21_2.txt into 3 chunks.
+12/01/2014 04:11:34 PM Creating a map_reduce job for hungergames21_3.txt file. Mapper and reducer are given by user.
+12/01/2014 04:11:34 PM Partitioning hungergames21_3.txt into 3 chunks.
+12/01/2014 04:12:04 PM Creating a pool of 3 subprocess workers.
+12/01/2014 04:12:04 PM Started the map phase for hungergames21_2.txt chunk #0.
+12/01/2014 04:12:04 PM Started the map phase for hungergames21_2.txt chunk #1.
+12/01/2014 04:12:04 PM Started the map phase for hungergames21_2.txt chunk #2.
+12/01/2014 04:12:04 PM Creating a pool of 3 subprocess workers.
+12/01/2014 04:12:04 PM Started the map phase for hungergames21_3.txt chunk #0.
+12/01/2014 04:12:04 PM Started the map phase for hungergames21_3.txt chunk #1.
+12/01/2014 04:12:04 PM Started the map phase for hungergames21_3.txt chunk #2.
+12/01/2014 04:12:04 PM Creating a pool of 3 subprocess workers.
+12/01/2014 04:12:04 PM Started the map phase for hungergames21.txt chunk #0.
+12/01/2014 04:12:04 PM Started the map phase for hungergames21.txt chunk #2.
+12/01/2014 04:12:04 PM Started the map phase for hungergames21.txt chunk #1.
+12/01/2014 04:12:06 PM Writing the map results for hungergames21_2.txt chunk #2.
+12/01/2014 04:12:06 PM Writing the map results for hungergames21_2.txt chunk #0.
+12/01/2014 04:12:06 PM Writing the map results for hungergames21_2.txt chunk #1.
+12/01/2014 04:12:06 PM Writing the map results for hungergames21_3.txt chunk #0.
+12/01/2014 04:12:06 PM Writing the map results for hungergames21_3.txt chunk #1.
+12/01/2014 04:12:06 PM Writing the map results for hungergames21_3.txt chunk #2.
+12/01/2014 04:12:07 PM Writing the map results for hungergames21.txt chunk #2.
+12/01/2014 04:12:07 PM Writing the map results for hungergames21.txt chunk #0.
+12/01/2014 04:12:07 PM Writing the map results for hungergames21.txt chunk #1.
+12/01/2014 04:12:15 PM Writing the intermediate results for hungergames21_2.txt chunk #1.
+12/01/2014 04:12:15 PM Writing the intermediate results for hungergames21_2.txt chunk #2.
+12/01/2014 04:12:15 PM Writing the intermediate results for hungergames21_2.txt chunk #0.
+12/01/2014 04:12:15 PM Writing the intermediate results for hungergames21_3.txt chunk #0.
+12/01/2014 04:12:15 PM Writing the intermediate results for hungergames21.txt chunk #0.
+12/01/2014 04:12:15 PM Writing the intermediate results for hungergames21_3.txt chunk #1.
+12/01/2014 04:12:15 PM Writing the intermediate results for hungergames21_3.txt chunk #2.
+12/01/2014 04:12:15 PM Writing the intermediate results for hungergames21.txt chunk #1.
+12/01/2014 04:12:15 PM Writing the intermediate results for hungergames21.txt chunk #2.
+12/01/2014 04:12:17 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 04:12:17 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 04:12:17 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 04:12:17 PM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 04:12:17 PM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 04:12:17 PM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 04:12:17 PM Merging all reduce results into a final file.
+12/01/2014 04:12:17 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 04:12:17 PM Finalizing the program execution. Cleaning up.
+12/01/2014 04:12:17 PM The program is successfully finished.
+12/01/2014 04:13:03 PM All user input validations are passed. We are set to go!
+12/01/2014 04:13:03 PM Running the framework...
+12/01/2014 04:13:03 PM The initial number of running processes is 5.
+12/01/2014 04:13:03 PM Creating a map_reduce job for hungergames21.txt file. Mapper and reducer are given by user.
+12/01/2014 04:13:03 PM Creating a map_reduce job for hungergames21_2.txt file. Mapper and reducer are given by user.
+12/01/2014 04:13:03 PM Creating a map_reduce job for hungergames21_1.txt file. Mapper and reducer are given by user.
+12/01/2014 04:13:03 PM Partitioning hungergames21.txt into 5 chunks.
+12/01/2014 04:13:03 PM Partitioning hungergames21_1.txt into 5 chunks.
+12/01/2014 04:13:03 PM Partitioning hungergames21_2.txt into 5 chunks.
+12/01/2014 04:13:03 PM Creating a map_reduce job for hungergames21_3.txt file. Mapper and reducer are given by user.
+12/01/2014 04:13:03 PM Partitioning hungergames21_3.txt into 5 chunks.
+12/01/2014 04:13:03 PM Creating a map_reduce job for hungergames21_4.txt file. Mapper and reducer are given by user.
+12/01/2014 04:13:03 PM Partitioning hungergames21_4.txt into 5 chunks.
+12/01/2014 04:13:53 PM Creating a pool of 5 subprocess workers.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21_3.txt chunk #1.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21_3.txt chunk #2.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21_3.txt chunk #3.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21_3.txt chunk #4.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21_3.txt chunk #0.
+12/01/2014 04:13:53 PM Creating a pool of 5 subprocess workers.
+12/01/2014 04:13:53 PM Creating a pool of 5 subprocess workers.
+12/01/2014 04:13:53 PM Creating a pool of 5 subprocess workers.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21_4.txt chunk #0.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21_4.txt chunk #1.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21_4.txt chunk #2.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21_4.txt chunk #3.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21_4.txt chunk #4.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21_2.txt chunk #0.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21_2.txt chunk #1.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21_2.txt chunk #3.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21_2.txt chunk #4.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21_2.txt chunk #2.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21.txt chunk #0.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21.txt chunk #1.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21.txt chunk #2.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21.txt chunk #4.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21.txt chunk #3.
+12/01/2014 04:13:53 PM Creating a pool of 5 subprocess workers.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21_1.txt chunk #1.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21_1.txt chunk #0.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21_1.txt chunk #3.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21_1.txt chunk #4.
+12/01/2014 04:13:53 PM Started the map phase for hungergames21_1.txt chunk #2.
+12/01/2014 04:13:56 PM Writing the map results for hungergames21_3.txt chunk #0.
+12/01/2014 04:13:56 PM Writing the map results for hungergames21_3.txt chunk #1.
+12/01/2014 04:13:56 PM Writing the map results for hungergames21_3.txt chunk #2.
+12/01/2014 04:13:56 PM Writing the map results for hungergames21_3.txt chunk #3.
+12/01/2014 04:13:56 PM Writing the map results for hungergames21_3.txt chunk #4.
+12/01/2014 04:13:56 PM Writing the map results for hungergames21_4.txt chunk #4.
+12/01/2014 04:13:57 PM Writing the map results for hungergames21_4.txt chunk #3.
+12/01/2014 04:13:57 PM Writing the map results for hungergames21_4.txt chunk #2.
+12/01/2014 04:13:57 PM Writing the map results for hungergames21_4.txt chunk #0.
+12/01/2014 04:13:57 PM Writing the map results for hungergames21_4.txt chunk #1.
+12/01/2014 04:13:57 PM Writing the map results for hungergames21.txt chunk #2.
+12/01/2014 04:13:57 PM Writing the map results for hungergames21.txt chunk #4.
+12/01/2014 04:13:57 PM Writing the map results for hungergames21_2.txt chunk #1.
+12/01/2014 04:13:57 PM Writing the map results for hungergames21.txt chunk #0.
+12/01/2014 04:13:57 PM Writing the map results for hungergames21_2.txt chunk #3.
+12/01/2014 04:13:57 PM Writing the map results for hungergames21.txt chunk #1.
+12/01/2014 04:13:57 PM Writing the map results for hungergames21.txt chunk #3.
+12/01/2014 04:13:57 PM Writing the map results for hungergames21_2.txt chunk #2.
+12/01/2014 04:13:57 PM Writing the map results for hungergames21_2.txt chunk #4.
+12/01/2014 04:13:57 PM Writing the map results for hungergames21_2.txt chunk #0.
+12/01/2014 04:13:57 PM Writing the map results for hungergames21_1.txt chunk #1.
+12/01/2014 04:13:58 PM Writing the map results for hungergames21_1.txt chunk #2.
+12/01/2014 04:13:58 PM Writing the map results for hungergames21_1.txt chunk #4.
+12/01/2014 04:13:58 PM Writing the map results for hungergames21_1.txt chunk #3.
+12/01/2014 04:13:58 PM Writing the map results for hungergames21_1.txt chunk #0.
+12/01/2014 04:14:16 PM Writing the intermediate results for hungergames21_3.txt chunk #1.
+12/01/2014 04:14:17 PM Writing the intermediate results for hungergames21_3.txt chunk #0.
+12/01/2014 04:14:17 PM Writing the intermediate results for hungergames21_3.txt chunk #3.
+12/01/2014 04:14:17 PM Writing the intermediate results for hungergames21_3.txt chunk #4.
+12/01/2014 04:14:17 PM Writing the intermediate results for hungergames21_3.txt chunk #2.
+12/01/2014 04:14:17 PM Writing the intermediate results for hungergames21_4.txt chunk #0.
+12/01/2014 04:14:17 PM Writing the intermediate results for hungergames21_4.txt chunk #4.
+12/01/2014 04:14:17 PM Writing the intermediate results for hungergames21_4.txt chunk #1.
+12/01/2014 04:14:17 PM Writing the intermediate results for hungergames21.txt chunk #2.
+12/01/2014 04:14:17 PM Writing the intermediate results for hungergames21_4.txt chunk #2.
+12/01/2014 04:14:17 PM Writing the intermediate results for hungergames21.txt chunk #1.
+12/01/2014 04:14:17 PM Writing the intermediate results for hungergames21_4.txt chunk #3.
+12/01/2014 04:14:17 PM Writing the intermediate results for hungergames21_2.txt chunk #1.
+12/01/2014 04:14:17 PM Writing the intermediate results for hungergames21_2.txt chunk #4.
+12/01/2014 04:14:18 PM Writing the intermediate results for hungergames21.txt chunk #0.
+12/01/2014 04:14:18 PM Writing the intermediate results for hungergames21_2.txt chunk #3.
+12/01/2014 04:14:18 PM Writing the intermediate results for hungergames21_2.txt chunk #2.
+12/01/2014 04:14:18 PM Writing the intermediate results for hungergames21_2.txt chunk #0.
+12/01/2014 04:14:18 PM Writing the intermediate results for hungergames21.txt chunk #4.
+12/01/2014 04:14:18 PM Writing the intermediate results for hungergames21.txt chunk #3.
+12/01/2014 04:14:18 PM Writing the intermediate results for hungergames21_1.txt chunk #0.
+12/01/2014 04:14:18 PM Writing the intermediate results for hungergames21_1.txt chunk #4.
+12/01/2014 04:14:18 PM Writing the intermediate results for hungergames21_1.txt chunk #1.
+12/01/2014 04:14:18 PM Writing the intermediate results for hungergames21_1.txt chunk #3.
+12/01/2014 04:14:18 PM Writing the intermediate results for hungergames21_1.txt chunk #2.
+12/01/2014 04:14:21 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 04:14:21 PM Started the intermediate phase for #inter-shuffled #3.
+12/01/2014 04:14:21 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 04:14:21 PM Started the intermediate phase for #inter-shuffled #4.
+12/01/2014 04:14:21 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 04:14:22 PM Writing the reduce results for #inter-shuffled #4.
+12/01/2014 04:14:22 PM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 04:14:22 PM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 04:14:22 PM Writing the reduce results for #inter-shuffled #3.
+12/01/2014 04:14:22 PM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 04:14:22 PM Merging all reduce results into a final file.
+12/01/2014 04:14:22 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 04:14:22 PM Finalizing the program execution. Cleaning up.
+12/01/2014 04:14:22 PM The program is successfully finished.
+12/01/2014 04:14:37 PM All user input validations are passed. We are set to go!
+12/01/2014 04:14:37 PM Running the framework...
+12/01/2014 04:14:37 PM The initial number of running processes is 5.
+12/01/2014 04:14:37 PM Creating a map_reduce job for hungergames21.txt file. Mapper and reducer are given by user.
+12/01/2014 04:14:37 PM Creating a map_reduce job for hungergames21_2.txt file. Mapper and reducer are given by user.
+12/01/2014 04:14:37 PM Partitioning hungergames21.txt into 5 chunks.
+12/01/2014 04:14:37 PM Creating a map_reduce job for hungergames21_1.txt file. Mapper and reducer are given by user.
+12/01/2014 04:14:37 PM Partitioning hungergames21_1.txt into 5 chunks.
+12/01/2014 04:14:37 PM Creating a map_reduce job for hungergames21_3.txt file. Mapper and reducer are given by user.
+12/01/2014 04:14:37 PM Partitioning hungergames21_2.txt into 5 chunks.
+12/01/2014 04:14:37 PM Partitioning hungergames21_3.txt into 5 chunks.
+12/01/2014 04:14:37 PM Creating a map_reduce job for hungergames21_4.txt file. Mapper and reducer are given by user.
+12/01/2014 04:14:37 PM Partitioning hungergames21_4.txt into 5 chunks.
+12/01/2014 04:15:26 PM Creating a pool of 5 subprocess workers.
+12/01/2014 04:15:26 PM Creating a pool of 5 subprocess workers.
+12/01/2014 04:15:26 PM Creating a pool of 5 subprocess workers.
+12/01/2014 04:15:26 PM Started the map phase for hungergames21_1.txt chunk #1.
+12/01/2014 04:15:26 PM Started the map phase for hungergames21_1.txt chunk #2.
+12/01/2014 04:15:26 PM Started the map phase for hungergames21_1.txt chunk #3.
+12/01/2014 04:15:26 PM Started the map phase for hungergames21_1.txt chunk #4.
+12/01/2014 04:15:26 PM Started the map phase for hungergames21_1.txt chunk #0.
+12/01/2014 04:15:26 PM Started the map phase for hungergames21_4.txt chunk #0.
+12/01/2014 04:15:26 PM Started the map phase for hungergames21_4.txt chunk #2.
+12/01/2014 04:15:26 PM Started the map phase for hungergames21_4.txt chunk #3.
+12/01/2014 04:15:26 PM Started the map phase for hungergames21_4.txt chunk #4.
+12/01/2014 04:15:26 PM Started the map phase for hungergames21_4.txt chunk #1.
+12/01/2014 04:15:26 PM Started the map phase for hungergames21_3.txt chunk #0.
+12/01/2014 04:15:26 PM Started the map phase for hungergames21_3.txt chunk #1.
+12/01/2014 04:15:26 PM Started the map phase for hungergames21_3.txt chunk #2.
+12/01/2014 04:15:26 PM Started the map phase for hungergames21_3.txt chunk #3.
+12/01/2014 04:15:26 PM Started the map phase for hungergames21_3.txt chunk #4.
+12/01/2014 04:15:26 PM Creating a pool of 5 subprocess workers.
+12/01/2014 04:15:27 PM Started the map phase for hungergames21.txt chunk #1.
+12/01/2014 04:15:27 PM Started the map phase for hungergames21.txt chunk #0.
+12/01/2014 04:15:27 PM Started the map phase for hungergames21.txt chunk #2.
+12/01/2014 04:15:27 PM Started the map phase for hungergames21.txt chunk #3.
+12/01/2014 04:15:27 PM Started the map phase for hungergames21.txt chunk #4.
+12/01/2014 04:15:27 PM Creating a pool of 5 subprocess workers.
+12/01/2014 04:15:27 PM Started the map phase for hungergames21_2.txt chunk #0.
+12/01/2014 04:15:27 PM Started the map phase for hungergames21_2.txt chunk #2.
+12/01/2014 04:15:27 PM Started the map phase for hungergames21_2.txt chunk #3.
+12/01/2014 04:15:27 PM Started the map phase for hungergames21_2.txt chunk #1.
+12/01/2014 04:15:27 PM Started the map phase for hungergames21_2.txt chunk #4.
+12/01/2014 04:15:29 PM Writing the map results for hungergames21_1.txt chunk #1.
+12/01/2014 04:15:29 PM Writing the map results for hungergames21_4.txt chunk #3.
+12/01/2014 04:15:29 PM Writing the map results for hungergames21_4.txt chunk #4.
+12/01/2014 04:15:29 PM Writing the map results for hungergames21_4.txt chunk #1.
+12/01/2014 04:15:29 PM Writing the map results for hungergames21_1.txt chunk #4.
+12/01/2014 04:15:29 PM Writing the map results for hungergames21_4.txt chunk #2.
+12/01/2014 04:15:29 PM Writing the map results for hungergames21_1.txt chunk #3.
+12/01/2014 04:15:29 PM Writing the map results for hungergames21_1.txt chunk #2.
+12/01/2014 04:15:29 PM Writing the map results for hungergames21_4.txt chunk #0.
+12/01/2014 04:15:29 PM Writing the map results for hungergames21_1.txt chunk #0.
+12/01/2014 04:15:29 PM Writing the map results for hungergames21_3.txt chunk #4.
+12/01/2014 04:15:29 PM Writing the map results for hungergames21_3.txt chunk #2.
+12/01/2014 04:15:29 PM Writing the map results for hungergames21_3.txt chunk #3.
+12/01/2014 04:15:29 PM Writing the map results for hungergames21_3.txt chunk #0.
+12/01/2014 04:15:29 PM Writing the map results for hungergames21_3.txt chunk #1.
+12/01/2014 04:15:30 PM Writing the map results for hungergames21.txt chunk #4.
+12/01/2014 04:15:30 PM Writing the map results for hungergames21.txt chunk #3.
+12/01/2014 04:15:30 PM Writing the map results for hungergames21.txt chunk #0.
+12/01/2014 04:15:30 PM Writing the map results for hungergames21.txt chunk #1.
+12/01/2014 04:15:30 PM Writing the map results for hungergames21_2.txt chunk #3.
+12/01/2014 04:15:30 PM Writing the map results for hungergames21.txt chunk #2.
+12/01/2014 04:15:30 PM Writing the map results for hungergames21_2.txt chunk #4.
+12/01/2014 04:15:30 PM Writing the map results for hungergames21_2.txt chunk #2.
+12/01/2014 04:15:30 PM Writing the map results for hungergames21_2.txt chunk #0.
+12/01/2014 04:15:30 PM Writing the map results for hungergames21_2.txt chunk #1.
+12/01/2014 04:15:45 PM Writing the intermediate results for hungergames21_4.txt chunk #4.
+12/01/2014 04:15:45 PM Writing the intermediate results for hungergames21_4.txt chunk #2.
+12/01/2014 04:15:45 PM Writing the intermediate results for hungergames21_4.txt chunk #0.
+12/01/2014 04:15:45 PM Writing the intermediate results for hungergames21_4.txt chunk #1.
+12/01/2014 04:15:46 PM Writing the intermediate results for hungergames21_1.txt chunk #0.
+12/01/2014 04:15:46 PM Writing the intermediate results for hungergames21_1.txt chunk #3.
+12/01/2014 04:15:46 PM Writing the intermediate results for hungergames21_1.txt chunk #2.
+12/01/2014 04:15:46 PM Writing the intermediate results for hungergames21_1.txt chunk #1.
+12/01/2014 04:15:46 PM Writing the intermediate results for hungergames21_4.txt chunk #3.
+12/01/2014 04:15:46 PM Writing the intermediate results for hungergames21_1.txt chunk #4.
+12/01/2014 04:15:46 PM Writing the intermediate results for hungergames21_3.txt chunk #3.
+12/01/2014 04:15:46 PM Writing the intermediate results for hungergames21_3.txt chunk #4.
+12/01/2014 04:15:46 PM Writing the intermediate results for hungergames21.txt chunk #2.
+12/01/2014 04:15:46 PM Writing the intermediate results for hungergames21.txt chunk #0.
+12/01/2014 04:15:46 PM Writing the intermediate results for hungergames21_3.txt chunk #2.
+12/01/2014 04:15:46 PM Writing the intermediate results for hungergames21.txt chunk #4.
+12/01/2014 04:15:46 PM Writing the intermediate results for hungergames21_3.txt chunk #0.
+12/01/2014 04:15:46 PM Writing the intermediate results for hungergames21_3.txt chunk #1.
+12/01/2014 04:15:46 PM Writing the intermediate results for hungergames21.txt chunk #1.
+12/01/2014 04:15:47 PM Writing the intermediate results for hungergames21_2.txt chunk #0.
+12/01/2014 04:15:47 PM Writing the intermediate results for hungergames21_2.txt chunk #3.
+12/01/2014 04:15:47 PM Writing the intermediate results for hungergames21_2.txt chunk #1.
+12/01/2014 04:15:47 PM Writing the intermediate results for hungergames21.txt chunk #3.
+12/01/2014 04:15:47 PM Writing the intermediate results for hungergames21_2.txt chunk #4.
+12/01/2014 04:15:47 PM Writing the intermediate results for hungergames21_2.txt chunk #2.
+12/01/2014 04:15:52 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 04:15:52 PM Started the intermediate phase for #inter-shuffled #3.
+12/01/2014 04:15:52 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 04:15:52 PM Started the intermediate phase for #inter-shuffled #4.
+12/01/2014 04:15:52 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 04:15:52 PM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 04:15:52 PM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 04:15:52 PM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 04:15:52 PM Writing the reduce results for #inter-shuffled #4.
+12/01/2014 04:15:52 PM Writing the reduce results for #inter-shuffled #3.
+12/01/2014 04:15:52 PM Merging all reduce results into a final file.
+12/01/2014 04:15:52 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 04:15:52 PM Finalizing the program execution. Cleaning up.
+12/01/2014 04:15:52 PM The program is successfully finished.
+12/01/2014 04:23:32 PM All user input validations are passed. We are set to go!
+12/01/2014 04:23:32 PM Running the framework...
+12/01/2014 04:23:32 PM The initial number of running processes is 1.
+12/01/2014 04:23:32 PM Creating a map_reduce job for twit_data105.json file. Mapper and reducer are given by user.
+12/01/2014 04:23:32 PM Partitioning twit_data105.json into 3 chunks.
+12/01/2014 04:23:52 PM Creating a pool of 3 subprocess workers.
+12/01/2014 04:23:52 PM Started the map phase for twit_data105.json chunk #0.
+12/01/2014 04:23:52 PM Started the map phase for twit_data105.json chunk #1.
+12/01/2014 04:23:52 PM Started the map phase for twit_data105.json chunk #2.
+12/01/2014 04:23:53 PM Writing the map results for twit_data105.json chunk #2.
+12/01/2014 04:23:54 PM Writing the map results for twit_data105.json chunk #1.
+12/01/2014 04:23:54 PM Writing the map results for twit_data105.json chunk #0.
+12/01/2014 04:23:54 PM Writing the intermediate results for twit_data105.json chunk #2.
+12/01/2014 04:23:54 PM Writing the intermediate results for twit_data105.json chunk #1.
+12/01/2014 04:23:54 PM Writing the intermediate results for twit_data105.json chunk #0.
+12/01/2014 04:23:54 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 04:23:54 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 04:24:37 PM All user input validations are passed. We are set to go!
+12/01/2014 04:24:37 PM Running the framework...
+12/01/2014 04:24:37 PM The initial number of running processes is 1.
+12/01/2014 04:24:37 PM Creating a map_reduce job for twit_data105.json file. Mapper and reducer are given by user.
+12/01/2014 04:24:37 PM Partitioning twit_data105.json into 3 chunks.
+12/01/2014 04:24:57 PM Creating a pool of 3 subprocess workers.
+12/01/2014 04:24:57 PM Started the map phase for twit_data105.json chunk #0.
+12/01/2014 04:24:57 PM Started the map phase for twit_data105.json chunk #1.
+12/01/2014 04:24:57 PM Started the map phase for twit_data105.json chunk #2.
+12/01/2014 04:24:58 PM Writing the map results for twit_data105.json chunk #2.
+12/01/2014 04:24:58 PM Writing the map results for twit_data105.json chunk #0.
+12/01/2014 04:24:58 PM Writing the map results for twit_data105.json chunk #1.
+12/01/2014 04:24:58 PM Writing the intermediate results for twit_data105.json chunk #1.
+12/01/2014 04:24:58 PM Writing the intermediate results for twit_data105.json chunk #0.
+12/01/2014 04:24:58 PM Writing the intermediate results for twit_data105.json chunk #2.
+12/01/2014 04:24:58 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 04:24:58 PM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 04:24:58 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 04:24:58 PM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 04:24:58 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 04:24:58 PM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 04:24:58 PM Merging all reduce results into a final file.
+12/01/2014 04:24:58 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 04:24:58 PM Finalizing the program execution. Cleaning up.
+12/01/2014 04:24:58 PM The program is successfully finished.
+12/01/2014 04:26:07 PM All user input validations are passed. We are set to go!
+12/01/2014 04:26:07 PM Running the framework...
+12/01/2014 04:26:07 PM The initial number of running processes is 3.
+12/01/2014 04:26:07 PM Creating a map_reduce job for twit_data105.json file. Mapper and reducer are given by user.
+12/01/2014 04:26:07 PM Partitioning twit_data105.json into 3 chunks.
+12/01/2014 04:26:07 PM Creating a map_reduce job for twit_data105_1.json file. Mapper and reducer are given by user.
+12/01/2014 04:26:07 PM Creating a map_reduce job for twit_data105_2.json file. Mapper and reducer are given by user.
+12/01/2014 04:26:07 PM Partitioning twit_data105_1.json into 3 chunks.
+12/01/2014 04:26:07 PM Partitioning twit_data105_2.json into 3 chunks.
+12/01/2014 04:26:13 PM All user input validations are passed. We are set to go!
+12/01/2014 04:26:13 PM Running the framework...
+12/01/2014 04:26:13 PM The initial number of running processes is 3.
+12/01/2014 04:26:13 PM Creating a map_reduce job for twit_data105_1.json file. Mapper and reducer are given by user.
+12/01/2014 04:26:13 PM Creating a map_reduce job for twit_data105.json file. Mapper and reducer are given by user.
+12/01/2014 04:26:13 PM Partitioning twit_data105.json into 3 chunks.
+12/01/2014 04:26:13 PM Partitioning twit_data105_1.json into 3 chunks.
+12/01/2014 04:26:13 PM Creating a map_reduce job for twit_data105_2.json file. Mapper and reducer are given by user.
+12/01/2014 04:26:13 PM Partitioning twit_data105_2.json into 3 chunks.
+12/01/2014 04:26:46 PM Creating a pool of 3 subprocess workers.
+12/01/2014 04:26:46 PM Started the map phase for twit_data105.json chunk #0.
+12/01/2014 04:26:46 PM Started the map phase for twit_data105.json chunk #1.
+12/01/2014 04:26:46 PM Started the map phase for twit_data105.json chunk #2.
+12/01/2014 04:26:46 PM Creating a pool of 3 subprocess workers.
+12/01/2014 04:26:46 PM Started the map phase for twit_data105_2.json chunk #1.
+12/01/2014 04:26:46 PM Started the map phase for twit_data105_2.json chunk #0.
+12/01/2014 04:26:46 PM Started the map phase for twit_data105_2.json chunk #2.
+12/01/2014 04:26:47 PM Creating a pool of 3 subprocess workers.
+12/01/2014 04:26:47 PM Started the map phase for twit_data105_1.json chunk #0.
+12/01/2014 04:26:47 PM Started the map phase for twit_data105_1.json chunk #1.
+12/01/2014 04:26:47 PM Started the map phase for twit_data105_1.json chunk #2.
+12/01/2014 04:26:49 PM Writing the map results for twit_data105.json chunk #1.
+12/01/2014 04:26:49 PM Writing the map results for twit_data105.json chunk #2.
+12/01/2014 04:26:49 PM Writing the map results for twit_data105.json chunk #0.
+12/01/2014 04:26:49 PM Writing the intermediate results for twit_data105.json chunk #1.
+12/01/2014 04:26:49 PM Writing the intermediate results for twit_data105.json chunk #0.
+12/01/2014 04:26:49 PM Writing the intermediate results for twit_data105.json chunk #2.
+12/01/2014 04:26:49 PM Writing the map results for twit_data105_2.json chunk #1.
+12/01/2014 04:26:49 PM Writing the map results for twit_data105_2.json chunk #2.
+12/01/2014 04:26:49 PM Writing the map results for twit_data105_2.json chunk #0.
+12/01/2014 04:26:49 PM Writing the intermediate results for twit_data105_2.json chunk #1.
+12/01/2014 04:26:49 PM Writing the intermediate results for twit_data105_2.json chunk #0.
+12/01/2014 04:26:49 PM Writing the intermediate results for twit_data105_2.json chunk #2.
+12/01/2014 04:26:49 PM Writing the map results for twit_data105_1.json chunk #1.
+12/01/2014 04:26:49 PM Writing the map results for twit_data105_1.json chunk #2.
+12/01/2014 04:26:49 PM Writing the map results for twit_data105_1.json chunk #0.
+12/01/2014 04:26:49 PM Writing the intermediate results for twit_data105_1.json chunk #1.
+12/01/2014 04:26:49 PM Writing the intermediate results for twit_data105_1.json chunk #0.
+12/01/2014 04:26:49 PM Writing the intermediate results for twit_data105_1.json chunk #2.
+12/01/2014 04:26:49 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 04:26:49 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 04:26:49 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 04:26:49 PM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 04:26:49 PM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 04:26:49 PM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 04:26:49 PM Merging all reduce results into a final file.
+12/01/2014 04:26:49 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 04:26:49 PM Finalizing the program execution. Cleaning up.
+12/01/2014 04:26:49 PM The program is successfully finished.
+12/01/2014 04:28:26 PM All user input validations are passed. We are set to go!
+12/01/2014 04:28:26 PM Running the framework...
+12/01/2014 04:28:26 PM The initial number of running processes is 5.
+12/01/2014 04:28:26 PM Creating a map_reduce job for twit_data105.json file. Mapper and reducer are given by user.
+12/01/2014 04:28:26 PM Creating a map_reduce job for twit_data105_1.json file. Mapper and reducer are given by user.
+12/01/2014 04:28:26 PM Creating a map_reduce job for twit_data105_3.json file. Mapper and reducer are given by user.
+12/01/2014 04:28:26 PM Partitioning twit_data105.json into 5 chunks.
+12/01/2014 04:28:26 PM Partitioning twit_data105_3.json into 5 chunks.
+12/01/2014 04:28:26 PM Partitioning twit_data105_1.json into 5 chunks.
+12/01/2014 04:28:26 PM Creating a map_reduce job for twit_data105_2.json file. Mapper and reducer are given by user.
+12/01/2014 04:28:26 PM Partitioning twit_data105_2.json into 5 chunks.
+12/01/2014 04:28:26 PM Creating a map_reduce job for twit_data105_4.json file. Mapper and reducer are given by user.
+12/01/2014 04:28:26 PM Partitioning twit_data105_4.json into 5 chunks.
+12/01/2014 04:29:22 PM Creating a pool of 5 subprocess workers.
+12/01/2014 04:29:22 PM Started the map phase for twit_data105_4.json chunk #2.
+12/01/2014 04:29:22 PM Started the map phase for twit_data105_4.json chunk #3.
+12/01/2014 04:29:22 PM Started the map phase for twit_data105_4.json chunk #1.
+12/01/2014 04:29:22 PM Started the map phase for twit_data105_4.json chunk #0.
+12/01/2014 04:29:22 PM Started the map phase for twit_data105_4.json chunk #4.
+12/01/2014 04:29:22 PM Creating a pool of 5 subprocess workers.
+12/01/2014 04:29:22 PM Started the map phase for twit_data105_1.json chunk #2.
+12/01/2014 04:29:22 PM Started the map phase for twit_data105_1.json chunk #1.
+12/01/2014 04:29:22 PM Started the map phase for twit_data105_1.json chunk #3.
+12/01/2014 04:29:22 PM Started the map phase for twit_data105_1.json chunk #0.
+12/01/2014 04:29:22 PM Started the map phase for twit_data105_1.json chunk #4.
+12/01/2014 04:29:22 PM Creating a pool of 5 subprocess workers.
+12/01/2014 04:29:22 PM Started the map phase for twit_data105_2.json chunk #0.
+12/01/2014 04:29:22 PM Started the map phase for twit_data105_2.json chunk #2.
+12/01/2014 04:29:22 PM Started the map phase for twit_data105_2.json chunk #3.
+12/01/2014 04:29:22 PM Started the map phase for twit_data105_2.json chunk #1.
+12/01/2014 04:29:22 PM Started the map phase for twit_data105_2.json chunk #4.
+12/01/2014 04:29:23 PM Creating a pool of 5 subprocess workers.
+12/01/2014 04:29:23 PM Started the map phase for twit_data105.json chunk #1.
+12/01/2014 04:29:23 PM Started the map phase for twit_data105.json chunk #2.
+12/01/2014 04:29:23 PM Started the map phase for twit_data105.json chunk #3.
+12/01/2014 04:29:23 PM Started the map phase for twit_data105.json chunk #0.
+12/01/2014 04:29:23 PM Started the map phase for twit_data105.json chunk #4.
+12/01/2014 04:29:23 PM Creating a pool of 5 subprocess workers.
+12/01/2014 04:29:23 PM Started the map phase for twit_data105_3.json chunk #1.
+12/01/2014 04:29:23 PM Started the map phase for twit_data105_3.json chunk #0.
+12/01/2014 04:29:23 PM Started the map phase for twit_data105_3.json chunk #3.
+12/01/2014 04:29:23 PM Started the map phase for twit_data105_3.json chunk #2.
+12/01/2014 04:29:23 PM Started the map phase for twit_data105_3.json chunk #4.
+12/01/2014 04:29:27 PM Writing the map results for twit_data105_4.json chunk #2.
+12/01/2014 04:29:27 PM Writing the map results for twit_data105_4.json chunk #4.
+12/01/2014 04:29:27 PM Writing the map results for twit_data105_4.json chunk #3.
+12/01/2014 04:29:27 PM Writing the map results for twit_data105_4.json chunk #1.
+12/01/2014 04:29:27 PM Writing the map results for twit_data105_4.json chunk #0.
+12/01/2014 04:29:27 PM Writing the intermediate results for twit_data105_4.json chunk #0.
+12/01/2014 04:29:27 PM Writing the intermediate results for twit_data105_4.json chunk #1.
+12/01/2014 04:29:27 PM Writing the intermediate results for twit_data105_4.json chunk #2.
+12/01/2014 04:29:27 PM Writing the intermediate results for twit_data105_4.json chunk #3.
+12/01/2014 04:29:27 PM Writing the intermediate results for twit_data105_4.json chunk #4.
+12/01/2014 04:29:27 PM Writing the map results for twit_data105_1.json chunk #4.
+12/01/2014 04:29:27 PM Writing the map results for twit_data105_1.json chunk #0.
+12/01/2014 04:29:27 PM Writing the map results for twit_data105_1.json chunk #2.
+12/01/2014 04:29:27 PM Writing the map results for twit_data105_1.json chunk #3.
+12/01/2014 04:29:28 PM Writing the map results for twit_data105_1.json chunk #1.
+12/01/2014 04:29:28 PM Writing the intermediate results for twit_data105_1.json chunk #0.
+12/01/2014 04:29:28 PM Writing the intermediate results for twit_data105_1.json chunk #1.
+12/01/2014 04:29:28 PM Writing the intermediate results for twit_data105_1.json chunk #2.
+12/01/2014 04:29:28 PM Writing the intermediate results for twit_data105_1.json chunk #3.
+12/01/2014 04:29:28 PM Writing the intermediate results for twit_data105_1.json chunk #4.
+12/01/2014 04:29:28 PM Writing the map results for twit_data105_2.json chunk #4.
+12/01/2014 04:29:28 PM Writing the map results for twit_data105_2.json chunk #2.
+12/01/2014 04:29:28 PM Writing the map results for twit_data105_2.json chunk #3.
+12/01/2014 04:29:28 PM Writing the map results for twit_data105_2.json chunk #1.
+12/01/2014 04:29:28 PM Writing the map results for twit_data105_2.json chunk #0.
+12/01/2014 04:29:28 PM Writing the map results for twit_data105.json chunk #2.
+12/01/2014 04:29:28 PM Writing the intermediate results for twit_data105_2.json chunk #0.
+12/01/2014 04:29:28 PM Writing the intermediate results for twit_data105_2.json chunk #1.
+12/01/2014 04:29:28 PM Writing the intermediate results for twit_data105_2.json chunk #2.
+12/01/2014 04:29:28 PM Writing the intermediate results for twit_data105_2.json chunk #3.
+12/01/2014 04:29:28 PM Writing the intermediate results for twit_data105_2.json chunk #4.
+12/01/2014 04:29:28 PM Writing the map results for twit_data105.json chunk #0.
+12/01/2014 04:29:28 PM Writing the map results for twit_data105.json chunk #3.
+12/01/2014 04:29:28 PM Writing the map results for twit_data105.json chunk #4.
+12/01/2014 04:29:28 PM Writing the map results for twit_data105.json chunk #1.
+12/01/2014 04:29:28 PM Writing the intermediate results for twit_data105.json chunk #1.
+12/01/2014 04:29:28 PM Writing the intermediate results for twit_data105.json chunk #2.
+12/01/2014 04:29:28 PM Writing the intermediate results for twit_data105.json chunk #0.
+12/01/2014 04:29:28 PM Writing the intermediate results for twit_data105.json chunk #3.
+12/01/2014 04:29:28 PM Writing the intermediate results for twit_data105.json chunk #4.
+12/01/2014 04:29:28 PM Writing the map results for twit_data105_3.json chunk #2.
+12/01/2014 04:29:28 PM Writing the map results for twit_data105_3.json chunk #4.
+12/01/2014 04:29:28 PM Writing the map results for twit_data105_3.json chunk #3.
+12/01/2014 04:29:28 PM Writing the map results for twit_data105_3.json chunk #1.
+12/01/2014 04:29:28 PM Writing the map results for twit_data105_3.json chunk #0.
+12/01/2014 04:29:28 PM Writing the intermediate results for twit_data105_3.json chunk #0.
+12/01/2014 04:29:28 PM Writing the intermediate results for twit_data105_3.json chunk #1.
+12/01/2014 04:29:28 PM Writing the intermediate results for twit_data105_3.json chunk #3.
+12/01/2014 04:29:28 PM Writing the intermediate results for twit_data105_3.json chunk #2.
+12/01/2014 04:29:28 PM Writing the intermediate results for twit_data105_3.json chunk #4.
+12/01/2014 04:29:29 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 04:29:29 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 04:29:29 PM Started the intermediate phase for #inter-shuffled #3.
+12/01/2014 04:29:29 PM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 04:29:29 PM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 04:29:29 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 04:29:29 PM Writing the reduce results for #inter-shuffled #3.
+12/01/2014 04:29:29 PM Started the intermediate phase for #inter-shuffled #4.
+12/01/2014 04:29:29 PM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 04:29:29 PM Writing the reduce results for #inter-shuffled #4.
+12/01/2014 04:29:29 PM Merging all reduce results into a final file.
+12/01/2014 04:29:29 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 04:29:29 PM Finalizing the program execution. Cleaning up.
+12/01/2014 04:29:29 PM The program is successfully finished.
+12/01/2014 04:47:39 PM All user input validations are passed. We are set to go!
+12/01/2014 04:47:39 PM Running the framework...
+12/01/2014 04:47:39 PM The initial number of running processes is 1.
+12/01/2014 04:47:39 PM Creating a map_reduce job for sheet35.csv file. Mapper and reducer are given by user.
+12/01/2014 04:47:39 PM Partitioning sheet35.csv into 3 chunks.
+12/01/2014 04:47:55 PM Creating a pool of 3 subprocess workers.
+12/01/2014 04:47:55 PM Started the map phase for sheet35.csv chunk #1.
+12/01/2014 04:47:55 PM Started the map phase for sheet35.csv chunk #0.
+12/01/2014 04:47:55 PM Started the map phase for sheet35.csv chunk #2.
+12/01/2014 04:47:59 PM Writing the map results for sheet35.csv chunk #0.
+12/01/2014 04:47:59 PM Writing the map results for sheet35.csv chunk #2.
+12/01/2014 04:47:59 PM Writing the map results for sheet35.csv chunk #1.
+12/01/2014 04:51:14 PM All user input validations are passed. We are set to go!
+12/01/2014 04:51:14 PM Running the framework...
+12/01/2014 04:51:14 PM The initial number of running processes is 1.
+12/01/2014 04:51:14 PM Creating a map_reduce job for sheet35.csv file. Mapper and reducer are given by user.
+12/01/2014 04:51:14 PM Partitioning sheet35.csv into 3 chunks.
+12/01/2014 04:51:34 PM Creating a pool of 3 subprocess workers.
+12/01/2014 04:51:34 PM Started the map phase for sheet35.csv chunk #1.
+12/01/2014 04:51:34 PM Started the map phase for sheet35.csv chunk #0.
+12/01/2014 04:51:34 PM Started the map phase for sheet35.csv chunk #2.
+12/01/2014 04:51:39 PM Writing the map results for sheet35.csv chunk #0.
+12/01/2014 04:51:39 PM Writing the map results for sheet35.csv chunk #2.
+12/01/2014 04:51:39 PM Writing the map results for sheet35.csv chunk #1.
+12/01/2014 04:51:39 PM Writing the intermediate results for sheet35.csv chunk #0.
+12/01/2014 04:51:39 PM Writing the intermediate results for sheet35.csv chunk #1.
+12/01/2014 04:51:39 PM Writing the intermediate results for sheet35.csv chunk #2.
+12/01/2014 04:51:39 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 04:51:39 PM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 04:51:39 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 04:51:39 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 04:53:30 PM All user input validations are passed. We are set to go!
+12/01/2014 04:53:30 PM Running the framework...
+12/01/2014 04:53:30 PM The initial number of running processes is 1.
+12/01/2014 04:53:30 PM Creating a map_reduce job for sheet35.csv file. Mapper and reducer are given by user.
+12/01/2014 04:53:30 PM Partitioning sheet35.csv into 3 chunks.
+12/01/2014 04:53:45 PM Creating a pool of 3 subprocess workers.
+12/01/2014 04:53:45 PM Started the map phase for sheet35.csv chunk #0.
+12/01/2014 04:53:45 PM Started the map phase for sheet35.csv chunk #1.
+12/01/2014 04:53:45 PM Started the map phase for sheet35.csv chunk #2.
+12/01/2014 04:53:49 PM Writing the map results for sheet35.csv chunk #0.
+12/01/2014 04:53:49 PM Writing the map results for sheet35.csv chunk #1.
+12/01/2014 04:53:49 PM Writing the map results for sheet35.csv chunk #2.
+12/01/2014 04:53:49 PM Writing the intermediate results for sheet35.csv chunk #0.
+12/01/2014 04:53:49 PM Writing the intermediate results for sheet35.csv chunk #1.
+12/01/2014 04:53:49 PM Writing the intermediate results for sheet35.csv chunk #2.
+12/01/2014 04:53:49 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 04:53:49 PM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 04:53:49 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 04:53:49 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 04:55:40 PM All user input validations are passed. We are set to go!
+12/01/2014 04:55:40 PM Running the framework...
+12/01/2014 04:55:40 PM The initial number of running processes is 1.
+12/01/2014 04:55:40 PM Creating a map_reduce job for sheet35.csv file. Mapper and reducer are given by user.
+12/01/2014 04:55:40 PM Partitioning sheet35.csv into 3 chunks.
+12/01/2014 04:55:56 PM Creating a pool of 3 subprocess workers.
+12/01/2014 04:55:56 PM Started the map phase for sheet35.csv chunk #0.
+12/01/2014 04:55:56 PM Started the map phase for sheet35.csv chunk #1.
+12/01/2014 04:55:56 PM Started the map phase for sheet35.csv chunk #2.
+12/01/2014 04:56:01 PM Writing the map results for sheet35.csv chunk #0.
+12/01/2014 04:56:01 PM Writing the map results for sheet35.csv chunk #1.
+12/01/2014 04:56:01 PM Writing the map results for sheet35.csv chunk #2.
+12/01/2014 04:56:01 PM Writing the intermediate results for sheet35.csv chunk #0.
+12/01/2014 04:56:01 PM Writing the intermediate results for sheet35.csv chunk #2.
+12/01/2014 04:56:01 PM Writing the intermediate results for sheet35.csv chunk #1.
+12/01/2014 04:56:01 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 04:56:01 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 04:56:01 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 04:57:54 PM All user input validations are passed. We are set to go!
+12/01/2014 04:57:54 PM Running the framework...
+12/01/2014 04:57:54 PM The initial number of running processes is 1.
+12/01/2014 04:57:54 PM Creating a map_reduce job for sheet35.csv file. Mapper and reducer are given by user.
+12/01/2014 04:57:54 PM Partitioning sheet35.csv into 3 chunks.
+12/01/2014 04:58:10 PM Creating a pool of 3 subprocess workers.
+12/01/2014 04:58:10 PM Started the map phase for sheet35.csv chunk #0.
+12/01/2014 04:58:10 PM Started the map phase for sheet35.csv chunk #1.
+12/01/2014 04:58:10 PM Started the map phase for sheet35.csv chunk #2.
+12/01/2014 04:58:14 PM Writing the map results for sheet35.csv chunk #2.
+12/01/2014 04:58:14 PM Writing the map results for sheet35.csv chunk #0.
+12/01/2014 04:58:14 PM Writing the map results for sheet35.csv chunk #1.
+12/01/2014 04:58:14 PM Writing the intermediate results for sheet35.csv chunk #2.
+12/01/2014 04:58:14 PM Writing the intermediate results for sheet35.csv chunk #0.
+12/01/2014 04:58:14 PM Writing the intermediate results for sheet35.csv chunk #1.
+12/01/2014 04:58:14 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 04:58:14 PM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 04:58:14 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 04:58:14 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 04:58:55 PM All user input validations are passed. We are set to go!
+12/01/2014 04:58:55 PM Running the framework...
+12/01/2014 04:58:55 PM The initial number of running processes is 1.
+12/01/2014 04:58:55 PM Creating a map_reduce job for sheet35.csv file. Mapper and reducer are given by user.
+12/01/2014 04:58:55 PM Partitioning sheet35.csv into 3 chunks.
+12/01/2014 04:59:11 PM Creating a pool of 3 subprocess workers.
+12/01/2014 04:59:11 PM Started the map phase for sheet35.csv chunk #0.
+12/01/2014 04:59:11 PM Started the map phase for sheet35.csv chunk #1.
+12/01/2014 04:59:11 PM Started the map phase for sheet35.csv chunk #2.
+12/01/2014 04:59:14 PM Writing the map results for sheet35.csv chunk #0.
+12/01/2014 04:59:15 PM Writing the map results for sheet35.csv chunk #2.
+12/01/2014 04:59:15 PM Writing the map results for sheet35.csv chunk #1.
+12/01/2014 04:59:15 PM Writing the intermediate results for sheet35.csv chunk #0.
+12/01/2014 04:59:15 PM Writing the intermediate results for sheet35.csv chunk #1.
+12/01/2014 04:59:15 PM Writing the intermediate results for sheet35.csv chunk #2.
+12/01/2014 04:59:15 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 04:59:15 PM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 04:59:15 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 04:59:15 PM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 04:59:15 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 04:59:15 PM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 04:59:15 PM Merging all reduce results into a final file.
+12/01/2014 04:59:15 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 04:59:15 PM Finalizing the program execution. Cleaning up.
+12/01/2014 04:59:15 PM The program is successfully finished.
+12/01/2014 05:00:32 PM All user input validations are passed. We are set to go!
+12/01/2014 05:00:32 PM Running the framework...
+12/01/2014 05:00:32 PM The initial number of running processes is 1.
+12/01/2014 05:00:32 PM Creating a map_reduce job for sheet35.csv file. Mapper and reducer are given by user.
+12/01/2014 05:00:32 PM Partitioning sheet35.csv into 3 chunks.
+12/01/2014 05:00:47 PM Creating a pool of 3 subprocess workers.
+12/01/2014 05:00:47 PM Started the map phase for sheet35.csv chunk #0.
+12/01/2014 05:00:47 PM Started the map phase for sheet35.csv chunk #1.
+12/01/2014 05:00:47 PM Started the map phase for sheet35.csv chunk #2.
+12/01/2014 05:00:51 PM Writing the map results for sheet35.csv chunk #1.
+12/01/2014 05:00:51 PM Writing the map results for sheet35.csv chunk #0.
+12/01/2014 05:00:51 PM Writing the map results for sheet35.csv chunk #2.
+12/01/2014 05:00:51 PM Writing the intermediate results for sheet35.csv chunk #0.
+12/01/2014 05:00:51 PM Writing the intermediate results for sheet35.csv chunk #1.
+12/01/2014 05:00:51 PM Writing the intermediate results for sheet35.csv chunk #2.
+12/01/2014 05:00:51 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 05:00:51 PM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 05:00:51 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 05:00:51 PM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 05:00:51 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 05:00:51 PM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 05:00:51 PM Merging all reduce results into a final file.
+12/01/2014 05:00:51 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 05:00:51 PM Finalizing the program execution. Cleaning up.
+12/01/2014 05:00:51 PM The program is successfully finished.
+12/01/2014 05:01:43 PM All user input validations are passed. We are set to go!
+12/01/2014 05:01:43 PM Running the framework...
+12/01/2014 05:01:43 PM The initial number of running processes is 3.
+12/01/2014 05:01:43 PM Creating a map_reduce job for sheet35.csv file. Mapper and reducer are given by user.
+12/01/2014 05:01:43 PM Partitioning sheet35.csv into 3 chunks.
+12/01/2014 05:01:43 PM Creating a map_reduce job for sheet35_1.csv file. Mapper and reducer are given by user.
+12/01/2014 05:01:43 PM Partitioning sheet35_1.csv into 3 chunks.
+12/01/2014 05:01:43 PM Creating a map_reduce job for sheet35_2.csv file. Mapper and reducer are given by user.
+12/01/2014 05:01:43 PM Partitioning sheet35_2.csv into 3 chunks.
+12/01/2014 05:02:09 PM Creating a pool of 3 subprocess workers.
+12/01/2014 05:02:09 PM Started the map phase for sheet35.csv chunk #1.
+12/01/2014 05:02:09 PM Started the map phase for sheet35.csv chunk #2.
+12/01/2014 05:02:09 PM Started the map phase for sheet35.csv chunk #0.
+12/01/2014 05:02:10 PM Creating a pool of 3 subprocess workers.
+12/01/2014 05:02:10 PM Started the map phase for sheet35_2.csv chunk #0.
+12/01/2014 05:02:10 PM Started the map phase for sheet35_2.csv chunk #2.
+12/01/2014 05:02:10 PM Started the map phase for sheet35_2.csv chunk #1.
+12/01/2014 05:02:10 PM Creating a pool of 3 subprocess workers.
+12/01/2014 05:02:10 PM Started the map phase for sheet35_1.csv chunk #0.
+12/01/2014 05:02:10 PM Started the map phase for sheet35_1.csv chunk #1.
+12/01/2014 05:02:10 PM Started the map phase for sheet35_1.csv chunk #2.
+12/01/2014 05:02:20 PM Writing the map results for sheet35.csv chunk #0.
+12/01/2014 05:02:20 PM Writing the map results for sheet35.csv chunk #2.
+12/01/2014 05:02:20 PM Writing the map results for sheet35.csv chunk #1.
+12/01/2014 05:02:20 PM Writing the intermediate results for sheet35.csv chunk #0.
+12/01/2014 05:02:20 PM Writing the intermediate results for sheet35.csv chunk #1.
+12/01/2014 05:02:20 PM Writing the intermediate results for sheet35.csv chunk #2.
+12/01/2014 05:02:21 PM Writing the map results for sheet35_2.csv chunk #1.
+12/01/2014 05:02:21 PM Writing the map results for sheet35_2.csv chunk #2.
+12/01/2014 05:02:21 PM Writing the map results for sheet35_2.csv chunk #0.
+12/01/2014 05:02:21 PM Writing the intermediate results for sheet35_2.csv chunk #0.
+12/01/2014 05:02:21 PM Writing the intermediate results for sheet35_2.csv chunk #2.
+12/01/2014 05:02:21 PM Writing the intermediate results for sheet35_2.csv chunk #1.
+12/01/2014 05:02:21 PM Writing the map results for sheet35_1.csv chunk #1.
+12/01/2014 05:02:21 PM Writing the map results for sheet35_1.csv chunk #0.
+12/01/2014 05:02:21 PM Writing the map results for sheet35_1.csv chunk #2.
+12/01/2014 05:02:21 PM Writing the intermediate results for sheet35_1.csv chunk #0.
+12/01/2014 05:02:21 PM Writing the intermediate results for sheet35_1.csv chunk #1.
+12/01/2014 05:02:21 PM Writing the intermediate results for sheet35_1.csv chunk #2.
+12/01/2014 05:02:21 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 05:02:21 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 05:02:21 PM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 05:02:21 PM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 05:02:21 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 05:02:21 PM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 05:02:21 PM Merging all reduce results into a final file.
+12/01/2014 05:02:21 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 05:02:21 PM Finalizing the program execution. Cleaning up.
+12/01/2014 05:02:21 PM The program is successfully finished.
+12/01/2014 05:10:22 PM All user input validations are passed. We are set to go!
+12/01/2014 05:10:22 PM Running the framework...
+12/01/2014 05:10:22 PM The initial number of running processes is 3.
+12/01/2014 05:10:22 PM Creating a map_reduce job for sheet35_1.csv file. Mapper and reducer are given by user.
+12/01/2014 05:10:22 PM Creating a map_reduce job for sheet35.csv file. Mapper and reducer are given by user.
+12/01/2014 05:10:22 PM Partitioning sheet35_1.csv into 3 chunks.
+12/01/2014 05:10:22 PM Partitioning sheet35.csv into 3 chunks.
+12/01/2014 05:10:22 PM Creating a map_reduce job for sheet35_2.csv file. Mapper and reducer are given by user.
+12/01/2014 05:10:22 PM Partitioning sheet35_2.csv into 3 chunks.
+12/01/2014 05:10:52 PM Creating a pool of 3 subprocess workers.
+12/01/2014 05:10:52 PM Started the map phase for sheet35_1.csv chunk #0.
+12/01/2014 05:10:52 PM Started the map phase for sheet35_1.csv chunk #1.
+12/01/2014 05:10:52 PM Started the map phase for sheet35_1.csv chunk #2.
+12/01/2014 05:10:52 PM Creating a pool of 3 subprocess workers.
+12/01/2014 05:10:52 PM Started the map phase for sheet35.csv chunk #0.
+12/01/2014 05:10:52 PM Started the map phase for sheet35.csv chunk #1.
+12/01/2014 05:10:52 PM Started the map phase for sheet35.csv chunk #2.
+12/01/2014 05:10:52 PM Creating a pool of 3 subprocess workers.
+12/01/2014 05:10:52 PM Started the map phase for sheet35_2.csv chunk #0.
+12/01/2014 05:10:52 PM Started the map phase for sheet35_2.csv chunk #1.
+12/01/2014 05:10:52 PM Started the map phase for sheet35_2.csv chunk #2.
+12/01/2014 05:11:05 PM Writing the map results for sheet35_1.csv chunk #0.
+12/01/2014 05:11:05 PM Writing the map results for sheet35_1.csv chunk #2.
+12/01/2014 05:11:05 PM Writing the map results for sheet35_1.csv chunk #1.
+12/01/2014 05:11:05 PM Writing the intermediate results for sheet35_1.csv chunk #0.
+12/01/2014 05:11:05 PM Writing the intermediate results for sheet35_1.csv chunk #1.
+12/01/2014 05:11:05 PM Writing the intermediate results for sheet35_1.csv chunk #2.
+12/01/2014 05:11:05 PM Writing the map results for sheet35_2.csv chunk #1.
+12/01/2014 05:11:05 PM Writing the map results for sheet35.csv chunk #2.
+12/01/2014 05:11:05 PM Writing the map results for sheet35.csv chunk #0.
+12/01/2014 05:11:05 PM Writing the map results for sheet35_2.csv chunk #2.
+12/01/2014 05:11:05 PM Writing the map results for sheet35.csv chunk #1.
+12/01/2014 05:11:05 PM Writing the intermediate results for sheet35.csv chunk #0.
+12/01/2014 05:11:05 PM Writing the intermediate results for sheet35.csv chunk #2.
+12/01/2014 05:11:05 PM Writing the intermediate results for sheet35.csv chunk #1.
+12/01/2014 05:11:05 PM Writing the map results for sheet35_2.csv chunk #0.
+12/01/2014 05:11:05 PM Writing the intermediate results for sheet35_2.csv chunk #0.
+12/01/2014 05:11:05 PM Writing the intermediate results for sheet35_2.csv chunk #2.
+12/01/2014 05:11:05 PM Writing the intermediate results for sheet35_2.csv chunk #1.
+12/01/2014 05:11:05 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 05:11:05 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 05:11:05 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 05:11:05 PM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 05:11:05 PM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 05:11:05 PM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 05:11:05 PM Merging all reduce results into a final file.
+12/01/2014 05:11:05 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 05:11:05 PM Finalizing the program execution. Cleaning up.
+12/01/2014 05:11:05 PM The program is successfully finished.
+12/01/2014 05:11:15 PM All user input validations are passed. We are set to go!
+12/01/2014 05:11:15 PM Running the framework...
+12/01/2014 05:11:15 PM The initial number of running processes is 3.
+12/01/2014 05:11:15 PM Creating a map_reduce job for sheet35.csv file. Mapper and reducer are given by user.
+12/01/2014 05:11:15 PM Partitioning sheet35.csv into 3 chunks.
+12/01/2014 05:11:15 PM Creating a map_reduce job for sheet35_1.csv file. Mapper and reducer are given by user.
+12/01/2014 05:11:15 PM Partitioning sheet35_1.csv into 3 chunks.
+12/01/2014 05:11:15 PM Creating a map_reduce job for sheet35_2.csv file. Mapper and reducer are given by user.
+12/01/2014 05:11:15 PM Partitioning sheet35_2.csv into 3 chunks.
+12/01/2014 05:11:41 PM Creating a pool of 3 subprocess workers.
+12/01/2014 05:11:41 PM Started the map phase for sheet35_1.csv chunk #1.
+12/01/2014 05:11:41 PM Started the map phase for sheet35_1.csv chunk #2.
+12/01/2014 05:11:41 PM Started the map phase for sheet35_1.csv chunk #0.
+12/01/2014 05:11:41 PM Creating a pool of 3 subprocess workers.
+12/01/2014 05:11:41 PM Started the map phase for sheet35.csv chunk #0.
+12/01/2014 05:11:41 PM Started the map phase for sheet35.csv chunk #1.
+12/01/2014 05:11:41 PM Started the map phase for sheet35.csv chunk #2.
+12/01/2014 05:11:42 PM Creating a pool of 3 subprocess workers.
+12/01/2014 05:11:42 PM Started the map phase for sheet35_2.csv chunk #0.
+12/01/2014 05:11:42 PM Started the map phase for sheet35_2.csv chunk #1.
+12/01/2014 05:11:42 PM Started the map phase for sheet35_2.csv chunk #2.
+12/01/2014 05:11:51 PM Writing the map results for sheet35_1.csv chunk #2.
+12/01/2014 05:11:51 PM Writing the map results for sheet35_1.csv chunk #0.
+12/01/2014 05:11:51 PM Writing the map results for sheet35_1.csv chunk #1.
+12/01/2014 05:11:51 PM Writing the intermediate results for sheet35_1.csv chunk #0.
+12/01/2014 05:11:51 PM Writing the intermediate results for sheet35_1.csv chunk #2.
+12/01/2014 05:11:51 PM Writing the intermediate results for sheet35_1.csv chunk #1.
+12/01/2014 05:11:52 PM Writing the map results for sheet35.csv chunk #0.
+12/01/2014 05:11:52 PM Writing the map results for sheet35.csv chunk #2.
+12/01/2014 05:11:52 PM Writing the map results for sheet35.csv chunk #1.
+12/01/2014 05:11:52 PM Writing the intermediate results for sheet35.csv chunk #0.
+12/01/2014 05:11:52 PM Writing the intermediate results for sheet35.csv chunk #1.
+12/01/2014 05:11:52 PM Writing the intermediate results for sheet35.csv chunk #2.
+12/01/2014 05:11:52 PM Writing the map results for sheet35_2.csv chunk #2.
+12/01/2014 05:11:52 PM Writing the map results for sheet35_2.csv chunk #1.
+12/01/2014 05:11:52 PM Writing the map results for sheet35_2.csv chunk #0.
+12/01/2014 05:11:52 PM Writing the intermediate results for sheet35_2.csv chunk #0.
+12/01/2014 05:11:52 PM Writing the intermediate results for sheet35_2.csv chunk #2.
+12/01/2014 05:11:52 PM Writing the intermediate results for sheet35_2.csv chunk #1.
+12/01/2014 05:11:52 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 05:11:52 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 05:11:52 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 05:11:52 PM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 05:11:52 PM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 05:11:52 PM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 05:11:52 PM Merging all reduce results into a final file.
+12/01/2014 05:11:52 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 05:11:52 PM Finalizing the program execution. Cleaning up.
+12/01/2014 05:11:52 PM The program is successfully finished.
+12/01/2014 05:12:21 PM All user input validations are passed. We are set to go!
+12/01/2014 05:12:21 PM Running the framework...
+12/01/2014 05:12:21 PM The initial number of running processes is 5.
+12/01/2014 05:12:21 PM Creating a map_reduce job for sheet35.csv file. Mapper and reducer are given by user.
+12/01/2014 05:12:21 PM Partitioning sheet35.csv into 5 chunks.
+12/01/2014 05:12:21 PM Creating a map_reduce job for sheet35_1.csv file. Mapper and reducer are given by user.
+12/01/2014 05:12:21 PM Creating a map_reduce job for sheet35_3.csv file. Mapper and reducer are given by user.
+12/01/2014 05:12:21 PM Partitioning sheet35_1.csv into 5 chunks.
+12/01/2014 05:12:21 PM Partitioning sheet35_3.csv into 5 chunks.
+12/01/2014 05:12:21 PM Creating a map_reduce job for sheet35_2.csv file. Mapper and reducer are given by user.
+12/01/2014 05:12:21 PM Partitioning sheet35_2.csv into 5 chunks.
+12/01/2014 05:12:21 PM Creating a map_reduce job for sheet35_4.csv file. Mapper and reducer are given by user.
+12/01/2014 05:12:21 PM Partitioning sheet35_4.csv into 5 chunks.
+12/01/2014 05:13:05 PM Creating a pool of 5 subprocess workers.
+12/01/2014 05:13:05 PM Started the map phase for sheet35_2.csv chunk #0.
+12/01/2014 05:13:05 PM Started the map phase for sheet35_2.csv chunk #2.
+12/01/2014 05:13:05 PM Started the map phase for sheet35_2.csv chunk #1.
+12/01/2014 05:13:05 PM Started the map phase for sheet35_2.csv chunk #3.
+12/01/2014 05:13:05 PM Started the map phase for sheet35_2.csv chunk #4.
+12/01/2014 05:13:05 PM Creating a pool of 5 subprocess workers.
+12/01/2014 05:13:05 PM Started the map phase for sheet35_3.csv chunk #0.
+12/01/2014 05:13:05 PM Started the map phase for sheet35_3.csv chunk #2.
+12/01/2014 05:13:05 PM Started the map phase for sheet35_3.csv chunk #1.
+12/01/2014 05:13:05 PM Started the map phase for sheet35_3.csv chunk #4.
+12/01/2014 05:13:05 PM Started the map phase for sheet35_3.csv chunk #3.
+12/01/2014 05:13:05 PM Creating a pool of 5 subprocess workers.
+12/01/2014 05:13:05 PM Creating a pool of 5 subprocess workers.
+12/01/2014 05:13:05 PM Started the map phase for sheet35_4.csv chunk #0.
+12/01/2014 05:13:05 PM Started the map phase for sheet35_4.csv chunk #1.
+12/01/2014 05:13:05 PM Started the map phase for sheet35_4.csv chunk #2.
+12/01/2014 05:13:05 PM Started the map phase for sheet35_4.csv chunk #3.
+12/01/2014 05:13:05 PM Started the map phase for sheet35_4.csv chunk #4.
+12/01/2014 05:13:05 PM Started the map phase for sheet35.csv chunk #1.
+12/01/2014 05:13:05 PM Started the map phase for sheet35.csv chunk #2.
+12/01/2014 05:13:05 PM Started the map phase for sheet35.csv chunk #3.
+12/01/2014 05:13:05 PM Started the map phase for sheet35.csv chunk #4.
+12/01/2014 05:13:05 PM Started the map phase for sheet35.csv chunk #0.
+12/01/2014 05:13:05 PM Creating a pool of 5 subprocess workers.
+12/01/2014 05:13:06 PM Started the map phase for sheet35_1.csv chunk #0.
+12/01/2014 05:13:06 PM Started the map phase for sheet35_1.csv chunk #1.
+12/01/2014 05:13:06 PM Started the map phase for sheet35_1.csv chunk #2.
+12/01/2014 05:13:06 PM Started the map phase for sheet35_1.csv chunk #3.
+12/01/2014 05:13:06 PM Started the map phase for sheet35_1.csv chunk #4.
+12/01/2014 05:13:24 PM Writing the map results for sheet35_2.csv chunk #0.
+12/01/2014 05:13:24 PM Writing the map results for sheet35_2.csv chunk #1.
+12/01/2014 05:13:24 PM Writing the map results for sheet35_2.csv chunk #2.
+12/01/2014 05:13:24 PM Writing the map results for sheet35_2.csv chunk #4.
+12/01/2014 05:13:24 PM Writing the map results for sheet35_2.csv chunk #3.
+12/01/2014 05:13:24 PM Writing the intermediate results for sheet35_2.csv chunk #0.
+12/01/2014 05:13:24 PM Writing the intermediate results for sheet35_2.csv chunk #1.
+12/01/2014 05:13:24 PM Writing the intermediate results for sheet35_2.csv chunk #2.
+12/01/2014 05:13:24 PM Writing the intermediate results for sheet35_2.csv chunk #4.
+12/01/2014 05:13:24 PM Writing the intermediate results for sheet35_2.csv chunk #3.
+12/01/2014 05:13:24 PM Writing the map results for sheet35_3.csv chunk #1.
+12/01/2014 05:13:24 PM Writing the map results for sheet35_3.csv chunk #4.
+12/01/2014 05:13:24 PM Writing the map results for sheet35_3.csv chunk #2.
+12/01/2014 05:13:24 PM Writing the map results for sheet35_3.csv chunk #3.
+12/01/2014 05:13:24 PM Writing the map results for sheet35_4.csv chunk #0.
+12/01/2014 05:13:24 PM Writing the map results for sheet35_3.csv chunk #0.
+12/01/2014 05:13:24 PM Writing the intermediate results for sheet35_3.csv chunk #1.
+12/01/2014 05:13:24 PM Writing the intermediate results for sheet35_3.csv chunk #2.
+12/01/2014 05:13:24 PM Writing the intermediate results for sheet35_3.csv chunk #3.
+12/01/2014 05:13:24 PM Writing the intermediate results for sheet35_3.csv chunk #4.
+12/01/2014 05:13:24 PM Writing the intermediate results for sheet35_3.csv chunk #0.
+12/01/2014 05:13:24 PM Writing the map results for sheet35.csv chunk #3.
+12/01/2014 05:13:24 PM Writing the map results for sheet35.csv chunk #2.
+12/01/2014 05:13:24 PM Writing the map results for sheet35_4.csv chunk #3.
+12/01/2014 05:13:24 PM Writing the map results for sheet35_4.csv chunk #1.
+12/01/2014 05:13:24 PM Writing the map results for sheet35.csv chunk #0.
+12/01/2014 05:13:24 PM Writing the map results for sheet35.csv chunk #1.
+12/01/2014 05:13:24 PM Writing the map results for sheet35.csv chunk #4.
+12/01/2014 05:13:24 PM Writing the intermediate results for sheet35.csv chunk #0.
+12/01/2014 05:13:24 PM Writing the intermediate results for sheet35.csv chunk #2.
+12/01/2014 05:13:24 PM Writing the intermediate results for sheet35.csv chunk #3.
+12/01/2014 05:13:24 PM Writing the intermediate results for sheet35.csv chunk #1.
+12/01/2014 05:13:24 PM Writing the intermediate results for sheet35.csv chunk #4.
+12/01/2014 05:13:24 PM Writing the map results for sheet35_1.csv chunk #4.
+12/01/2014 05:13:24 PM Writing the map results for sheet35_4.csv chunk #2.
+12/01/2014 05:13:24 PM Writing the map results for sheet35_4.csv chunk #4.
+12/01/2014 05:13:24 PM Writing the intermediate results for sheet35_4.csv chunk #0.
+12/01/2014 05:13:24 PM Writing the intermediate results for sheet35_4.csv chunk #1.
+12/01/2014 05:13:24 PM Writing the intermediate results for sheet35_4.csv chunk #2.
+12/01/2014 05:13:24 PM Writing the intermediate results for sheet35_4.csv chunk #3.
+12/01/2014 05:13:24 PM Writing the intermediate results for sheet35_4.csv chunk #4.
+12/01/2014 05:13:24 PM Writing the map results for sheet35_1.csv chunk #0.
+12/01/2014 05:13:25 PM Writing the map results for sheet35_1.csv chunk #3.
+12/01/2014 05:13:25 PM Writing the map results for sheet35_1.csv chunk #1.
+12/01/2014 05:13:25 PM Writing the map results for sheet35_1.csv chunk #2.
+12/01/2014 05:13:25 PM Writing the intermediate results for sheet35_1.csv chunk #0.
+12/01/2014 05:13:25 PM Writing the intermediate results for sheet35_1.csv chunk #1.
+12/01/2014 05:13:25 PM Writing the intermediate results for sheet35_1.csv chunk #2.
+12/01/2014 05:13:25 PM Writing the intermediate results for sheet35_1.csv chunk #3.
+12/01/2014 05:13:25 PM Writing the intermediate results for sheet35_1.csv chunk #4.
+12/01/2014 05:13:25 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 05:13:25 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 05:13:25 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 05:13:25 PM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 05:13:25 PM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 05:13:25 PM Started the intermediate phase for #inter-shuffled #3.
+12/01/2014 05:13:25 PM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 05:13:25 PM Writing the reduce results for #inter-shuffled #3.
+12/01/2014 05:13:25 PM Started the intermediate phase for #inter-shuffled #4.
+12/01/2014 05:13:25 PM Writing the reduce results for #inter-shuffled #4.
+12/01/2014 05:13:25 PM Merging all reduce results into a final file.
+12/01/2014 05:13:25 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 05:13:25 PM Finalizing the program execution. Cleaning up.
+12/01/2014 05:13:25 PM The program is successfully finished.
+12/01/2014 05:13:47 PM All user input validations are passed. We are set to go!
+12/01/2014 05:13:47 PM Running the framework...
+12/01/2014 05:13:47 PM The initial number of running processes is 1.
+12/01/2014 05:13:47 PM Creating a map_reduce job for sheet35.csv file. Mapper and reducer are given by user.
+12/01/2014 05:13:47 PM Partitioning sheet35.csv into 3 chunks.
+12/01/2014 05:14:03 PM Creating a pool of 3 subprocess workers.
+12/01/2014 05:14:03 PM Started the map phase for sheet35.csv chunk #0.
+12/01/2014 05:14:03 PM Started the map phase for sheet35.csv chunk #1.
+12/01/2014 05:14:03 PM Started the map phase for sheet35.csv chunk #2.
+12/01/2014 05:14:08 PM Writing the map results for sheet35.csv chunk #0.
+12/01/2014 05:14:08 PM Writing the map results for sheet35.csv chunk #1.
+12/01/2014 05:14:08 PM Writing the map results for sheet35.csv chunk #2.
+12/01/2014 05:14:08 PM Writing the intermediate results for sheet35.csv chunk #1.
+12/01/2014 05:14:08 PM Writing the intermediate results for sheet35.csv chunk #2.
+12/01/2014 05:14:08 PM Writing the intermediate results for sheet35.csv chunk #0.
+12/01/2014 05:14:08 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 05:14:08 PM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 05:14:08 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 05:14:08 PM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 05:14:08 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 05:14:08 PM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 05:14:08 PM Merging all reduce results into a final file.
+12/01/2014 05:14:08 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 05:14:08 PM Finalizing the program execution. Cleaning up.
+12/01/2014 05:14:08 PM The program is successfully finished.
+12/01/2014 05:14:15 PM All user input validations are passed. We are set to go!
+12/01/2014 05:14:15 PM Running the framework...
+12/01/2014 05:14:15 PM The initial number of running processes is 1.
+12/01/2014 05:14:15 PM Creating a map_reduce job for sheet35.csv file. Mapper and reducer are given by user.
+12/01/2014 05:14:15 PM Partitioning sheet35.csv into 3 chunks.
+12/01/2014 05:14:33 PM Creating a pool of 3 subprocess workers.
+12/01/2014 05:14:33 PM Started the map phase for sheet35.csv chunk #0.
+12/01/2014 05:14:33 PM Started the map phase for sheet35.csv chunk #1.
+12/01/2014 05:14:33 PM Started the map phase for sheet35.csv chunk #2.
+12/01/2014 05:14:37 PM Writing the map results for sheet35.csv chunk #0.
+12/01/2014 05:14:37 PM Writing the map results for sheet35.csv chunk #1.
+12/01/2014 05:14:37 PM Writing the map results for sheet35.csv chunk #2.
+12/01/2014 05:14:37 PM Writing the intermediate results for sheet35.csv chunk #0.
+12/01/2014 05:14:37 PM Writing the intermediate results for sheet35.csv chunk #1.
+12/01/2014 05:14:37 PM Writing the intermediate results for sheet35.csv chunk #2.
+12/01/2014 05:14:37 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 05:14:37 PM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 05:14:37 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 05:14:37 PM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 05:14:37 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 05:14:37 PM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 05:14:37 PM Merging all reduce results into a final file.
+12/01/2014 05:14:38 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 05:14:38 PM Finalizing the program execution. Cleaning up.
+12/01/2014 05:14:38 PM The program is successfully finished.
+12/01/2014 11:57:19 PM All user input validations are passed. We are set to go!
+12/01/2014 11:57:19 PM Running the framework...
+12/01/2014 11:57:19 PM The initial number of running processes is 1.
+12/01/2014 11:57:19 PM Creating a map_reduce job for sheet35.csv file. Mapper and reducer are given by user.
+12/01/2014 11:57:19 PM Partitioning sheet35.csv into 3 chunks.
+12/01/2014 11:57:37 PM Creating a pool of 3 subprocess workers.
+12/01/2014 11:57:37 PM Started the map phase for sheet35.csv chunk #0.
+12/01/2014 11:57:37 PM Started the map phase for sheet35.csv chunk #1.
+12/01/2014 11:57:37 PM Started the map phase for sheet35.csv chunk #2.
+12/01/2014 11:57:43 PM Writing the map results for sheet35.csv chunk #0.
+12/01/2014 11:57:43 PM Writing the map results for sheet35.csv chunk #1.
+12/01/2014 11:57:43 PM Writing the map results for sheet35.csv chunk #2.
+12/01/2014 11:57:43 PM Writing the intermediate results for sheet35.csv chunk #0.
+12/01/2014 11:57:43 PM Writing the intermediate results for sheet35.csv chunk #1.
+12/01/2014 11:57:43 PM Writing the intermediate results for sheet35.csv chunk #2.
+12/01/2014 11:57:43 PM Started the intermediate phase for #inter-shuffled #0.
+12/01/2014 11:57:43 PM Writing the reduce results for #inter-shuffled #0.
+12/01/2014 11:57:43 PM Started the intermediate phase for #inter-shuffled #1.
+12/01/2014 11:57:43 PM Writing the reduce results for #inter-shuffled #1.
+12/01/2014 11:57:43 PM Started the intermediate phase for #inter-shuffled #2.
+12/01/2014 11:57:43 PM Writing the reduce results for #inter-shuffled #2.
+12/01/2014 11:57:43 PM Merging all reduce results into a final file.
+12/01/2014 11:57:43 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/01/2014 11:57:43 PM Finalizing the program execution. Cleaning up.
+12/01/2014 11:57:43 PM The program is successfully finished.
