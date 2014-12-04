@@ -68,3 +68,471 @@
 12/04/2014 04:52:16 PM Merging is done. Generating the output map_reduce_output.txt file.
 12/04/2014 04:52:16 PM Finalizing the program execution. 			Generating the output. Cleaning up.
 12/04/2014 04:52:16 PM The program is successfully finished.
+12/04/2014 05:30:07 PM All user input validations are passed. We are set to go!
+12/04/2014 05:30:07 PM Running the framework...
+12/04/2014 05:30:07 PM The initial number of running processes is 1.
+12/04/2014 05:30:07 PM Partitioning twit_data105_2.json into 3 chunks.
+12/04/2014 05:30:29 PM Creating a pool of 3 subprocess workers.
+12/04/2014 05:30:29 PM Started the map phase for twit_data105_2.json chunk #1.
+12/04/2014 05:30:29 PM Started the map phase for twit_data105_2.json chunk #2.
+12/04/2014 05:30:29 PM Started the map phase for twit_data105_2.json chunk #0.
+12/04/2014 05:30:30 PM Finished the map phase for twit_data105_2.json chunk #1.
+12/04/2014 05:30:30 PM Serializing and writing the map results for twit_data105_2.json chunk #1.
+12/04/2014 05:30:30 PM Finished the map phase for twit_data105_2.json chunk #2.
+12/04/2014 05:30:30 PM Serializing and writing the map results for twit_data105_2.json chunk #2.
+12/04/2014 05:30:30 PM Finished the map phase for twit_data105_2.json chunk #0.
+12/04/2014 05:30:30 PM Serializing and writing the map results for twit_data105_2.json chunk #0.
+12/04/2014 05:30:30 PM Started the grouping phase for twit_data105_2.json chunk #0.
+12/04/2014 05:30:30 PM Started the grouping phase for twit_data105_2.json chunk #1.
+12/04/2014 05:30:30 PM Started the grouping phase for twit_data105_2.json chunk #2.
+12/04/2014 05:30:30 PM Master started the shuffle phase.
+12/04/2014 05:30:30 PM Chunk #inter-shuffled-0 was assigned to a reducer.
+12/04/2014 05:30:30 PM Serializing and writing the reduce results for #inter-shuffled #0.
+12/04/2014 05:30:30 PM Chunk #inter-shuffled-1 was assigned to a reducer.
+12/04/2014 05:30:30 PM Serializing and writing the reduce results for #inter-shuffled #1.
+12/04/2014 05:30:30 PM Chunk #inter-shuffled-2 was assigned to a reducer.
+12/04/2014 05:30:30 PM Serializing and writing the reduce results for #inter-shuffled #2.
+12/04/2014 05:30:30 PM Merging all reduce results into a final file.
+12/04/2014 05:30:30 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/04/2014 05:30:30 PM Finalizing the program execution. 			Generating the output. Cleaning up.
+12/04/2014 05:30:30 PM The program is successfully finished.
+12/04/2014 05:31:09 PM All user input validations are passed. We are set to go!
+12/04/2014 05:31:09 PM Running the framework...
+12/04/2014 05:31:09 PM The initial number of running processes is 2.
+12/04/2014 05:31:09 PM Partitioning twit_data105_2.json into 3 chunks.
+12/04/2014 05:31:09 PM Partitioning twit_data105_3.json into 3 chunks.
+12/04/2014 05:31:32 PM Creating a pool of 3 subprocess workers.
+12/04/2014 05:31:32 PM Started the map phase for twit_data105_3.json chunk #0.
+12/04/2014 05:31:32 PM Started the map phase for twit_data105_3.json chunk #1.
+12/04/2014 05:31:32 PM Started the map phase for twit_data105_3.json chunk #2.
+12/04/2014 05:31:32 PM Creating a pool of 3 subprocess workers.
+12/04/2014 05:31:32 PM Started the map phase for twit_data105_2.json chunk #0.
+12/04/2014 05:31:32 PM Started the map phase for twit_data105_2.json chunk #1.
+12/04/2014 05:31:32 PM Started the map phase for twit_data105_2.json chunk #2.
+12/04/2014 05:31:34 PM Finished the map phase for twit_data105_3.json chunk #1.
+12/04/2014 05:31:34 PM Serializing and writing the map results for twit_data105_3.json chunk #1.
+12/04/2014 05:31:34 PM Finished the map phase for twit_data105_3.json chunk #2.
+12/04/2014 05:31:34 PM Serializing and writing the map results for twit_data105_3.json chunk #2.
+12/04/2014 05:31:34 PM Finished the map phase for twit_data105_3.json chunk #0.
+12/04/2014 05:31:34 PM Serializing and writing the map results for twit_data105_3.json chunk #0.
+12/04/2014 05:31:34 PM Started the grouping phase for twit_data105_3.json chunk #0.
+12/04/2014 05:31:34 PM Started the grouping phase for twit_data105_3.json chunk #1.
+12/04/2014 05:31:34 PM Started the grouping phase for twit_data105_3.json chunk #2.
+12/04/2014 05:31:34 PM Finished the map phase for twit_data105_2.json chunk #1.
+12/04/2014 05:31:34 PM Serializing and writing the map results for twit_data105_2.json chunk #1.
+12/04/2014 05:31:34 PM Finished the map phase for twit_data105_2.json chunk #2.
+12/04/2014 05:31:34 PM Serializing and writing the map results for twit_data105_2.json chunk #2.
+12/04/2014 05:31:34 PM Finished the map phase for twit_data105_2.json chunk #0.
+12/04/2014 05:31:34 PM Serializing and writing the map results for twit_data105_2.json chunk #0.
+12/04/2014 05:31:34 PM Started the grouping phase for twit_data105_2.json chunk #1.
+12/04/2014 05:31:34 PM Started the grouping phase for twit_data105_2.json chunk #0.
+12/04/2014 05:31:34 PM Started the grouping phase for twit_data105_2.json chunk #2.
+12/04/2014 05:31:34 PM Master started the shuffle phase.
+12/04/2014 05:31:34 PM Chunk #inter-shuffled-0 was assigned to a reducer.
+12/04/2014 05:31:34 PM Chunk #inter-shuffled-1 was assigned to a reducer.
+12/04/2014 05:31:34 PM Serializing and writing the reduce results for #inter-shuffled #0.
+12/04/2014 05:31:34 PM Serializing and writing the reduce results for #inter-shuffled #1.
+12/04/2014 05:31:34 PM Chunk #inter-shuffled-2 was assigned to a reducer.
+12/04/2014 05:31:34 PM Serializing and writing the reduce results for #inter-shuffled #2.
+12/04/2014 05:31:34 PM Merging all reduce results into a final file.
+12/04/2014 05:31:34 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/04/2014 05:31:34 PM Finalizing the program execution. 			Generating the output. Cleaning up.
+12/04/2014 05:31:34 PM The program is successfully finished.
+12/04/2014 05:32:11 PM All user input validations are passed. We are set to go!
+12/04/2014 05:32:11 PM Running the framework...
+12/04/2014 05:32:11 PM The initial number of running processes is 3.
+12/04/2014 05:32:11 PM Partitioning twit_data105_2.json into 3 chunks.
+12/04/2014 05:32:11 PM Partitioning twit_data105_3.json into 3 chunks.
+12/04/2014 05:32:11 PM Partitioning twit_data105_4.json into 3 chunks.
+12/04/2014 05:32:43 PM Creating a pool of 3 subprocess workers.
+12/04/2014 05:32:43 PM Started the map phase for twit_data105_3.json chunk #1.
+12/04/2014 05:32:43 PM Started the map phase for twit_data105_3.json chunk #0.
+12/04/2014 05:32:43 PM Started the map phase for twit_data105_3.json chunk #2.
+12/04/2014 05:32:44 PM Creating a pool of 3 subprocess workers.
+12/04/2014 05:32:44 PM Started the map phase for twit_data105_2.json chunk #0.
+12/04/2014 05:32:44 PM Started the map phase for twit_data105_2.json chunk #1.
+12/04/2014 05:32:44 PM Started the map phase for twit_data105_2.json chunk #2.
+12/04/2014 05:32:45 PM Creating a pool of 3 subprocess workers.
+12/04/2014 05:32:46 PM Started the map phase for twit_data105_4.json chunk #0.
+12/04/2014 05:32:46 PM Started the map phase for twit_data105_4.json chunk #1.
+12/04/2014 05:32:46 PM Started the map phase for twit_data105_4.json chunk #2.
+12/04/2014 05:32:46 PM Finished the map phase for twit_data105_3.json chunk #2.
+12/04/2014 05:32:46 PM Serializing and writing the map results for twit_data105_3.json chunk #2.
+12/04/2014 05:32:46 PM Finished the map phase for twit_data105_3.json chunk #1.
+12/04/2014 05:32:46 PM Serializing and writing the map results for twit_data105_3.json chunk #1.
+12/04/2014 05:32:46 PM Finished the map phase for twit_data105_3.json chunk #0.
+12/04/2014 05:32:46 PM Serializing and writing the map results for twit_data105_3.json chunk #0.
+12/04/2014 05:32:46 PM Started the grouping phase for twit_data105_3.json chunk #0.
+12/04/2014 05:32:46 PM Started the grouping phase for twit_data105_3.json chunk #1.
+12/04/2014 05:32:46 PM Started the grouping phase for twit_data105_3.json chunk #2.
+12/04/2014 05:32:46 PM Finished the map phase for twit_data105_2.json chunk #2.
+12/04/2014 05:32:46 PM Serializing and writing the map results for twit_data105_2.json chunk #2.
+12/04/2014 05:32:46 PM Finished the map phase for twit_data105_2.json chunk #1.
+12/04/2014 05:32:46 PM Serializing and writing the map results for twit_data105_2.json chunk #1.
+12/04/2014 05:32:46 PM Finished the map phase for twit_data105_2.json chunk #0.
+12/04/2014 05:32:46 PM Serializing and writing the map results for twit_data105_2.json chunk #0.
+12/04/2014 05:32:46 PM Started the grouping phase for twit_data105_2.json chunk #0.
+12/04/2014 05:32:46 PM Started the grouping phase for twit_data105_2.json chunk #1.
+12/04/2014 05:32:46 PM Started the grouping phase for twit_data105_2.json chunk #2.
+12/04/2014 05:32:47 PM Finished the map phase for twit_data105_4.json chunk #1.
+12/04/2014 05:32:47 PM Serializing and writing the map results for twit_data105_4.json chunk #1.
+12/04/2014 05:32:47 PM Finished the map phase for twit_data105_4.json chunk #2.
+12/04/2014 05:32:47 PM Serializing and writing the map results for twit_data105_4.json chunk #2.
+12/04/2014 05:32:47 PM Finished the map phase for twit_data105_4.json chunk #0.
+12/04/2014 05:32:47 PM Serializing and writing the map results for twit_data105_4.json chunk #0.
+12/04/2014 05:32:47 PM Started the grouping phase for twit_data105_4.json chunk #0.
+12/04/2014 05:32:47 PM Started the grouping phase for twit_data105_4.json chunk #2.
+12/04/2014 05:32:47 PM Started the grouping phase for twit_data105_4.json chunk #1.
+12/04/2014 05:32:47 PM Master started the shuffle phase.
+12/04/2014 05:32:47 PM Chunk #inter-shuffled-1 was assigned to a reducer.
+12/04/2014 05:32:47 PM Chunk #inter-shuffled-0 was assigned to a reducer.
+12/04/2014 05:32:47 PM Chunk #inter-shuffled-2 was assigned to a reducer.
+12/04/2014 05:32:47 PM Serializing and writing the reduce results for #inter-shuffled #0.
+12/04/2014 05:32:47 PM Serializing and writing the reduce results for #inter-shuffled #2.
+12/04/2014 05:32:47 PM Serializing and writing the reduce results for #inter-shuffled #1.
+12/04/2014 05:32:47 PM Merging all reduce results into a final file.
+12/04/2014 05:32:47 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/04/2014 05:32:47 PM Finalizing the program execution. 			Generating the output. Cleaning up.
+12/04/2014 05:32:47 PM The program is successfully finished.
+12/04/2014 05:34:28 PM All user input validations are passed. We are set to go!
+
+
+12/04/2014 05:34:28 PM Running the framework...
+12/04/2014 05:34:28 PM The initial number of running processes is 5.
+12/04/2014 05:34:28 PM Partitioning twit_data105_2.json into 5 chunks.
+12/04/2014 05:34:28 PM Partitioning twit_data105_1.json into 5 chunks.
+12/04/2014 05:34:28 PM Partitioning twit_data105_3.json into 5 chunks.
+12/04/2014 05:34:28 PM Partitioning twit_data105_4.json into 5 chunks.
+12/04/2014 05:34:28 PM Partitioning twit_data105.json into 5 chunks.
+12/04/2014 05:35:19 PM Creating a pool of 5 subprocess workers.
+12/04/2014 05:35:19 PM Started the map phase for twit_data105.json chunk #0.
+12/04/2014 05:35:19 PM Started the map phase for twit_data105.json chunk #1.
+12/04/2014 05:35:19 PM Started the map phase for twit_data105.json chunk #2.
+12/04/2014 05:35:19 PM Started the map phase for twit_data105.json chunk #3.
+12/04/2014 05:35:19 PM Started the map phase for twit_data105.json chunk #4.
+12/04/2014 05:35:19 PM Creating a pool of 5 subprocess workers.
+12/04/2014 05:35:19 PM Started the map phase for twit_data105_3.json chunk #1.
+12/04/2014 05:35:19 PM Started the map phase for twit_data105_3.json chunk #2.
+12/04/2014 05:35:19 PM Started the map phase for twit_data105_3.json chunk #3.
+12/04/2014 05:35:19 PM Started the map phase for twit_data105_3.json chunk #0.
+12/04/2014 05:35:19 PM Started the map phase for twit_data105_3.json chunk #4.
+12/04/2014 05:35:19 PM Creating a pool of 5 subprocess workers.
+12/04/2014 05:35:19 PM Started the map phase for twit_data105_4.json chunk #1.
+12/04/2014 05:35:19 PM Started the map phase for twit_data105_4.json chunk #2.
+12/04/2014 05:35:19 PM Started the map phase for twit_data105_4.json chunk #3.
+12/04/2014 05:35:19 PM Started the map phase for twit_data105_4.json chunk #0.
+12/04/2014 05:35:19 PM Started the map phase for twit_data105_4.json chunk #4.
+12/04/2014 05:35:20 PM Creating a pool of 5 subprocess workers.
+12/04/2014 05:35:20 PM Started the map phase for twit_data105_2.json chunk #0.
+12/04/2014 05:35:20 PM Started the map phase for twit_data105_2.json chunk #1.
+12/04/2014 05:35:20 PM Started the map phase for twit_data105_2.json chunk #2.
+12/04/2014 05:35:20 PM Started the map phase for twit_data105_2.json chunk #3.
+12/04/2014 05:35:20 PM Started the map phase for twit_data105_2.json chunk #4.
+12/04/2014 05:35:20 PM Creating a pool of 5 subprocess workers.
+12/04/2014 05:35:20 PM Started the map phase for twit_data105_1.json chunk #1.
+12/04/2014 05:35:20 PM Started the map phase for twit_data105_1.json chunk #0.
+12/04/2014 05:35:20 PM Started the map phase for twit_data105_1.json chunk #2.
+12/04/2014 05:35:20 PM Started the map phase for twit_data105_1.json chunk #3.
+12/04/2014 05:35:20 PM Started the map phase for twit_data105_1.json chunk #4.
+12/04/2014 05:35:23 PM Finished the map phase for twit_data105.json chunk #4.
+12/04/2014 05:35:23 PM Serializing and writing the map results for twit_data105.json chunk #4.
+12/04/2014 05:35:23 PM Finished the map phase for twit_data105.json chunk #3.
+12/04/2014 05:35:23 PM Serializing and writing the map results for twit_data105.json chunk #3.
+12/04/2014 05:35:23 PM Finished the map phase for twit_data105.json chunk #0.
+12/04/2014 05:35:23 PM Serializing and writing the map results for twit_data105.json chunk #0.
+12/04/2014 05:35:23 PM Finished the map phase for twit_data105.json chunk #2.
+12/04/2014 05:35:23 PM Serializing and writing the map results for twit_data105.json chunk #2.
+12/04/2014 05:35:23 PM Finished the map phase for twit_data105.json chunk #1.
+12/04/2014 05:35:23 PM Serializing and writing the map results for twit_data105.json chunk #1.
+12/04/2014 05:35:23 PM Started the grouping phase for twit_data105.json chunk #0.
+12/04/2014 05:35:23 PM Started the grouping phase for twit_data105.json chunk #1.
+12/04/2014 05:35:23 PM Started the grouping phase for twit_data105.json chunk #2.
+12/04/2014 05:35:23 PM Started the grouping phase for twit_data105.json chunk #3.
+12/04/2014 05:35:23 PM Started the grouping phase for twit_data105.json chunk #4.
+12/04/2014 05:35:24 PM Finished the map phase for twit_data105_3.json chunk #4.
+12/04/2014 05:35:24 PM Serializing and writing the map results for twit_data105_3.json chunk #4.
+12/04/2014 05:35:24 PM Finished the map phase for twit_data105_3.json chunk #2.
+12/04/2014 05:35:24 PM Serializing and writing the map results for twit_data105_3.json chunk #2.
+12/04/2014 05:35:24 PM Finished the map phase for twit_data105_3.json chunk #3.
+12/04/2014 05:35:24 PM Serializing and writing the map results for twit_data105_3.json chunk #3.
+12/04/2014 05:35:24 PM Finished the map phase for twit_data105_3.json chunk #0.
+12/04/2014 05:35:24 PM Serializing and writing the map results for twit_data105_3.json chunk #0.
+12/04/2014 05:35:24 PM Finished the map phase for twit_data105_3.json chunk #1.
+12/04/2014 05:35:24 PM Serializing and writing the map results for twit_data105_3.json chunk #1.
+12/04/2014 05:35:24 PM Finished the map phase for twit_data105_4.json chunk #4.
+12/04/2014 05:35:24 PM Serializing and writing the map results for twit_data105_4.json chunk #4.
+12/04/2014 05:35:24 PM Finished the map phase for twit_data105_4.json chunk #2.
+12/04/2014 05:35:24 PM Serializing and writing the map results for twit_data105_4.json chunk #2.
+12/04/2014 05:35:24 PM Started the grouping phase for twit_data105_3.json chunk #0.
+12/04/2014 05:35:24 PM Started the grouping phase for twit_data105_3.json chunk #1.
+12/04/2014 05:35:24 PM Started the grouping phase for twit_data105_3.json chunk #2.
+12/04/2014 05:35:24 PM Started the grouping phase for twit_data105_3.json chunk #3.
+12/04/2014 05:35:24 PM Started the grouping phase for twit_data105_3.json chunk #4.
+12/04/2014 05:35:24 PM Finished the map phase for twit_data105_4.json chunk #0.
+12/04/2014 05:35:24 PM Serializing and writing the map results for twit_data105_4.json chunk #0.
+12/04/2014 05:35:24 PM Finished the map phase for twit_data105_4.json chunk #3.
+12/04/2014 05:35:24 PM Serializing and writing the map results for twit_data105_4.json chunk #3.
+12/04/2014 05:35:24 PM Finished the map phase for twit_data105_4.json chunk #1.
+12/04/2014 05:35:24 PM Serializing and writing the map results for twit_data105_4.json chunk #1.
+12/04/2014 05:35:24 PM Started the grouping phase for twit_data105_4.json chunk #0.
+12/04/2014 05:35:24 PM Started the grouping phase for twit_data105_4.json chunk #1.
+12/04/2014 05:35:24 PM Started the grouping phase for twit_data105_4.json chunk #2.
+12/04/2014 05:35:24 PM Started the grouping phase for twit_data105_4.json chunk #3.
+12/04/2014 05:35:24 PM Started the grouping phase for twit_data105_4.json chunk #4.
+12/04/2014 05:35:24 PM Finished the map phase for twit_data105_2.json chunk #0.
+12/04/2014 05:35:24 PM Serializing and writing the map results for twit_data105_2.json chunk #0.
+12/04/2014 05:35:24 PM Finished the map phase for twit_data105_2.json chunk #4.
+12/04/2014 05:35:24 PM Serializing and writing the map results for twit_data105_2.json chunk #4.
+12/04/2014 05:35:24 PM Finished the map phase for twit_data105_2.json chunk #2.
+12/04/2014 05:35:24 PM Serializing and writing the map results for twit_data105_2.json chunk #2.
+12/04/2014 05:35:24 PM Finished the map phase for twit_data105_2.json chunk #3.
+12/04/2014 05:35:24 PM Serializing and writing the map results for twit_data105_2.json chunk #3.
+12/04/2014 05:35:24 PM Finished the map phase for twit_data105_2.json chunk #1.
+12/04/2014 05:35:24 PM Serializing and writing the map results for twit_data105_2.json chunk #1.
+12/04/2014 05:35:24 PM Started the grouping phase for twit_data105_2.json chunk #0.
+12/04/2014 05:35:24 PM Started the grouping phase for twit_data105_2.json chunk #1.
+12/04/2014 05:35:24 PM Started the grouping phase for twit_data105_2.json chunk #2.
+12/04/2014 05:35:24 PM Started the grouping phase for twit_data105_2.json chunk #3.
+12/04/2014 05:35:24 PM Started the grouping phase for twit_data105_2.json chunk #4.
+12/04/2014 05:35:24 PM Finished the map phase for twit_data105_1.json chunk #4.
+12/04/2014 05:35:24 PM Serializing and writing the map results for twit_data105_1.json chunk #4.
+12/04/2014 05:35:24 PM Finished the map phase for twit_data105_1.json chunk #2.
+12/04/2014 05:35:24 PM Finished the map phase for twit_data105_1.json chunk #3.
+12/04/2014 05:35:24 PM Finished the map phase for twit_data105_1.json chunk #0.
+12/04/2014 05:35:24 PM Serializing and writing the map results for twit_data105_1.json chunk #0.
+12/04/2014 05:35:24 PM Serializing and writing the map results for twit_data105_1.json chunk #2.
+12/04/2014 05:35:24 PM Serializing and writing the map results for twit_data105_1.json chunk #3.
+12/04/2014 05:35:24 PM Finished the map phase for twit_data105_1.json chunk #1.
+12/04/2014 05:35:24 PM Serializing and writing the map results for twit_data105_1.json chunk #1.
+12/04/2014 05:35:24 PM Started the grouping phase for twit_data105_1.json chunk #0.
+12/04/2014 05:35:24 PM Started the grouping phase for twit_data105_1.json chunk #2.
+12/04/2014 05:35:24 PM Started the grouping phase for twit_data105_1.json chunk #3.
+12/04/2014 05:35:24 PM Started the grouping phase for twit_data105_1.json chunk #4.
+12/04/2014 05:35:24 PM Started the grouping phase for twit_data105_1.json chunk #1.
+12/04/2014 05:35:24 PM Master started the shuffle phase.
+12/04/2014 05:35:24 PM Chunk #inter-shuffled-1 was assigned to a reducer.
+12/04/2014 05:35:24 PM Chunk #inter-shuffled-2 was assigned to a reducer.
+12/04/2014 05:35:24 PM Chunk #inter-shuffled-3 was assigned to a reducer.
+12/04/2014 05:35:24 PM Serializing and writing the reduce results for #inter-shuffled #1.
+12/04/2014 05:35:24 PM Serializing and writing the reduce results for #inter-shuffled #2.
+12/04/2014 05:35:24 PM Chunk #inter-shuffled-0 was assigned to a reducer.
+12/04/2014 05:35:24 PM Chunk #inter-shuffled-4 was assigned to a reducer.
+12/04/2014 05:35:24 PM Serializing and writing the reduce results for #inter-shuffled #0.
+12/04/2014 05:35:24 PM Serializing and writing the reduce results for #inter-shuffled #3.
+12/04/2014 05:35:24 PM Serializing and writing the reduce results for #inter-shuffled #4.
+12/04/2014 05:35:24 PM Merging all reduce results into a final file.
+12/04/2014 05:35:24 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/04/2014 05:35:24 PM Finalizing the program execution. 			Generating the output. Cleaning up.
+12/04/2014 05:35:24 PM The program is successfully finished.
+12/04/2014 05:38:52 PM All user input validations are passed. We are set to go!
+12/04/2014 05:38:52 PM Running the framework...
+12/04/2014 05:38:52 PM The initial number of running processes is 1.
+12/04/2014 05:38:52 PM Partitioning sheet35.csv into 3 chunks.
+12/04/2014 05:39:08 PM Creating a pool of 3 subprocess workers.
+12/04/2014 05:39:08 PM Started the map phase for sheet35.csv chunk #0.
+12/04/2014 05:39:08 PM Started the map phase for sheet35.csv chunk #1.
+12/04/2014 05:39:08 PM Started the map phase for sheet35.csv chunk #2.
+12/04/2014 05:39:12 PM Finished the map phase for sheet35.csv chunk #2.
+12/04/2014 05:39:12 PM Serializing and writing the map results for sheet35.csv chunk #2.
+12/04/2014 05:39:12 PM Finished the map phase for sheet35.csv chunk #0.
+12/04/2014 05:39:12 PM Serializing and writing the map results for sheet35.csv chunk #0.
+12/04/2014 05:39:12 PM Finished the map phase for sheet35.csv chunk #1.
+12/04/2014 05:39:12 PM Serializing and writing the map results for sheet35.csv chunk #1.
+12/04/2014 05:39:12 PM Started the grouping phase for sheet35.csv chunk #0.
+12/04/2014 05:39:12 PM Started the grouping phase for sheet35.csv chunk #2.
+12/04/2014 05:39:12 PM Started the grouping phase for sheet35.csv chunk #1.
+12/04/2014 05:39:12 PM Master started the shuffle phase.
+12/04/2014 05:39:12 PM Chunk #inter-shuffled-0 was assigned to a reducer.
+12/04/2014 05:39:12 PM Serializing and writing the reduce results for #inter-shuffled #0.
+12/04/2014 05:39:12 PM Chunk #inter-shuffled-1 was assigned to a reducer.
+12/04/2014 05:39:12 PM Serializing and writing the reduce results for #inter-shuffled #1.
+12/04/2014 05:39:12 PM Chunk #inter-shuffled-2 was assigned to a reducer.
+12/04/2014 05:39:12 PM Serializing and writing the reduce results for #inter-shuffled #2.
+12/04/2014 05:39:12 PM Merging all reduce results into a final file.
+12/04/2014 05:39:12 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/04/2014 05:39:12 PM Finalizing the program execution. 			Generating the output. Cleaning up.
+12/04/2014 05:39:12 PM The program is successfully finished.
+12/04/2014 05:41:12 PM All user input validations are passed. We are set to go!
+12/04/2014 05:41:12 PM Running the framework...
+12/04/2014 05:41:12 PM The initial number of running processes is 3.
+12/04/2014 05:41:12 PM Partitioning sheet35.csv into 3 chunks.
+12/04/2014 05:41:12 PM Partitioning sheet35_2.csv into 3 chunks.
+12/04/2014 05:41:12 PM Partitioning sheet35_3.csv into 3 chunks.
+12/04/2014 05:41:41 PM Creating a pool of 3 subprocess workers.
+12/04/2014 05:41:41 PM Started the map phase for sheet35.csv chunk #1.
+12/04/2014 05:41:41 PM Started the map phase for sheet35.csv chunk #2.
+12/04/2014 05:41:41 PM Started the map phase for sheet35.csv chunk #0.
+12/04/2014 05:41:41 PM Creating a pool of 3 subprocess workers.
+12/04/2014 05:41:41 PM Started the map phase for sheet35_2.csv chunk #0.
+12/04/2014 05:41:41 PM Started the map phase for sheet35_2.csv chunk #1.
+12/04/2014 05:41:41 PM Started the map phase for sheet35_2.csv chunk #2.
+12/04/2014 05:41:42 PM Creating a pool of 3 subprocess workers.
+12/04/2014 05:41:42 PM Started the map phase for sheet35_3.csv chunk #1.
+12/04/2014 05:41:42 PM Started the map phase for sheet35_3.csv chunk #0.
+12/04/2014 05:41:42 PM Started the map phase for sheet35_3.csv chunk #2.
+12/04/2014 05:41:53 PM Finished the map phase for sheet35.csv chunk #2.
+12/04/2014 05:41:53 PM Serializing and writing the map results for sheet35.csv chunk #2.
+12/04/2014 05:41:53 PM Finished the map phase for sheet35.csv chunk #1.
+12/04/2014 05:41:53 PM Serializing and writing the map results for sheet35.csv chunk #1.
+12/04/2014 05:41:53 PM Finished the map phase for sheet35.csv chunk #0.
+12/04/2014 05:41:53 PM Serializing and writing the map results for sheet35.csv chunk #0.
+12/04/2014 05:41:53 PM Started the grouping phase for sheet35.csv chunk #0.
+12/04/2014 05:41:53 PM Started the grouping phase for sheet35.csv chunk #1.
+12/04/2014 05:41:53 PM Started the grouping phase for sheet35.csv chunk #2.
+12/04/2014 05:41:53 PM Finished the map phase for sheet35_2.csv chunk #0.
+12/04/2014 05:41:53 PM Serializing and writing the map results for sheet35_2.csv chunk #0.
+12/04/2014 05:41:53 PM Finished the map phase for sheet35_2.csv chunk #2.
+12/04/2014 05:41:53 PM Serializing and writing the map results for sheet35_2.csv chunk #2.
+12/04/2014 05:41:53 PM Finished the map phase for sheet35_3.csv chunk #2.
+12/04/2014 05:41:53 PM Serializing and writing the map results for sheet35_3.csv chunk #2.
+12/04/2014 05:41:53 PM Finished the map phase for sheet35_3.csv chunk #1.
+12/04/2014 05:41:53 PM Serializing and writing the map results for sheet35_3.csv chunk #1.
+12/04/2014 05:41:53 PM Finished the map phase for sheet35_3.csv chunk #0.
+12/04/2014 05:41:53 PM Serializing and writing the map results for sheet35_3.csv chunk #0.
+12/04/2014 05:41:54 PM Started the grouping phase for sheet35_3.csv chunk #0.
+12/04/2014 05:41:54 PM Started the grouping phase for sheet35_3.csv chunk #1.
+12/04/2014 05:41:54 PM Started the grouping phase for sheet35_3.csv chunk #2.
+12/04/2014 05:41:55 PM Finished the map phase for sheet35_2.csv chunk #1.
+12/04/2014 05:41:55 PM Serializing and writing the map results for sheet35_2.csv chunk #1.
+12/04/2014 05:41:55 PM Started the grouping phase for sheet35_2.csv chunk #0.
+12/04/2014 05:41:55 PM Started the grouping phase for sheet35_2.csv chunk #2.
+12/04/2014 05:41:55 PM Started the grouping phase for sheet35_2.csv chunk #1.
+12/04/2014 05:41:55 PM Master started the shuffle phase.
+12/04/2014 05:41:55 PM Chunk #inter-shuffled-0 was assigned to a reducer.
+12/04/2014 05:41:55 PM Chunk #inter-shuffled-1 was assigned to a reducer.
+12/04/2014 05:41:55 PM Serializing and writing the reduce results for #inter-shuffled #1.
+12/04/2014 05:41:55 PM Serializing and writing the reduce results for #inter-shuffled #0.
+12/04/2014 05:41:55 PM Chunk #inter-shuffled-2 was assigned to a reducer.
+12/04/2014 05:41:55 PM Serializing and writing the reduce results for #inter-shuffled #2.
+12/04/2014 05:41:55 PM Merging all reduce results into a final file.
+12/04/2014 05:41:55 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/04/2014 05:41:55 PM Finalizing the program execution. 			Generating the output. Cleaning up.
+12/04/2014 05:41:55 PM The program is successfully finished.
+12/04/2014 05:43:19 PM All user input validations are passed. We are set to go!
+12/04/2014 05:43:19 PM Running the framework...
+12/04/2014 05:43:19 PM The initial number of running processes is 5.
+12/04/2014 05:43:19 PM Partitioning sheet35.csv into 5 chunks.
+12/04/2014 05:43:19 PM Partitioning sheet35_1.csv into 5 chunks.
+12/04/2014 05:43:19 PM Partitioning sheet35_3.csv into 5 chunks.
+12/04/2014 05:43:19 PM Partitioning sheet35_2.csv into 5 chunks.
+12/04/2014 05:43:19 PM Partitioning sheet35_4.csv into 5 chunks.
+12/04/2014 05:43:59 PM Creating a pool of 5 subprocess workers.
+12/04/2014 05:43:59 PM Started the map phase for sheet35_2.csv chunk #0.
+12/04/2014 05:43:59 PM Started the map phase for sheet35_2.csv chunk #1.
+12/04/2014 05:43:59 PM Started the map phase for sheet35_2.csv chunk #2.
+12/04/2014 05:43:59 PM Started the map phase for sheet35_2.csv chunk #3.
+12/04/2014 05:43:59 PM Started the map phase for sheet35_2.csv chunk #4.
+12/04/2014 05:43:59 PM Creating a pool of 5 subprocess workers.
+12/04/2014 05:43:59 PM Started the map phase for sheet35.csv chunk #0.
+12/04/2014 05:43:59 PM Started the map phase for sheet35.csv chunk #2.
+12/04/2014 05:43:59 PM Started the map phase for sheet35.csv chunk #3.
+12/04/2014 05:43:59 PM Started the map phase for sheet35.csv chunk #4.
+12/04/2014 05:43:59 PM Started the map phase for sheet35.csv chunk #1.
+12/04/2014 05:43:59 PM Creating a pool of 5 subprocess workers.
+12/04/2014 05:43:59 PM Started the map phase for sheet35_4.csv chunk #1.
+12/04/2014 05:43:59 PM Started the map phase for sheet35_4.csv chunk #0.
+12/04/2014 05:43:59 PM Started the map phase for sheet35_4.csv chunk #3.
+12/04/2014 05:43:59 PM Started the map phase for sheet35_4.csv chunk #4.
+12/04/2014 05:43:59 PM Started the map phase for sheet35_4.csv chunk #2.
+12/04/2014 05:44:00 PM Creating a pool of 5 subprocess workers.
+12/04/2014 05:44:00 PM Started the map phase for sheet35_3.csv chunk #0.
+12/04/2014 05:44:00 PM Started the map phase for sheet35_3.csv chunk #1.
+12/04/2014 05:44:00 PM Started the map phase for sheet35_3.csv chunk #3.
+12/04/2014 05:44:00 PM Started the map phase for sheet35_3.csv chunk #4.
+12/04/2014 05:44:00 PM Started the map phase for sheet35_3.csv chunk #2.
+12/04/2014 05:44:00 PM Creating a pool of 5 subprocess workers.
+12/04/2014 05:44:00 PM Started the map phase for sheet35_1.csv chunk #0.
+12/04/2014 05:44:00 PM Started the map phase for sheet35_1.csv chunk #2.
+12/04/2014 05:44:00 PM Started the map phase for sheet35_1.csv chunk #3.
+12/04/2014 05:44:00 PM Started the map phase for sheet35_1.csv chunk #4.
+12/04/2014 05:44:00 PM Started the map phase for sheet35_1.csv chunk #1.
+12/04/2014 05:44:15 PM Finished the map phase for sheet35_2.csv chunk #2.
+12/04/2014 05:44:15 PM Serializing and writing the map results for sheet35_2.csv chunk #2.
+12/04/2014 05:44:15 PM Finished the map phase for sheet35_2.csv chunk #4.
+12/04/2014 05:44:15 PM Serializing and writing the map results for sheet35_2.csv chunk #4.
+12/04/2014 05:44:15 PM Finished the map phase for sheet35_2.csv chunk #1.
+12/04/2014 05:44:15 PM Serializing and writing the map results for sheet35_2.csv chunk #1.
+12/04/2014 05:44:15 PM Finished the map phase for sheet35_2.csv chunk #3.
+12/04/2014 05:44:15 PM Serializing and writing the map results for sheet35_2.csv chunk #3.
+12/04/2014 05:44:15 PM Finished the map phase for sheet35_2.csv chunk #0.
+12/04/2014 05:44:15 PM Serializing and writing the map results for sheet35_2.csv chunk #0.
+12/04/2014 05:44:15 PM Started the grouping phase for sheet35_2.csv chunk #0.
+12/04/2014 05:44:15 PM Started the grouping phase for sheet35_2.csv chunk #1.
+12/04/2014 05:44:15 PM Started the grouping phase for sheet35_2.csv chunk #2.
+12/04/2014 05:44:15 PM Started the grouping phase for sheet35_2.csv chunk #3.
+12/04/2014 05:44:15 PM Started the grouping phase for sheet35_2.csv chunk #4.
+12/04/2014 05:44:16 PM Finished the map phase for sheet35.csv chunk #3.
+12/04/2014 05:44:16 PM Serializing and writing the map results for sheet35.csv chunk #3.
+12/04/2014 05:44:16 PM Finished the map phase for sheet35.csv chunk #2.
+12/04/2014 05:44:16 PM Serializing and writing the map results for sheet35.csv chunk #2.
+12/04/2014 05:44:16 PM Finished the map phase for sheet35.csv chunk #0.
+12/04/2014 05:44:16 PM Serializing and writing the map results for sheet35.csv chunk #0.
+12/04/2014 05:44:16 PM Finished the map phase for sheet35.csv chunk #4.
+12/04/2014 05:44:16 PM Serializing and writing the map results for sheet35.csv chunk #4.
+12/04/2014 05:44:16 PM Finished the map phase for sheet35.csv chunk #1.
+12/04/2014 05:44:16 PM Serializing and writing the map results for sheet35.csv chunk #1.
+12/04/2014 05:44:16 PM Started the grouping phase for sheet35.csv chunk #0.
+12/04/2014 05:44:16 PM Started the grouping phase for sheet35.csv chunk #2.
+12/04/2014 05:44:16 PM Started the grouping phase for sheet35.csv chunk #1.
+12/04/2014 05:44:16 PM Started the grouping phase for sheet35.csv chunk #3.
+12/04/2014 05:44:16 PM Started the grouping phase for sheet35.csv chunk #4.
+12/04/2014 05:44:16 PM Finished the map phase for sheet35_4.csv chunk #0.
+12/04/2014 05:44:16 PM Serializing and writing the map results for sheet35_4.csv chunk #0.
+12/04/2014 05:44:16 PM Finished the map phase for sheet35_4.csv chunk #3.
+12/04/2014 05:44:16 PM Serializing and writing the map results for sheet35_4.csv chunk #3.
+12/04/2014 05:44:16 PM Finished the map phase for sheet35_4.csv chunk #2.
+12/04/2014 05:44:16 PM Serializing and writing the map results for sheet35_4.csv chunk #2.
+12/04/2014 05:44:16 PM Finished the map phase for sheet35_4.csv chunk #1.
+12/04/2014 05:44:16 PM Serializing and writing the map results for sheet35_4.csv chunk #1.
+12/04/2014 05:44:16 PM Finished the map phase for sheet35_4.csv chunk #4.
+12/04/2014 05:44:16 PM Serializing and writing the map results for sheet35_4.csv chunk #4.
+12/04/2014 05:44:16 PM Started the grouping phase for sheet35_4.csv chunk #0.
+12/04/2014 05:44:16 PM Started the grouping phase for sheet35_4.csv chunk #1.
+12/04/2014 05:44:16 PM Started the grouping phase for sheet35_4.csv chunk #2.
+12/04/2014 05:44:16 PM Started the grouping phase for sheet35_4.csv chunk #3.
+12/04/2014 05:44:16 PM Started the grouping phase for sheet35_4.csv chunk #4.
+12/04/2014 05:44:16 PM Finished the map phase for sheet35_3.csv chunk #2.
+12/04/2014 05:44:16 PM Serializing and writing the map results for sheet35_3.csv chunk #2.
+12/04/2014 05:44:16 PM Finished the map phase for sheet35_3.csv chunk #3.
+12/04/2014 05:44:16 PM Serializing and writing the map results for sheet35_3.csv chunk #3.
+12/04/2014 05:44:16 PM Finished the map phase for sheet35_3.csv chunk #0.
+12/04/2014 05:44:16 PM Serializing and writing the map results for sheet35_3.csv chunk #0.
+12/04/2014 05:44:16 PM Finished the map phase for sheet35_3.csv chunk #4.
+12/04/2014 05:44:16 PM Serializing and writing the map results for sheet35_3.csv chunk #4.
+12/04/2014 05:44:16 PM Finished the map phase for sheet35_1.csv chunk #1.
+12/04/2014 05:44:16 PM Serializing and writing the map results for sheet35_1.csv chunk #1.
+12/04/2014 05:44:16 PM Finished the map phase for sheet35_3.csv chunk #1.
+12/04/2014 05:44:16 PM Serializing and writing the map results for sheet35_3.csv chunk #1.
+12/04/2014 05:44:16 PM Started the grouping phase for sheet35_3.csv chunk #0.
+12/04/2014 05:44:16 PM Started the grouping phase for sheet35_3.csv chunk #1.
+12/04/2014 05:44:16 PM Started the grouping phase for sheet35_3.csv chunk #2.
+12/04/2014 05:44:16 PM Started the grouping phase for sheet35_3.csv chunk #3.
+12/04/2014 05:44:16 PM Started the grouping phase for sheet35_3.csv chunk #4.
+12/04/2014 05:44:16 PM Finished the map phase for sheet35_1.csv chunk #0.
+12/04/2014 05:44:16 PM Serializing and writing the map results for sheet35_1.csv chunk #0.
+12/04/2014 05:44:17 PM Finished the map phase for sheet35_1.csv chunk #3.
+12/04/2014 05:44:17 PM Finished the map phase for sheet35_1.csv chunk #2.
+12/04/2014 05:44:17 PM Finished the map phase for sheet35_1.csv chunk #4.
+12/04/2014 05:44:17 PM Serializing and writing the map results for sheet35_1.csv chunk #2.
+12/04/2014 05:44:17 PM Serializing and writing the map results for sheet35_1.csv chunk #4.
+12/04/2014 05:44:17 PM Serializing and writing the map results for sheet35_1.csv chunk #3.
+12/04/2014 05:44:17 PM Started the grouping phase for sheet35_1.csv chunk #0.
+12/04/2014 05:44:17 PM Started the grouping phase for sheet35_1.csv chunk #1.
+12/04/2014 05:44:17 PM Started the grouping phase for sheet35_1.csv chunk #4.
+12/04/2014 05:44:17 PM Started the grouping phase for sheet35_1.csv chunk #3.
+12/04/2014 05:44:17 PM Started the grouping phase for sheet35_1.csv chunk #2.
+12/04/2014 05:44:17 PM Master started the shuffle phase.
+12/04/2014 05:44:17 PM Chunk #inter-shuffled-1 was assigned to a reducer.
+12/04/2014 05:44:17 PM Chunk #inter-shuffled-0 was assigned to a reducer.
+12/04/2014 05:44:17 PM Chunk #inter-shuffled-2 was assigned to a reducer.
+12/04/2014 05:44:17 PM Serializing and writing the reduce results for #inter-shuffled #1.
+12/04/2014 05:44:17 PM Serializing and writing the reduce results for #inter-shuffled #2.
+12/04/2014 05:44:17 PM Chunk #inter-shuffled-3 was assigned to a reducer.
+12/04/2014 05:44:17 PM Serializing and writing the reduce results for #inter-shuffled #0.
+12/04/2014 05:44:17 PM Chunk #inter-shuffled-4 was assigned to a reducer.
+12/04/2014 05:44:17 PM Serializing and writing the reduce results for #inter-shuffled #3.
+12/04/2014 05:44:17 PM Serializing and writing the reduce results for #inter-shuffled #4.
+12/04/2014 05:44:17 PM Merging all reduce results into a final file.
+12/04/2014 05:44:17 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/04/2014 05:44:17 PM Finalizing the program execution. 			Generating the output. Cleaning up.
+12/04/2014 05:44:17 PM The program is successfully finished.

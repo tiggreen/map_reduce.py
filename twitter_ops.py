@@ -19,9 +19,9 @@ Twitter class.
 class Twitter(MapReduceInterface):
 
 	"""
-	Files: the files that the Twitter program should run on.
-	Attr:  attribute of a tweet. E.g. 'lang'
-	Attr: the value of the attribute. E.g. 'en'
+	files: the files that the Twitter program should run on.
+	attr:  attribute of a tweet. E.g. 'lang'
+	attr value: the value of the attribute. E.g. 'en'
 	"""
 	def __init__(self, files, attr, attr_value):
 		self.attr = attr
@@ -53,9 +53,9 @@ class Twitter(MapReduceInterface):
 	"""
 	The reduce function for twitter program.
 	"""
-	def reducer(self, mapping):
+	def reducer(self, key_values_list):
 		total_sum = 0
-		for entry in mapping:
+		for entry in key_values_list:
 			total_sum +=  sum(entry[1])
 		return total_sum
 

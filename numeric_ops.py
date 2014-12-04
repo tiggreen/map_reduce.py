@@ -18,9 +18,8 @@ Numeric class.
 class Numeric(MapReduceInterface):
 
 	"""
-	Files: the files that the Numeric program should run on.
+	files: the files that the Numeric program should run on.
 	col_number:  the column number or the field number, start from 1.
-	Number of processes: the number of processes given by user.
 	"""
 	def __init__(self, files, col_number):
 		self.col_number = col_number
@@ -41,16 +40,14 @@ class Numeric(MapReduceInterface):
 		return [(1, (min(elems), max(elems), avg))]
 
 	"""
-	The reduce function for numeric program.
-	Doesn't do much for now. It just passes the map result
-	to the next step so it can be merged.
+	The reduce function for the numeric program.
 	"""
-	def reducer(self, mapping):
+	def reducer(self, key_values_list):
 		mins = 0
 		maxs  = 0
 		avgs = 0
 		ln = 1
-		for entry in mapping:
+		for entry in key_values_list:
 			key = entry[0]
 			# list of tuples
 			tple_list = entry[1]

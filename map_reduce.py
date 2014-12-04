@@ -21,9 +21,8 @@ Usage:
 Please see README file for usage instructions.
 
 TODO:
-- Write about that Map and Reduce args format is fixed. User has to follow the conventions.
-- Handle all the exceptions. Gently.
-- Write a cleanup function that cleans all temp files.
+1. Change the cleanup function to clean all created temp files
+when the program is somehow crashed or terminated by user.
 """
 
 import sys
