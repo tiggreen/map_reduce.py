@@ -1,12 +1,11 @@
 Author: Tigran Hakobyan (txh7358@rit.edu)
 Version: 1.0
 Date: 11/29/2014
+***************************
 
-TODO: 
+URL to the source code: https://github.com/tiggreen/MapReduceMultiprocessed
+Public web page url: http://tiggreen.github.io/MapReduceMultiprocessed
 
-URL to the source code:
-
-Basic Credits:
 
 
 Multi-processed MapReduce simulator for a limited main memory.

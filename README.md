@@ -5,6 +5,20 @@ MapReduceMultiprocessed
 
 At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
 
+Multi-processed MapReduce simulator for a limited main memory.
+Uses physical files to store intermediate map, reduce calculations. 
+Based on Python’s multiprocessing Pool module (Python 3.4).
+Framework that provides the following functionalities:
+		
+1. Low main memory consumption
+2. Multi-processed
+3. Multiple file support
+4. Built-in performance configuration
+5. Different file format support (txt, csv, json) 
+6. Scalable and easy to use 
+					
+Users should be able to easily create MapReduce jobs using our framework by only defining map and reduce functions. All the intermediate steps are handled by our framework. The results are stored in the file system of the running machine in this way consuming less main memory (RAM).
+
 ## Code Example
 
 Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
