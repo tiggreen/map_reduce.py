@@ -21,7 +21,16 @@ Users should be able to easily create MapReduce jobs using our framework by only
 
 ## Code Example
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+<ul>
+<li>Purely implemented in Python.</li>
+• All the partition methods support stream parsing which means that the framework doesn’t
+need to hold the whole TXT, JSON or CSV representation in textual form in memory.
+• Uses Python’s multiprocessing Pool module for the best concurrency support.
+• All the intermediate results are stored in physical files avoiding the main memory
+consumption.
+• Uses Python’s pickle module for serializing and de-serializing Python objects to a byte
+stream.
+<ul>
 
 ## Motivation
 
