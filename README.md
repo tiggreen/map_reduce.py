@@ -11,11 +11,12 @@ Framework provides the following functionalities:
 1. Low main memory consumption
 2. Multi-processed
 3. Multiple file support
-4. Built-in performance configuration
+4. Built-in performance configuration.
 5. Different file format support (txt, csv, json) 
 6. Scalable and easy to use 
 					
-Users can easily create MapReduce jobs using this framework by only defining map and reduce functions. All the intermediate steps are handled by the framework.
+Users can easily create MapReduce jobs using this framework by only defining map and reduce functions. All the intermediate steps are handled by the framework. Number of running processes in the framework is based on the number of input files. If the number of files is less than three, then the framework assigns 3 processes for each file by default. The number of partitioned
+chunk files for each file is equal to the number of files. 
 
 <ul>
 <li>Purely implemented in Python.</li>
@@ -82,8 +83,8 @@ Now relax! The framework will take care of the rest and the output will be gener
 
 
 
-The below example shows how one can create a MapReduce job using our framework.
-This class finds the number of occurances of each word in all files. 
+The example below is a full implementation of a class the uses the framework
+to run a MapReduce job. This class finds the number of occurances of each word in all files. 
 
 ```python
 
@@ -132,18 +133,57 @@ All the framework execution logs are written to ```map_reduce.log``` file.
 
 ## API Reference
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+### MapReduceInterface class
 
-Small API for classes and functions?
+| Instance Variables   | Methods                   |
+| ---------------------| --------------------------|
+| mapper               | __files_not_empty         |
+| reducer         	   | __map_and_reduce_are_fine |
+| files                | __is_file_format_supported|
+| num_processes        | __the_same_format_files   |
+|         			   | __check_file_names Content|
+|                      | __set_num_processes       |
+|         			   | __cleanup                 |
+|                      | __finalize_program        |
+|         			   | run_program               |
+|                      | shuffle                   |
+|         			   | run_program               |
+|                      | call_map_reduce           |
+|         			   | merge_reduce_results      |
+
+
+- 
 
 ## Tests
 
-Describe and show how to run the tests with code examples.
+TODO:
+Write unit tests for the framework.
 
 ## Contributors
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+Tigran Hakobyan
+https://twitter.com/tiggreen
 
 ## License
 
-A short snippet describing the license (MIT, Apache, etc.)
+The MIT License
+
+Copyright (c) Tigran Hakobyan. http://tiggreen.me
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
