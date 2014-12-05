@@ -198,8 +198,6 @@ class MyMRPool(multiprocessing.pool.Pool):
 | message       	   | __init__          |
 | errors         	   |                   |
 
-- 
-
 ## Tests
 
 TODO:
