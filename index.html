@@ -77,7 +77,7 @@ Mapper function must take a file and return a list of <code>(key, value)</code> 
 
 Reducer takes a list of <code>(key, [values])</code> pairs. All values are already grouped by key in the framework. Reducer returns a list of <code>(key, value)</code> pairs.
 
-Step 3:<br>
+<h4>Step 3</h4><br>
 Once you created your class, make it to extend MapReduceInterface class.
 
 <pre><code>
@@ -89,7 +89,7 @@ class YourMRClass(MapReduceInterface):
     MapReduceInterface.__init__(self,  mapper, reducer, files)
 </code></pre>
   
-Step 4:<br>
+<h4>Step 4</h4><br>
 
 Create an object of your class and run <code>run_program()</code> method on it.
 
@@ -98,7 +98,7 @@ your_mr_class_obj = YourMRClass(input_files)
 your_mr_class_obj.run_program()
 </code></pre>
 
-Step 5:<br>
+<h4>Step 5</h4><br>
 
 Now relax! The framework will take care of the rest and the output will be generated to
 <code>map_reduce_output.txt</code> file.
