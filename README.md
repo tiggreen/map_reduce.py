@@ -84,7 +84,7 @@ Now relax! The framework will take care of the rest and the output will be gener
 
 
 The example below is a full implementation of a class the uses the framework
-to create a MapReduce class. This class finds the number of occurances of each word in all files
+to create a MapReduce job. This class finds the number of occurances of each word in all files
 using our framework. 
 
 ```python
