@@ -70,7 +70,7 @@ class YourMRClass(MapReduceInterface):
 
 Create an object of your class and run ```run_program()``` method on it.
 
-```pyhon
+```python
 your_mr_class_obj = YourMRClass(input_files)
 your_mr_class_obj.run_program()
 ```
