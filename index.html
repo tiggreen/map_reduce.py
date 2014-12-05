@@ -103,15 +103,15 @@ your_mr_class_obj.run_program()
 Step 5:<br>
 
 Now relax! The framework will take care of the rest and the output will be generated to
-<code>map_reduce_output.txt<code> file.
+<code>map_reduce_output.txt</code> file.
 
 
 
 The example below is a full implementation of a class the uses the framework
 to run a MapReduce job. This class finds the number of occurances of each word in all files. 
 
+<div highlight highlight-python>
 <code>
-
 # You have to import the framework first.
 from map_reduce import *
 
@@ -151,8 +151,8 @@ class WordCount(MapReduceInterface):
       result.append((key,sum_of_values))
     return result
 
-<code>
-
+</code>
+</div>
 
 
 
