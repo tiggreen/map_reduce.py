@@ -1,14 +1,12 @@
-MapReduceMultiprocessed
+map_reduce.py
 =======================
 
 ## Synopsis
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
-
-Multi-processed MapReduce simulator for a limited main memory.
-Uses physical files to store intermediate map, reduce calculations. 
+Multi-processed MapReduce framework for a limited main memory. Runs in
+a single machine and uses the file system to store all intermediate calculations. 
 Based on Python’s multiprocessing Pool module (Python 3.4).
-Framework that provides the following functionalities:
+Framework provides the following functionalities:
 		
 1. Low main memory consumption
 2. Multi-processed
@@ -17,7 +15,7 @@ Framework that provides the following functionalities:
 5. Different file format support (txt, csv, json) 
 6. Scalable and easy to use 
 					
-Users should be able to easily create MapReduce jobs using our framework by only defining map and reduce functions. All the intermediate steps are handled by our framework. The results are stored in the file system of the running machine in this way consuming less main memory (RAM).
+Users can easily create MapReduce jobs using this framework by only defining map and reduce functions. All the intermediate steps are handled by the framework.
 
 <ul>
 <li>Purely implemented in Python.</li>
@@ -32,34 +30,47 @@ stream.</li>
 
 ## Motivation
 
-There are many MapReduce implementations in different programming languages. One of the most popular implementation is the Hadoop which hides all the details of concurrent programming from the users making it super easy to create and run MapReduce jobs. Even though there are many available MR frameworks nowadays, only a few of them are focused on running and simulating them in a limited memory space. Most existing MR frameworks are designed to run on large number of clusters powered with very high CPUs providing a great performance on huge datasets.
+There are many MapReduce implementations in different programming languages. One of the most popular implementation is the Hadoop which hides all the details of concurrent programming from the users making it super easy to create and run MapReduce jobs. Even though there are many available MR frameworks nowadays, only few of them are focused on running MapReduce jobs in a limited memory space. Most existing MR frameworks are designed to run on large number of clusters powered with very high CPUs providing a great performance on huge datasets.<br>
 **The goal and the main objective of this project is to propose and implement a MapReduce framework that can work in a single machine with a limited main memory**. 
 
 
 ## Installation
 
 **Step 1:** <br>
-Get the zip of the project from [here](http://tiggreen.github.io/MapReduceMultiprocessed/).
+Get the zip of the project from [here](http://tiggreen.github.io/map_reduce.py/zipball/master).
 
 **Step 2:** <br>
 Once you have the source files you can start creating and running your MapReduce jobs. It's super simple. 
 
-Import the framework module and create a new class that defines your **mapper** and **reducer** functions.
+Import the framework module.<br>
+
+```python 
+from map_reduce import *
+````
+
+ Create a new class that defines your **mapper** and **reducer** functions.
 
 > Mapper function must take a file and return a list of ```(key, value)``` pairs. Each ```(key, value)``` must be a tuple.
 
 > Reducer takes a list of ```(key, [values])``` pairs. All values are already grouped by key in the framework. Reducer returns a list of ```(key, value)``` pairs.
 
 **Step 3:** <br>
-Once you created your class you have to make your class to extend **MapReduceInterface** class and call the framework constructor in your class constructor.
+Once you created your class, make it to extend **MapReduceInterface** class.
 
+	
 **Step 4:** <br>
 
-The last step is to create an object of your class and run ```run_program()``` method. The framework will take care of the rest.
+The last step is to create an object of your class and run ```python run_program()``` method. 
+
+**Step 5:** <br>
+
+Now relax! The framework will take care of the rest and the output will be generated to
+```map_reduce_output.txt``` file.
 
 
 
-The below example shows how one can create a MapReduce job that finds the number of occurances of each word in all files. 
+The below example shows how one can create a MapReduce job using our framework.
+This class finds the number of occurances of each word in all files. 
 
 ```python
 
@@ -104,6 +115,7 @@ class WordCount(MapReduceInterface):
 
 ```
 
+All the framework execution logs are written to ```map_reduce.log``` file.
 ## API Reference
 
 Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
