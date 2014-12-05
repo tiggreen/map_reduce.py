@@ -27,7 +27,6 @@ when the program is somehow crashed or terminated by user.
 
 import sys
 import os
-import subprocess
 import logging
 import ntpath
 import pickle

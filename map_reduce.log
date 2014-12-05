@@ -536,3 +536,59 @@
 12/04/2014 05:44:17 PM Merging is done. Generating the output map_reduce_output.txt file.
 12/04/2014 05:44:17 PM Finalizing the program execution. 			Generating the output. Cleaning up.
 12/04/2014 05:44:17 PM The program is successfully finished.
+12/04/2014 06:28:04 PM All user input validations are passed. We are set to go!
+12/04/2014 06:28:04 PM Running the framework...
+12/04/2014 06:28:04 PM The initial number of running processes is 1.
+12/04/2014 06:28:04 PM Partitioning hungergames21_1.txt into 3 chunks.
+12/04/2014 06:28:28 PM Creating a pool of 3 subprocess workers.
+12/04/2014 06:28:28 PM Started the map phase for hungergames21_1.txt chunk #0.
+12/04/2014 06:28:28 PM Started the map phase for hungergames21_1.txt chunk #1.
+12/04/2014 06:28:28 PM Started the map phase for hungergames21_1.txt chunk #2.
+12/04/2014 06:28:29 PM Finished the map phase for hungergames21_1.txt chunk #1.
+12/04/2014 06:28:29 PM Serializing and writing the map results for hungergames21_1.txt chunk #1.
+12/04/2014 06:28:29 PM Finished the map phase for hungergames21_1.txt chunk #0.
+12/04/2014 06:28:29 PM Serializing and writing the map results for hungergames21_1.txt chunk #0.
+12/04/2014 06:28:29 PM Finished the map phase for hungergames21_1.txt chunk #2.
+12/04/2014 06:28:29 PM Serializing and writing the map results for hungergames21_1.txt chunk #2.
+12/04/2014 06:28:31 PM Started the grouping phase for hungergames21_1.txt chunk #0.
+12/04/2014 06:28:31 PM Started the grouping phase for hungergames21_1.txt chunk #1.
+12/04/2014 06:28:31 PM Started the grouping phase for hungergames21_1.txt chunk #2.
+12/04/2014 06:28:32 PM Master started the shuffle phase.
+12/04/2014 06:28:33 PM Chunk #inter-shuffled-0 was assigned to a reducer.
+12/04/2014 06:28:33 PM Serializing and writing the reduce results for #inter-shuffled #0.
+12/04/2014 06:28:33 PM Chunk #inter-shuffled-1 was assigned to a reducer.
+12/04/2014 06:28:33 PM Serializing and writing the reduce results for #inter-shuffled #1.
+12/04/2014 06:28:33 PM Chunk #inter-shuffled-2 was assigned to a reducer.
+12/04/2014 06:28:33 PM Serializing and writing the reduce results for #inter-shuffled #2.
+12/04/2014 06:28:33 PM Merging all reduce results into a final file.
+12/04/2014 06:28:33 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/04/2014 06:28:33 PM Finalizing the program execution. 			Generating the output. Cleaning up.
+12/04/2014 06:28:33 PM The program is successfully finished.
+12/04/2014 06:29:40 PM All user input validations are passed. We are set to go!
+12/04/2014 06:29:40 PM Running the framework...
+12/04/2014 06:29:40 PM The initial number of running processes is 1.
+12/04/2014 06:29:40 PM Partitioning hungergames21_1.txt into 3 chunks.
+12/04/2014 06:29:58 PM Creating a pool of 3 subprocess workers.
+12/04/2014 06:29:58 PM Started the map phase for hungergames21_1.txt chunk #0.
+12/04/2014 06:29:58 PM Started the map phase for hungergames21_1.txt chunk #1.
+12/04/2014 06:29:58 PM Started the map phase for hungergames21_1.txt chunk #2.
+12/04/2014 06:29:59 PM Finished the map phase for hungergames21_1.txt chunk #2.
+12/04/2014 06:29:59 PM Serializing and writing the map results for hungergames21_1.txt chunk #2.
+12/04/2014 06:29:59 PM Finished the map phase for hungergames21_1.txt chunk #1.
+12/04/2014 06:29:59 PM Serializing and writing the map results for hungergames21_1.txt chunk #1.
+12/04/2014 06:29:59 PM Finished the map phase for hungergames21_1.txt chunk #0.
+12/04/2014 06:29:59 PM Serializing and writing the map results for hungergames21_1.txt chunk #0.
+12/04/2014 06:30:01 PM Started the grouping phase for hungergames21_1.txt chunk #0.
+12/04/2014 06:30:01 PM Started the grouping phase for hungergames21_1.txt chunk #1.
+12/04/2014 06:30:02 PM Started the grouping phase for hungergames21_1.txt chunk #2.
+12/04/2014 06:30:02 PM Master started the shuffle phase.
+12/04/2014 06:30:03 PM Chunk #inter-shuffled-0 was assigned to a reducer.
+12/04/2014 06:30:03 PM Serializing and writing the reduce results for #inter-shuffled #0.
+12/04/2014 06:30:03 PM Chunk #inter-shuffled-1 was assigned to a reducer.
+12/04/2014 06:30:03 PM Serializing and writing the reduce results for #inter-shuffled #1.
+12/04/2014 06:30:03 PM Chunk #inter-shuffled-2 was assigned to a reducer.
+12/04/2014 06:30:03 PM Serializing and writing the reduce results for #inter-shuffled #2.
+12/04/2014 06:30:03 PM Merging all reduce results into a final file.
+12/04/2014 06:30:03 PM Merging is done. Generating the output map_reduce_output.txt file.
+12/04/2014 06:30:03 PM Finalizing the program execution. 			Generating the output. Cleaning up.
+12/04/2014 06:30:03 PM The program is successfully finished.

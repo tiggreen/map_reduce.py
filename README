@@ -27,13 +27,13 @@ Usage:
 
 To run the WordCount program.
 >>> python runner.py <file.txt> 
-e.g. python runner.py file.txt 7
+e.g. python runner.py file.txt
 
 To run the Twitter program.
 >>> python runner.py <tweets_file.json> <attr> <attr_value>
-e.g. python runner.py tweets.json ‘lang’ ’en’ 6
+e.g. python runner.py tweets.json ‘lang’ ’en’
 
 To run the Numeric program.
->>> python runner.py <file.csv> <col_number> <number_of_processes>
-e.g. python runner.py file.csv 2 4
+>>> python runner.py <file.csv> <col_number>
+e.g. python runner.py file.csv 2
 
