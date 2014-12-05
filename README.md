@@ -133,7 +133,7 @@ All the framework execution logs are written to ```map_reduce.log``` file.
 
 ## API Reference
 
-### MapReduceInterface class
+### ```MapReduceInterface``` class extends MapReduce.
 
 | Instance Variables   | Methods                   |
 | ---------------------| --------------------------|
@@ -141,7 +141,7 @@ All the framework execution logs are written to ```map_reduce.log``` file.
 | reducer         	   | __map_and_reduce_are_fine |
 | files                | __is_file_format_supported|
 | num_processes        | __the_same_format_files   |
-|         			   | __check_file_names Content|
+|         			   | __check_file_names        |
 |                      | __set_num_processes       |
 |         			   | __cleanup                 |
 |                      | __finalize_program        |
@@ -151,8 +151,52 @@ All the framework execution logs are written to ```map_reduce.log``` file.
 |                      | call_map_reduce           |
 |         			   | merge_reduce_results      |
 
+### ```MapReduce``` class
 
-- 
+| Instance Variables   | Methods           |
+| ---------------------| ------------------|
+| mapper               | get_filename      |
+| reducer         	   | get_file_extension|
+| file                 | apply_map         |
+| num_processes        | apply_reduce      |
+| file_ext        	   | apply_intermediate|
+|                      | partition         |
+|         			   | __partition_text  |
+|                      | __partition_csv   |
+|         			   | __partition_json  |
+|                      | __load            |
+|         			   | split_list        |
+|                      | run_master        |
+
+
+### ```NoDaemonProcess``` class extends multiprocessing.Process. 
+
+| Instance Variables   | Methods           |
+| ---------------------| ------------------|
+|          			   | _get_daemon       |
+|          	           | _set_daemon       |
+
+
+### ```MyMRPool``` class extends multiprocessing.pool.Pool.
+
+```python
+"""
+Class MyMRPool.
+
+MyMRPool is a class that can create a non-daemonic pool of processes. 
+We sub-class multiprocessing.pool.Pool instead of multiprocessing.Pool
+because the latter is only a wrapper function, not a proper class.
+"""
+class MyMRPool(multiprocessing.pool.Pool):
+	Process = NoDaemonProcess
+```
+
+### ```MapReduceError``` class extends Exception. 
+
+| Instance Variables   | Methods           |
+| ---------------------| ------------------|
+| message       	   | __init__          |
+| errors         	   |                   |
 
 ## Tests
 
