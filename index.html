@@ -32,23 +32,13 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Project overview</h3>
+<a id="project-overview" class="anchor" href="#project-overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Project overview</h3>
 
 <p>
 Multi-processed MapReduce framework for a limited main memory. Runs in
 a single machine and uses the file system to store all intermediate calculations. 
 Based on Python’s multiprocessing Pool module (Python 3.4).
-Framework provides the following functionalities:
-    
-1. Low main memory consumption
-2. Multi-processed
-3. Multiple file support
-4. Built-in performance configuration.
-5. Different file format support (txt, csv, json) 
-6. Scalable and easy to use 
-          
-Users can easily create MapReduce jobs using this framework by only defining map and reduce functions. All the intermediate steps are handled by the framework. Number of running processes in the framework is based on the number of input files. If the number of files is less than three, then the framework assigns 3 processes for each file by default. The number of partitioned
-chunk files for each file is equal to the number of files. 
+Framework provides the following functionalities: 
 
 <ul>
 <li>Purely implemented in Python.</li>
@@ -67,12 +57,104 @@ $ git fetch origin
 $ git checkout gh-pages
 </code></pre>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
 <h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a id="install" class="anchor" href="#install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+Step 1<br>
+Get the zip of the project from [here](https://github.com/tiggreen/map_reduce.py/zipball/master).
+
+Step 2:<br>
+Once you have the source files you can start creating and running your MapReduce jobs. It's super simple. 
+
+Import the framework module.<br>
+
+<pre><code>
+from map_reduce import *
+</code></pre>
+
+ Create a new class that defines your mapper and reducer functions.
+
+Mapper function must take a file and return a list of <code>(key, value)</code> pairs. Each <code>(key, value)</code> must be a tuple.
+
+Reducer takes a list of <code>(key, [values])</code> pairs. All values are already grouped by key in the framework. Reducer returns a list of <code>(key, value)</code> pairs.
+
+Step 3:<br>
+Once you created your class, make it to extend **MapReduceInterface** class.
+
+<code>
+class YourMRClass(MapReduceInterface):
+  def __init__(self, files):
+    self.files = files
+    mapper = self.mapper
+    reducer = self.reducer
+    MapReduceInterface.__init__(self,  mapper, reducer, files)
+</code>
+  
+Step 4:<br>
+
+Create an object of your class and run <code>run_program()</code> method on it.
+
+<code>
+your_mr_class_obj = YourMRClass(input_files)
+your_mr_class_obj.run_program()
+</code>
+
+Step 5:<br>
+
+Now relax! The framework will take care of the rest and the output will be generated to
+<code>map_reduce_output.txt<code> file.
+
+
+
+The example below is a full implementation of a class the uses the framework
+to run a MapReduce job. This class finds the number of occurances of each word in all files. 
+
+<code>
+
+# You have to import the framework first.
+from map_reduce import *
+
+# Define your class that inherits from MapReduceInterface.
+# This means that your class object is a MapReduce job.
+class WordCount(MapReduceInterface):
+
+  def __init__(self, files):
+    self.files = files
+    mapper = self.mapper
+    reducer = self.reducer
+    # Calling the super class constructor.
+    MapReduceInterface.__init__(self,  mapper, reducer, files)
+
+  """
+  Gets a file chunk. 
+  Returns [(key, value)].
+  """
+  def mapper(self, file_chunk):
+    text = file_chunk.read()
+    results = []
+    text = text.split()
+    for w in text:
+      results.append((w,1))
+    return results
+
+
+  """
+  Gets [(word1, [counts]),  (word2, [counts2]), ...). 
+  Returns [(word1, total_freq), (b, total_freq), ...].
+  """
+  def reducer(self, key_values_list):
+    result = []
+    for entry in key_values_list:
+      key = entry[0]
+      sum_of_values = sum(entry[1])
+      result.append((key,sum_of_values))
+    return result
+
+<code>
+
+
+
 
 <h3>
 <a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
