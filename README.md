@@ -1,23 +1,22 @@
-MapReduceMultiprocessed
+map_reduce.py
 =======================
 
 ## Synopsis
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
-
-Multi-processed MapReduce simulator for a limited main memory.
-Uses physical files to store intermediate map, reduce calculations. 
+Multi-processed MapReduce framework for a limited main memory. Runs in
+a single machine and uses the file system to store all intermediate calculations. 
 Based on Python’s multiprocessing Pool module (Python 3.4).
-Framework that provides the following functionalities:
+Framework provides the following functionalities:
 		
 1. Low main memory consumption
 2. Multi-processed
 3. Multiple file support
-4. Built-in performance configuration
+4. Built-in performance configuration.
 5. Different file format support (txt, csv, json) 
 6. Scalable and easy to use 
 					
-Users should be able to easily create MapReduce jobs using our framework by only defining map and reduce functions. All the intermediate steps are handled by our framework. The results are stored in the file system of the running machine in this way consuming less main memory (RAM).
+Users can easily create MapReduce jobs using this framework by only defining map and reduce functions. All the intermediate steps are handled by the framework. Number of running processes in the framework is based on the number of input files. If the number of files is less than three, then the framework assigns 3 processes for each file by default. The number of partitioned
+chunk files for each file is equal to the number of files. 
 
 <ul>
 <li>Purely implemented in Python.</li>
@@ -32,26 +31,60 @@ stream.</li>
 
 ## Motivation
 
-There are many MapReduce implementations in different programming languages. One of the most popular implementation is the Hadoop which hides all the details of concurrent programming from the users making it super easy to create and run MapReduce jobs. Even though there are many available MR frameworks nowadays, only a few of them are focused on running and simulating them in a limited memory space. Most existing MR frameworks are designed to run on large number of clusters powered with very high CPUs providing a great performance on huge datasets.
+There are many MapReduce implementations in different programming languages. One of the most popular implementation is the Hadoop which hides all the details of concurrent programming from the users making it super easy to create and run MapReduce jobs. Even though there are many available MR frameworks nowadays, only few of them are focused on running MapReduce jobs in a limited memory space. Most existing MR frameworks are designed to run on large number of clusters powered with very high CPUs providing a great performance on huge datasets.<br>
 **The goal and the main objective of this project is to propose and implement a MapReduce framework that can work in a single machine with a limited main memory**. 
 
 
 ## Installation
 
-You can get the zip of the project source from http://tiggreen.github.io/MapReduceMultiprocessed/.
+**Step 1:** <br>
+Get the zip of the project from [here](https://github.com/tiggreen/map_reduce.py/zipball/master).
 
+**Step 2:** <br>
 Once you have the source files you can start creating and running your MapReduce jobs. It's super simple. 
 
-First step is to import the framework module and create a new class that defines your **mapper** and **reducer** functions.
-Mapper function must take a file and return a list of (key, value) pairs. Each (key, value) must be a tuple.
+Import the framework module.<br>
 
-Reducer takes a list of (key, [values]) pairs. All values are already grouped by key in the framework. Reducer returns a list of (key, value) pairs.
+```python 
+from map_reduce import *
+````
 
-Once you created your class you have to make your class to extend **MapReduceInterface** class and call the framework constructor in your class constructor. 
+ Create a new class that defines your **mapper** and **reducer** functions.
 
-The last step is to create an object of your class and run ```run_program()``` method. The framework will take care of the rest.
+> Mapper function must take a file and return a list of ```(key, value)``` pairs. Each ```(key, value)``` must be a tuple.
 
-The below example shows how one can create a MapReduce job that finds the number of occurances of each word in all files. 
+> Reducer takes a list of ```(key, [values])``` pairs. All values are already grouped by key in the framework. Reducer returns a list of ```(key, value)``` pairs.
+
+**Step 3:** <br>
+Once you created your class, make it to extend **MapReduceInterface** class.
+
+```python
+class YourMRClass(MapReduceInterface):
+	def __init__(self, files):
+		self.files = files
+		mapper = self.mapper
+		reducer = self.reducer
+		MapReduceInterface.__init__(self,  mapper, reducer, files)
+```
+	
+**Step 4:** <br>
+
+Create an object of your class and run ```run_program()``` method on it.
+
+```python
+your_mr_class_obj = YourMRClass(input_files)
+your_mr_class_obj.run_program()
+```
+
+**Step 5:** <br>
+
+Now relax! The framework will take care of the rest and the output will be generated to
+```map_reduce_output.txt``` file.
+
+
+
+The example below is a full implementation of a class the uses the framework
+to run a MapReduce job. This class finds the number of occurances of each word in all files. 
 
 ```python
 
@@ -96,18 +129,61 @@ class WordCount(MapReduceInterface):
 
 ```
 
+All the framework execution logs are written to ```map_reduce.log``` file.
+
 ## API Reference
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+### MapReduceInterface class
+
+| Instance Variables   | Methods                   |
+| ---------------------| --------------------------|
+| mapper               | __files_not_empty         |
+| reducer         	   | __map_and_reduce_are_fine |
+| files                | __is_file_format_supported|
+| num_processes        | __the_same_format_files   |
+|         			   | __check_file_names Content|
+|                      | __set_num_processes       |
+|         			   | __cleanup                 |
+|                      | __finalize_program        |
+|         			   | run_program               |
+|                      | shuffle                   |
+|         			   | run_program               |
+|                      | call_map_reduce           |
+|         			   | merge_reduce_results      |
+
+
+- 
 
 ## Tests
 
-Describe and show how to run the tests with code examples.
+TODO:
+Write unit tests for the framework.
 
 ## Contributors
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+Tigran Hakobyan
+https://twitter.com/tiggreen
 
 ## License
 
-A short snippet describing the license (MIT, Apache, etc.)
+The MIT License
+
+Copyright (c) Tigran Hakobyan. http://tiggreen.me
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
