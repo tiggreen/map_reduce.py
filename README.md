@@ -37,7 +37,7 @@ There are many MapReduce implementations in different programming languages. One
 ## Installation
 
 **Step 1:** <br>
-Get the zip of the project from [here](http://tiggreen.github.io/map_reduce.py/zipball/master).
+Get the zip of the project from [here](https://github.com/tiggreen/map_reduce.py/zipball/master).
 
 **Step 2:** <br>
 Once you have the source files you can start creating and running your MapReduce jobs. It's super simple. 
@@ -57,10 +57,23 @@ from map_reduce import *
 **Step 3:** <br>
 Once you created your class, make it to extend **MapReduceInterface** class.
 
+```python
+class YourMRClass(MapReduceInterface):
+	def __init__(self, files):
+		self.files = files
+		mapper = self.mapper
+		reducer = self.reducer
+		MapReduceInterface.__init__(self,  mapper, reducer, files)
+```
 	
 **Step 4:** <br>
 
-The last step is to create an object of your class and run ```python run_program()``` method. 
+Create an object of your class and run ```run_program()``` method on it.
+
+```pyhon
+your_mr_class_obj = YourMRClass(input_files)
+your_mr_class_obj.run_program()
+```
 
 **Step 5:** <br>
 
@@ -116,6 +129,7 @@ class WordCount(MapReduceInterface):
 ```
 
 All the framework execution logs are written to ```map_reduce.log``` file.
+
 ## API Reference
 
 Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
