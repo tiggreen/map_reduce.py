@@ -38,22 +38,22 @@ There are many MapReduce implementations in different programming languages. One
 
 ## Installation
 
-**Step 1**
+**Step 1:** <br>
 Get the zip of the project from [here](http://tiggreen.github.io/MapReduceMultiprocessed/).
 
-**Step 2**
+**Step 2:** <br>
 Once you have the source files you can start creating and running your MapReduce jobs. It's super simple. 
 
 Import the framework module and create a new class that defines your **mapper** and **reducer** functions.
 
-> Mapper function must take a file and return a list of (key, value) pairs. Each (key, value) must be a tuple.
+> Mapper function must take a file and return a list of ```(key, value)``` pairs. Each ```(key, value)``` must be a tuple.
 
-> Reducer takes a list of (key, [values]) pairs. All values are already grouped by key in the framework. Reducer returns a list of (key, value) pairs.
+> Reducer takes a list of ```(key, [values])``` pairs. All values are already grouped by key in the framework. Reducer returns a list of ```(key, value)``` pairs.
 
-**Step 3**
+**Step 3:** <br>
 Once you created your class you have to make your class to extend **MapReduceInterface** class and call the framework constructor in your class constructor.
 
-**Step 4** 
+**Step 4:** <br>
 
 The last step is to create an object of your class and run ```run_program()``` method. The framework will take care of the rest.
 
