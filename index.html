@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Mapreducemultiprocessed</title>
+    <title>Multi-processed MapReduce Framework.</title>
   </head>
 
   <body>
@@ -18,8 +18,8 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/tiggreen/MapReduceMultiprocessed">View on GitHub</a>
 
-          <h1 id="project_title">Mapreducemultiprocessed</h1>
-          <h2 id="project_tagline">Multi-processed MapReduce framework for a limited main memory.</h2>
+          <h1 id="project_title">map_reduce.py</h1>
+          <h2 id="project_tagline">Multi-processed MapReduce framework in a limited memory space.</h2>
 
             <section id="downloads">
               <a class="zip_download_link" href="https://github.com/tiggreen/MapReduceMultiprocessed/zipball/master">Download this project as a .zip file</a>
@@ -32,9 +32,35 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Project overview</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>
+Multi-processed MapReduce framework for a limited main memory. Runs in
+a single machine and uses the file system to store all intermediate calculations. 
+Based on Python’s multiprocessing Pool module (Python 3.4).
+Framework provides the following functionalities:
+    
+1. Low main memory consumption
+2. Multi-processed
+3. Multiple file support
+4. Built-in performance configuration.
+5. Different file format support (txt, csv, json) 
+6. Scalable and easy to use 
+          
+Users can easily create MapReduce jobs using this framework by only defining map and reduce functions. All the intermediate steps are handled by the framework. Number of running processes in the framework is based on the number of input files. If the number of files is less than three, then the framework assigns 3 processes for each file by default. The number of partitioned
+chunk files for each file is equal to the number of files. 
+
+<ul>
+<li>Purely implemented in Python.</li>
+<li>All the partition methods support stream parsing which means that the framework doesn’t.
+need to hold the whole TXT, JSON or CSV representation in textual form in memory.</li>
+<li>Uses Python’s multiprocessing Pool module for the best concurrency support.</li>
+<li>All the intermediate results are stored in physical files avoiding the main memory
+consumption.</li>
+<li>Uses Python’s pickle module for serializing and de-serializing Python objects to a byte
+stream.</li>
+</ul>
+</p>
 
 <pre><code>$ cd your_repo_root/repo_name
 $ git fetch origin
