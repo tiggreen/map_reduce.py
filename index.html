@@ -52,10 +52,7 @@ stream.</li>
 </ul>
 </p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+
 
 
 <h3>
@@ -82,14 +79,14 @@ Reducer takes a list of <code>(key, [values])</code> pairs. All values are alrea
 Step 3:<br>
 Once you created your class, make it to extend **MapReduceInterface** class.
 
-<code>
+<pre><code>
 class YourMRClass(MapReduceInterface):
   def __init__(self, files):
     self.files = files
     mapper = self.mapper
     reducer = self.reducer
     MapReduceInterface.__init__(self,  mapper, reducer, files)
-</code>
+</code></pre>
   
 Step 4:<br>
 
