@@ -38,18 +38,26 @@ There are many MapReduce implementations in different programming languages. One
 
 ## Installation
 
-You can get the zip of the project source from http://tiggreen.github.io/MapReduceMultiprocessed/.
+**Step 1**
+Get the zip of the project from [here](http://tiggreen.github.io/MapReduceMultiprocessed/).
 
+**Step 2**
 Once you have the source files you can start creating and running your MapReduce jobs. It's super simple. 
 
-First step is to import the framework module and create a new class that defines your **mapper** and **reducer** functions.
-Mapper function must take a file and return a list of (key, value) pairs. Each (key, value) must be a tuple.
+Import the framework module and create a new class that defines your **mapper** and **reducer** functions.
 
-Reducer takes a list of (key, [values]) pairs. All values are already grouped by key in the framework. Reducer returns a list of (key, value) pairs.
+> Mapper function must take a file and return a list of (key, value) pairs. Each (key, value) must be a tuple.
 
-Once you created your class you have to make your class to extend **MapReduceInterface** class and call the framework constructor in your class constructor. 
+> Reducer takes a list of (key, [values]) pairs. All values are already grouped by key in the framework. Reducer returns a list of (key, value) pairs.
+
+**Step 3**
+Once you created your class you have to make your class to extend **MapReduceInterface** class and call the framework constructor in your class constructor.
+
+**Step 4** 
 
 The last step is to create an object of your class and run ```run_program()``` method. The framework will take care of the rest.
+
+
 
 The below example shows how one can create a MapReduce job that finds the number of occurances of each word in all files. 
 
@@ -99,6 +107,8 @@ class WordCount(MapReduceInterface):
 ## API Reference
 
 Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+
+Small API for classes and functions?
 
 ## Tests
 
