@@ -133,7 +133,7 @@ All the framework execution logs are written to ```map_reduce.log``` file.
 
 ## API Reference
 
-### MapReduceInterface class extends MapReduce.
+### ```MapReduceInterface``` class extends MapReduce.
 
 | Instance Variables   | Methods                   |
 | ---------------------| --------------------------|
@@ -151,7 +151,7 @@ All the framework execution logs are written to ```map_reduce.log``` file.
 |                      | call_map_reduce           |
 |         			   | merge_reduce_results      |
 
-### MapReduce class
+### ```MapReduce``` class
 
 | Instance Variables   | Methods           |
 | ---------------------| ------------------|
@@ -169,7 +169,7 @@ All the framework execution logs are written to ```map_reduce.log``` file.
 |                      | run_master        |
 
 
-### NoDaemonProcess class extends multiprocessing.Process. 
+### ```NoDaemonProcess``` class extends multiprocessing.Process. 
 
 | Instance Variables   | Methods           |
 | ---------------------| ------------------|
@@ -177,7 +177,7 @@ All the framework execution logs are written to ```map_reduce.log``` file.
 |          	           | _set_daemon       |
 
 
-### MyMRPool class extends multiprocessing.pool.Pool.
+### ```MyMRPool``` class extends multiprocessing.pool.Pool.
 
 ```python
 """
@@ -191,7 +191,7 @@ class MyMRPool(multiprocessing.pool.Pool):
 	Process = NoDaemonProcess
 ```
 
-### MapReduceError class extends Exception. 
+### ```MapReduceError``` class extends Exception. 
 
 | Instance Variables   | Methods           |
 | ---------------------| ------------------|
