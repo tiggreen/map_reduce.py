@@ -19,16 +19,13 @@ Provides the following functionalities:
 
 Usage:
 Please see README file for usage instructions.
-
-TODO:
-1. Change the cleanup function to clean all created temp files
-when the program is somehow crashed or terminated by user.
 """
 
 import sys
 import os
 import logging
 import ntpath
+import time
 import pickle
 import string
 import csv
@@ -323,7 +320,7 @@ class MapReduce:
 """
 Class MapReduceInterface.
 
-The main class interface that directly talks to the user define class.
+The main class interface that directly talks to the user defined class.
 
 This class takes user input files, mapper and reducer 
 functions and creates MapReduce job on each single file. 
@@ -462,6 +459,8 @@ class MapReduceInterface(MapReduce):
 	def run_program(self):
 
 		logging.info('Running the framework...')
+		# Fixing the start time.
+		start_time = time.time()
 
 		"""
 		Create a pool of processes. The number of processes
@@ -499,6 +498,14 @@ class MapReduceInterface(MapReduce):
 		self.__finalize_program()
 
 		logging.info('The program is successfully finished.')
+
+		"""
+		Fixing the end time. We use this for calculating
+		the total execution time of the framework.
+		"""
+		end_time = time.time()
+
+		logging.info('The total execution time is: ' + str(end_time - start_time))
 
 
 	"""

@@ -2,3 +2,4 @@ This file should compile a short overview of the changes in the code base for th
 
 Current version of the framework is 1.0.
 
+ - Dec 15, 2014. Added Copyright (c) headers to all source files.

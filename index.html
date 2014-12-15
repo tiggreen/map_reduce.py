@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Mapreducemultiprocessed : Multi-processed MapReduce framework for a limited main memory.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Multi-processed MapReduce Framework.</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/tiggreen/MapReduceMultiprocessed">View on GitHub</a>
+
+          <h1 id="project_title">map_reduce.py</h1>
+          <h2 id="project_tagline">Multi-processed MapReduce framework in a limited memory space.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/tiggreen/MapReduceMultiprocessed/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/tiggreen/MapReduceMultiprocessed/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a id="project-overview" class="anchor" href="#project-overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Project overview</h3>
+
+<p>
+Multi-processed MapReduce framework for a limited main memory. Runs in
+a single machine and uses the file system to store all intermediate calculations. 
+Based on Python’s multiprocessing Pool module (Python 3.4).
+Framework provides the following functionalities: 
+
+<ul>
+<li>Purely implemented in Python.</li>
+<li>All the partition methods support stream parsing which means that the framework doesn’t.
+need to hold the whole TXT, JSON or CSV representation in textual form in memory.</li>
+<li>Uses Python’s multiprocessing Pool module for the best concurrency support.</li>
+<li>All the intermediate results are stored in physical files avoiding the main memory
+consumption.</li>
+<li>Uses Python’s pickle module for serializing and de-serializing Python objects to a byte
+stream.</li>
+</ul>
+</p>
+
+
+
+
+<h3>
+<a id="install" class="anchor" href="#install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h3>
+
+<h4>Step 1</h4><br>
+Get the zip of the project from [here](https://github.com/tiggreen/map_reduce.py/zipball/master).
+<br>
+
+<h4>Step 2</h4><br>
+Once you have the source files you can start creating and running your MapReduce jobs. It's super simple. 
+
+Import the framework module.<br>
+
+<pre><code>
+from map_reduce import *
+</code></pre>
+
+ Create a new class that defines your mapper and reducer functions.
+
+Mapper function must take a file and return a list of <code>(key, value)</code> pairs. Each <code>(key, value)</code> must be a tuple.
+
+Reducer takes a list of <code>(key, [values])</code> pairs. All values are already grouped by key in the framework. Reducer returns a list of <code>(key, value)</code> pairs.
+
+<h4>Step 3</h4><br>
+Once you created your class, make it to extend MapReduceInterface class.
+
+<pre><code>
+class YourMRClass(MapReduceInterface):
+  def __init__(self, files):
+    self.files = files
+    mapper = self.mapper
+    reducer = self.reducer
+    MapReduceInterface.__init__(self,  mapper, reducer, files)
+</code></pre>
+  
+<h4>Step 4</h4><br>
+
+Create an object of your class and run <code>run_program()</code> method on it.
+
+<pre><code>
+your_mr_class_obj = YourMRClass(input_files)
+your_mr_class_obj.run_program()
+</code></pre>
+
+<h4>Step 5</h4><br>
+
+Now relax! The framework will take care of the rest and the output will be generated to
+<code>map_reduce_output.txt</code> file.
+
+
+
+The example below is a full implementation of a class the uses the framework
+to run a MapReduce job. This class finds the number of occurances of each word in all files. 
+
+<pre><code>
+# You have to import the framework first.
+from map_reduce import *
+
+# Define your class that inherits from MapReduceInterface.
+# This means that your class object is a MapReduce job.
+class WordCount(MapReduceInterface):
+
+  def __init__(self, files):
+    self.files = files
+    mapper = self.mapper
+    reducer = self.reducer
+    # Calling the super class constructor.
+    MapReduceInterface.__init__(self,  mapper, reducer, files)
+
+  """
+  Gets a file chunk. 
+  Returns [(key, value)].
+  """
+  def mapper(self, file_chunk):
+    text = file_chunk.read()
+    results = []
+    text = text.split()
+    for w in text:
+      results.append((w,1))
+    return results
+
+
+  """
+  Gets [(word1, [counts]),  (word2, [counts2]), ...). 
+  Returns [(word1, total_freq), (b, total_freq), ...].
+  """
+  def reducer(self, key_values_list):
+    result = []
+    for entry in key_values_list:
+      key = entry[0]
+      sum_of_values = sum(entry[1])
+      result.append((key,sum_of_values))
+    return result
+
+</code>
+</pre>
+
+<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+<p>Having trouble with Pages? Check out the documentation at <a href="https://help.github.com/pages">https://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Mapreducemultiprocessed maintained by <a href="https://github.com/tiggreen">tiggreen</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
